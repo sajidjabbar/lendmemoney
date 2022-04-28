@@ -1,0 +1,159 @@
+/*compare-mortgage-sec start here */
+.compare-heading{
+    text-align: center;
+    margin-top: 67px
+}
+.campare-heading2{
+    text-align: center;
+}
+.compare-heading h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.compare-heading2 h3{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+ .form-control {
+    display: inline !important;
+    width: 75% !important;
+    border:1px solid #303030 !important;
+    padding: 3px;
+    border-radius: 21px !important;
+    background-color: #ffffff !important;
+}
+
+ .form-control::placeholder {
+    color: #303030;
+    opacity: 0.8;
+    font-size: 14px;
+}
+.zip-btn{
+    width: 47%;
+}
+.zip{
+    display: flex;
+    justify-content: center;
+}
+.zip button {
+    width: 35%;
+    background-color: #88B379;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 48px;
+    margin-left: -34px;
+    border-radius: 21px;
+    font-weight: 600;
+    border: transparent;
+    font-family: "Poppins";
+}
+
+ .form-group {
+    display: flex;
+
+}
+.table h3{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.table thead th {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.table td, .table th {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.table{
+    margin-top: 67px
+}
+.page-item.disabled .page-link {
+    padding: 12px;
+}
+.page-change{
+    padding: 20px 0;
+}
+.page-item:last-child .page-link {
+    padding: 12px;
+    color: #303030 !important;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #88B379 !important;
+    border-color: transparent !important;
+}
+.page-item.disabled .page-link {
+    color: #303030 !important;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #88B379 !important;
+    border-color: transparent !important;
+}
+.page-item.active .page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #88B379 !important;
+    background-color: #fff !important;
+    border: 4px solid #88B379 !important;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #303030 !important;
+    background-color: #fff;
+    border: 4px solid #B6B6B6 !important;
+}
+.page-item{
+margin: 0 5px;
+}
+#accordion{
+    padding-bottom: 40px;
+}
+.compare-mortagage-faqs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.articles-btn {
+    padding-top: 42px;
+    margin-left: 41px !important;
+}
+.compare-mortagage-faqs h1{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+@media (max-width: 768px) {
+    .zip-btn {
+        width: 100%;
+    }
+    .compare-mortagage-faqs h1 {
+        font-size: 29px;
+    }
+    .compare-heading h1 {
+        font-size: 38px;
+    }
+    .articles-btn {
+        padding-top: 42px;
+        margin-left: 0 !important;
+    }
+    .table h3 {
+        font-size: 29px;
+    }
+}
+/*compare-mortgage-sec end here */
