@@ -1,0 +1,138 @@
+/* refinance-lenders start here */
+.Refinance-heading{
+    text-align: center;
+    padding-top: 40px;
+}
+.Refinance-heading h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+.aboutrefinance-heading{
+    padding-top: 50px;
+}
+.Refinance-heading h3{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.Refinance-heading p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+}
+.refinance-lenders-sec .table button {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 41px;
+    border: 1px solid  #88B379;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.refinance-lenders-sec .table p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+}
+.refinance-lenders-sec .table td, .table th {
+    padding: 30px 0 !important;
+    vertical-align: top;
+    border-top: transparent !important;
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: middle !important;
+}
+.this-table{
+    text-align: center;
+    padding-bottom: 140px;
+}
+.about-it{
+  text-align: center;
+}
+.lender{
+    width: 39%;
+}
+.down-payment{
+    text-align: center;
+}
+.td-more{
+    text-align: right;
+}
+.th-more{
+    text-align: right;
+}
+.refinance-lenders-sec .table{
+    padding-top: 30px;
+}
+.refinance-lenders-sec .table h3{
+    color: #000000;
+    font-family: "poppins";
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-size: 42px;
+}
+.refinance-lenders-sec  .table thead th {
+    color: #000000;
+    font-family: "poppins";
+    font-weight: 300;
+}
+.refinance-lenders-sec  .table td, .table th {
+    color: #000000;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.refinance-lenders-sec .table p{
+    margin-top: 8px;
+}
+.refinance-lenders-sec a {
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+
+}
+/* refinance-lenders end here */
+@media screen and (max-width: 768px) {
+    .refinance-lenders-sec  .table h3 {
+        font-size: 33px;
+    }
+    .table img{
+        width: 76px;
+    }
+}
+@media screen  and (max-width: 576px){
+    .this-table table{
+        width: 576px !important;
+        overflow-x: scroll;
+    }
+    .refinance-lenders-sec .table button {
+        padding: 3px 18px;
+        font-size: 11px;
+    }
+    .refinance-lenders-sec  .table thead th {
+        font-size: 15px;
+    }
+    .about-it{
+        text-align: left;
+      }
+      .lender{
+          width:300px;
+      }
+      .down-payment{
+         width:100px;
+      }
+      .td-more{
+          text-align: right;
+      }
+      .th-more{
+          text-align: right;
+          width:100px;
+      }
+      .refinance-lenders-sec .table p {
+        font-size: 10px;
+        margin-bottom: 0 !important;
+    }
+}

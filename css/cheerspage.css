@@ -1,0 +1,48 @@
+/* cheer-sec start here */
+.sec-container{
+    width: 100%;
+    margin-bottom: 260px;
+}
+.cheer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.cheer-box{
+    width: 424px;
+    height: 460px;
+    padding: 71px 0;
+    background-color: #EBEFEA;
+}
+.cheer-box h1 {
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+.cheer-heading{
+    text-align: center;
+}
+.about-cheer{
+    text-align: center;
+    padding: 10px 10px;
+}
+.about-cheer p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 22px;
+}
+.submit{
+    text-align: center;
+}
+.submit button {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 11px 51px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}

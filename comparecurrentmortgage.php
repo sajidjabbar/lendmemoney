@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="css/comparecurrentmortgage.css">
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <?php include 'inc/app.php'; ?>
 <!-- start here -->
 <section class="compare-mortgage-sec">
@@ -24,6 +23,7 @@
             </div>
             </div>
         </div>
+        <div class="result-table">
         <div class="table">
         <div class="animate__animated animate__fadeInRight animate__delay-1s ">
             <h3>Current mortgage and refinance rates</h3>
@@ -101,7 +101,7 @@
             </div>
         </div>
         </div>
-
+        </div>
         <div class="compare-mortagage-faqs">
         <div class="animate__animated animate__fadeInDown animate__delay-1s">
             <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">Some FAQs Regarding Mortgage</h1>

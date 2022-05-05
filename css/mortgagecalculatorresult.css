@@ -1,0 +1,74 @@
+/*result-calculatorsec start here */
+.result-calculatorsec {
+    padding-bottom: 80px;
+}
+
+.aboutresult-heading {
+    padding: 40px 0;
+}
+
+.result-heading {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.result-heading h1 {
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.result-heading h3 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.result-heading p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+}
+.side-border{
+    border-right: 1px solid #707070;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #303030;
+}
+.result-calculatorsec .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background-color: #88B379;
+    font-family: "poppins";
+    font-weight: 500;
+    color: #000000;
+}
+.result-calculatorsec .table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+}
+.result-calculatorsec button {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 11px 51px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.highlight{
+    color: #EB0000;
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .result-table{
+        width: 100%;
+        overflow: scroll;
+    }
+}

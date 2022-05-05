@@ -2,8 +2,8 @@
 <footer>
     <div class="container">
         <div class="row footer-container">
-            <div class="col-md-4">
-                <div class="col-md-12">
+            <div class="col-lg-4 col-md-12 col-sm-12 p-0 m-0">
+                <div class="col-lg-12 col-md-12 col-sm-12 p-0 m-0">
                     <div class="footer-logo">
                         <img src="img/footer-logo.png" alt="">
                     </div>
@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12">
                 <div class="about-footer">
-                    <div class="col-md-6 p-0 m-0">
+                    <div class="col-lg-6 col-md-12 col-sm-12 p-0 m-0">
                         <div class="resources">
                             <div class="footer-heading">
                                 <h5>Menu</h5>
@@ -25,7 +25,7 @@
                             <a href="#">Financial help</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12 p-0 m-0">
                         <div class="contact-us">
                         <div class="footer-heading">
                             <h5>Quick Links</h5>
@@ -45,8 +45,8 @@
                     <h5>Social</h5>
                 </div>
                 <div class="social-footer">
-                    <h5>CDE</h5>
-                    <h5> MQL</h5>
+                    <h5>C   D   E</h5>
+                    <h5>M   Q  L</h5>
                 </div>
                     <div class="footer-text">
                         <p>© 2022 Lendmymoney. All Right Reserved</p>
@@ -57,15 +57,16 @@
         </div>
         <div class="news">
             <div class="footer">
-                <div class="col-md-7">
-                    <h5>Subscribe to Our Newsletter to Get latest Updates </h5>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h4>Subscribe to Our Newsletter to Get latest Updates </h4>
                 </div>
-                <div class="col-md-5">
+                <!-- <div class="col-md-1"></div> -->
+                <div class="col-lg-5 col-md-12 col-sm-12 p- m-0">
                     <form>
                         <div class="form-group">
 
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="EMAIL ADDRESS">
-                            <button>signup!</button>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+                           <a href="#"> <button>Submit<span class="iconify" data-icon="mdi-light:arrow-right"></span></button></a>
                         </div>
                     </form>
                 </div>

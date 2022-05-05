@@ -1,0 +1,176 @@
+/* advisor start here */
+.advisor-sec {
+    padding-bottom: 140px;
+}
+
+.camparison-heading {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.camparison-heading h1 {
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.acamparison-heading {
+    padding-top: 50px;
+}
+.camparison-heading h3 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.about-work {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.step {
+    width: 100%;
+}
+.camparison-table{
+    margin-top: 70px;
+}
+.abt-step {
+    width: 30%;
+}
+
+.step-img {
+    border: 2px solid #707070;
+    border-radius: 53px;
+    width: 81px;
+    height: 78px;
+    padding: 1px 13px;
+    text-align: center;
+}
+
+.step-img span {
+    font-family: "poppins";
+    font-weight: 400;
+    color: #303030;
+    margin-top: 2px;
+}
+
+.step-img p {
+    font-family: "poppins";
+    font-weight: 600;
+    color: #88B379;
+}
+
+.step-circle {
+    display: flex;
+    justify-content: center;
+}
+
+.about-step {
+    margin-top: 15px;
+}
+.about-step p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 18px;
+}
+.work {
+    width: 100%;
+    text-align: center;
+    margin-top: 33px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #707070;
+}
+.checkbox-heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.checkbox-heading h3 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.submit button {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 11px 51px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.check-box-container{
+    width: 100%;
+}
+label.rounded:before {
+	content: "";
+	display: inline-block;
+
+	width: 20px;
+	height: 20px;
+  
+  margin-right: 10px;
+  top: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: gray;
+}
+.side-border{
+    border-right: 1px solid #707070;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #303030;
+    font-size: 15px;
+}
+.camparison-sec .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background-color: #88B379;
+    font-family: "poppins";
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+}
+.camparison-sec .table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+}
+.camparison-sec button {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 11px 51px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.highlight{
+    color: #EB0000;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.check-box-button{
+    text-align: center;
+    padding: 40px 0;
+}
+span{
+    font-family: "poppins";
+    font-weight: 400;
+    color: #000000;
+}
+@media (max-width: 768px) {
+    .result-table{
+        width: 100%;
+        overflow: scroll;
+    }
+}

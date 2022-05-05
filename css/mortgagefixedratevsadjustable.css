@@ -1,0 +1,125 @@
+/*mortgage-calculatorsec start here */
+.mortgage-calculatorsec {
+    padding-bottom: 80px;
+}
+
+.aboutcalculator-heading {
+    padding: 40px 0;
+}
+
+.fixed-heading {
+    text-align: center;
+   margin-bottom: 40px;
+   margin-top: 50px;
+}
+
+.fixed-heading h1 {
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+.about-calculatorform1 button {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 56px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.about-calculatorpage h2 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-calculatorpage p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about-calculatorpage {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.pointcalculatorpage h2 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 29px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pointscalculatorpage p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.pointscalculatorpage {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.pointscalculatorpage li {
+    list-style: none;
+    display: flex;
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+.pointscalculatorpage li::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    margin-top: 10px;
+    background-image: url(../img/dot.png);
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.mortgage-calculatorsec option {
+    background-color: #EBF1EA;
+    font-size: 16px;
+}
+
+/*mortgage-calculatorsecend here */
+@media screen and (max-width: 768px) {
+    .fixed-heading {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .fixed-heading h1 {
+        color: #88B379;
+        font-family: "poppins";
+        font-weight: 600;
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+    .about-calculatorpage h2 {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .pointscalculatorpage h2 {
+        color: #303030;
+        font-family: "poppins";
+        font-weight: 500;
+        font-size: 27px;
+        margin: 0;
+    }
+}

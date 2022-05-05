@@ -1,4 +1,4 @@
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
 <link rel="stylesheet" href="css/style.css">
 <?php include 'inc/app.php'; ?>
 <!--  Start Here -->
@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="web-header">
-                    <h2 class="title wow animate__animated animate__fadeInDown">Let us help you to</h2>
+                    <h2 class=" wow animate__animated animate__fadeInDown">Let us help you to</h2>
                     <h1 class=" title wow animate__animated animate__fadeInDown">Lower your monthly</h1>
                     <h3 class=" title wow animate__animated animate__fadeInDown">Mortgage Payment</h3>
                     <p class="title wow animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -19,8 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="about-web-header ">
                     <div class="header-card">
                         <div class="row top-card">
@@ -94,6 +93,151 @@
                             </div>
                         </div>
                     </div>
+                    <div class="header-card">
+                        <div class="row top-card">
+                            <div class="col-md-2 p-0 m-0 ">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/travel-1.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h5>Tavel</h5>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/card-2.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h6>Credit Card</h6>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/invest-3.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h5>Investing</h5>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row top-card">
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/bank-4.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h5>Banking</h5>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/insurance-5.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h5>Insurance</h5>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/student-6.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h6>Student Loans</h6>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-card">
+                        <div class="row top-card">
+                            <div class="col-md-2 p-0 m-0 ">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/travel-1.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h5>Tavel</h5>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/card-2.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h6>Credit Card</h6>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/invest-3.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h5>Investing</h5>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row top-card">
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/bank-4.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h5>Banking</h5>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/insurance-5.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h5>Insurance</h5>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-0 m-0">
+                                <div class="animate__animated animate__fadeInDown">
+                                    <div class="web-header-img">
+                                        <img src="img/student-6.png" alt="">
+                                    </div>
+                                    <div class="about-card">
+                                        <h6>Student Loans</h6>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -103,7 +247,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="animate__animated animate__fadeInLeft">
+                <div class=" wow animate__animated animate__fadeInLeft">
                     <div class="vission-imgbox">
                         <img src="img/vission-img.png" alt="" class="img-fluid">
                     </div>

@@ -1,0 +1,240 @@
+/*mortgage-calculatorsec start here */
+.mortgage-calculatorsec {
+    padding-bottom: 80px;
+}
+
+.aboutcalculator-heading {
+    padding: 40px 0;
+}
+
+.calculator-heading {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.calculator-heading h1 {
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.calculator-heading h3 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.calculator-heading p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.calculator-form {
+    width: 71%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calculator-container {
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    /* align-items: center; */
+}
+
+.about-calculatorform {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.about-calculatorform1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.about-calculatorform1 .form-loan {
+    display: flex;
+}
+
+.about-calculatorform1 button {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 56px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-family: "poppins";
+    font-weight: 400;
+    text-align: left;
+    font-size: 16px;
+}
+
+.mortgage-calculatorsec .form-control {
+    display: block;
+    width: 100%;
+    padding-right: 143px !important;
+    padding-top: 9px !important;
+    padding-left: 4px;
+    border: 1px solid #000000 !important;
+    border-radius: 21px !important;
+}
+
+.mortgage-calculatorsec .buyer-btn1 {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 59px;
+
+}
+
+.text-select {
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+.mortgage-calculatorsec .about-calculatorform ::placeholder {
+    color: #303030;
+    opacity: 0.2 !important;
+}
+
+.about-calculatorpage h2 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 29px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-calculatorpage p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about-calculatorpage {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.pointcalculatorpage h2 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 29px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pointscalculatorpage p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.pointscalculatorpage {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.pointscalculatorpage li {
+    list-style: none;
+    display: flex;
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+.pointscalculatorpage li::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    margin-top: 10px;
+    background-image: url(../img/dot.png);
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.mortgage-calculatorsec option {
+    background-color: #EBF1EA;
+    font-size: 16px;
+}
+
+/*mortgage-calculatorsecend here */
+@media screen and (max-width: 768px) {
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .mortgage-calculatorsec .buyer-btn1 {
+        margin-top: 30px;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .about-calculatorform1 button {
+        color: #fff;
+        background-color: #88B379;
+        border-radius: 21px;
+        padding: 9px 18px;
+    }
+
+    .calculator-container {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        padding-bottom: 40px;
+    }
+
+    .calculator-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-calculatorform {
+        flex-direction: column;
+
+    }
+
+    .about-calculatorform1 {
+        flex-direction: column;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .about-calculatorform1 .form-loan {
+        display: block;
+    }
+
+    .pointscalculatorpage h2 {
+        color: #303030;
+        font-family: "poppins";
+        font-weight: 500;
+        font-size: 27px;
+        margin: 0;
+    }
+}

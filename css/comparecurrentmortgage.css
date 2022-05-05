@@ -155,5 +155,9 @@ margin: 0 5px;
     .table h3 {
         font-size: 29px;
     }
+    .result-table{
+        width: 100%;
+        overflow: scroll;
+    }
 }
 /*compare-mortgage-sec end here */
