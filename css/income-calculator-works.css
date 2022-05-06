@@ -1,24 +1,24 @@
 /* advisor start here */
-.advisor-sec {
+.income-calculator-sec {
     padding-bottom: 140px;
 }
 
-.advisor-heading {
+.income-calculator-heading {
     text-align: center;
     padding-top: 40px;
 }
 
-.advisor-heading h1 {
+.income-calculator-heading h1 {
     color: #88B379;
     font-family: "poppins";
     font-weight: 600;
 }
 
-.aboutadvisor-heading {
+.aboutincome-calculator-heading {
     padding-top: 50px;
 }
 
-.advisor-heading h3 {
+.income-calculator-heading h3 {
     color: #303030;
     font-family: "poppins";
     font-weight: 500;
@@ -78,7 +78,7 @@
     font-size: 18px;
 }
 
-.work {
+.income-calculator {
     width: 100%;
     text-align: center;
     margin-top: 33px;
@@ -185,16 +185,44 @@ label {
     justify-content: center;
     flex-direction: column;
 }
-.about-calculatorform2 .form-control {
+.about-calculatorform .form-control {
     display: block;
     width: 451px !important;
     padding-right: 143px !important;
     padding-top: 3px !important;
     padding-left: 4px;
-    border: 2px solid #000000 !important;
+    border: 3px solid #000000 !important;
     border-radius: 21px !important;
 }
-
+.income-foam {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ratio{
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.ratio-btn {
+    width: 340px;
+    height: 139px;
+    padding: 26px 30px;
+    border: 1px solid #88B379;
+}
+.ratio-btn p{
+    font-family: "poppins";
+    font-weight: 500;
+    color: #303030;
+}
+.ratio-btn h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
 /* advisor end here */
 @media screen and (max-width: 580px) {
     .about-work {

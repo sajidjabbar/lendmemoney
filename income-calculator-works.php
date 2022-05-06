@@ -1,15 +1,15 @@
-<link rel="stylesheet" href="css/mortgage-advisor.css">
+<link rel="stylesheet" href="css/income-calculator-works.css">
 <?php include 'inc/app.php'; ?>
 <!-- start here -->
-<section class="advisor-sec">
+<section class="income-calculator-sec">
     <div class="container">
-        <div class="advisor-heading">
+        <div class="income-calculator-heading">
             <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Mortgage Advisor</h1>
-            <div class="aboutadvisor-heading">
+            <div class="aboutincome-calculator-heading">
                 <h3 class="animate__animated animate__fadeInDown animate__delay-1s">How Mortgage Advisor works </h3>
             </div>
         </div>
-        <div class="work">
+        <div class="income-calculator">
             <div class="about-work">
                 <div class="animate__animated animate__fadeInDown animate__delay-1s abt-step">
                     <div class="step">
@@ -60,60 +60,55 @@
         </div>
         <div class="income">
             <div class="income-foam">
-                <div class="col-md-8">
-                    <div class="about-calculatorform">
-                        <div class="col-md-5">
-                            <div class="animate__animated animate__fadeInDown animate__delay-1s">
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Gross Monthly Income </label>
-                                    <input class="form-control" id="exampleFormControlSelect1">
-                                    </input>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-1"></div>
-                        <div class="col-md-5">
-                            <div class="animate__animated animate__fadeInDown animate__delay-1s">
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Monthly Mortgage/Rent </label>
-                                    <input class="form-control" id="exampleFormControlSelect1">
-                                    </input>
-                                </div>
-                            </div>
+                <!-- <div class="col-md-8"> -->
+                <div class="about-calculatorform">
+                    <!-- <div class="col-md-5"> -->
+                    <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Gross Monthly Income </label>
+                            <input class="form-control" id="exampleFormControlSelect1">
+                            </input>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="about-calculatorform">
-                        <div class="col-md-5">
-                            <div class="animate__animated animate__fadeInDown animate__delay-1s">
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Monthly Minimum Credit Card Payments </label>
-                                    <input class="form-control" id="exampleFormControlSelect1">
-                                    </input>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-1"></div>
-                        <div class="col-md-5">
-                            <div class="animate__animated animate__fadeInDown animate__delay-1s">
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Monthly Non-Mortgage Loan Payments </label>
-                                    <input class="form-control" id="exampleFormControlSelect1" placeholder="Enter Your ZIp Code">
-                                    </input>
-                                </div>
-                            </div>
+                    <!-- <div class="col-md-1"></div>
+                        <div class="col-md-5"> -->
+                    <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Monthly Mortgage/Rent </label>
+                            <input class="form-control" id="exampleFormControlSelect1">
+                            </input>
                         </div>
                     </div>
+                    <!-- </div>
+                    </div> -->
                 </div>
-                <div class="ratio">
-                    <div class="ratio-btn">
-                        <p>Debt-To-Income Ratio</p>
-                        <h5>0.00</h5>
+                <div class="about-calculatorform">
+                    <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Monthly Minimum Credit Card Payments </label>
+                            <input class="form-control" id="exampleFormControlSelect1">
+                            </input>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-1"></div>
+                        <div class="col-md-5"> -->
+                    <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Monthly Non-Mortgage Loan Payments </label>
+                            <input class="form-control" id="exampleFormControlSelect1" placeholder="Enter Your ZIp Code">
+                            </input>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="ratio">
+                <div class="ratio-btn">
+                    <p>Debt-To-Income Ratio</p>
+                    <h1>0.00</h1>
+                </div>
+            </div>
         </div>
+        <!-- </div> -->
         <div class="row">
             <div class="col-md-7 ">
                 <div class="animate__animated animate__fadeInDown">
