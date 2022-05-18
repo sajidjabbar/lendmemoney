@@ -204,27 +204,14 @@ div#accordion .card{
 .slick-slider .slick-track, .slick-slider .slick-list .slick-slide
 {
     
-    height: 120px;
+    height: 71px;
 
 }
-.nav-bar-slick .nav button.slick-prev.slick-arrow{
 
-}
-.nav-bar-slick .nav button.slick-prev.slick-arrow {
-    right: 17%;
-    position: absolute;
-    bottom: 0px;
-    top: 82%;
-    left: unset;
-    z-index: 1;
-}
-.nav-bar-slick .nav .slick-prev:before {
-    content: url(../img/long-left-arrow.svg) !important;
-    background: #136efa;
-    opacity: 1;
-    font-size: 6px;
-    padding: 14px 17px;
-    border-radius: 23px 0px 0px 23px;
+.slick-dots {
+    bottom: 15px !important;
+    right: 0px;
+    display: none !important;
 }
 
 

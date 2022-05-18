@@ -11,6 +11,8 @@
 <!-- slick slider js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.js"></script>
 
 
 
@@ -36,15 +38,188 @@ $('.about-web-header').slick({
   adaptiveHeight: true
 });
 
-$('.nav-bar-slick .nav').slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 3,
-  centerMode: false,
-  variableWidth: true,
-  arrows: true,
+$('.nav-bar-slick .nav .nav-item ').click(function() {
+
+//console.log("Clicked");
+$('.nav-bar-slick .nav .nav-item .nav-link.active').removeClass('active');
+$(this).addClass('active');
 });
+
+$('.nav-bar-slick .nav').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false,
+        arrow:true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+$(' .refinance-tabs .tabs .nav .nav-item ').click(function() {
+//console.log("Clicked");
+$(' .refinance-tabs .tabs .nav .nav-item .nav-link.active').removeClass('active');
+$(this).addClass('active');
+});
+
+// wizard
+$(document).ready(function () {
+
+var navListItems = $('div.setup-panel div a'),
+    allWells = $('.setup-content'),
+    allNextBtn = $('.nextBtn');
+
+allWells.hide();
+
+navListItems.click(function (e) {
+    e.preventDefault();
+    var $target = $($(this).attr('href')),
+        $item = $(this);
+
+    if (!$item.hasClass('disabled')) {
+        navListItems.removeClass('btn-success').addClass('btn-default');
+        $item.addClass('btn-success');
+        allWells.hide();
+        $target.show();
+        $target.find('input:eq(0)').focus();
+    }
+});
+
+allNextBtn.click(function () {
+    var curStep = $(this).closest(".setup-content"),
+        curStepBtn = curStep.attr("id"),
+        nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+        curInputs = curStep.find("input[type='text'],input[type='url']"),
+        isValid = true;
+
+    $(".form-group").removeClass("has-error");
+    for (var i = 0; i < curInputs.length; i++) {
+        if (!curInputs[i].validity.valid) {
+            isValid = false;
+            $(curInputs[i]).closest(".form-group").addClass("has-error");
+        }
+    }
+
+    if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
+});
+
+$('div.setup-panel div a.btn-success').trigger('click');
+});
+
+$(document).ready(function(){
+  $("a.btn1.btn-circle.btn-default").click(function(){
+    $(".Mortgage-wrapper-content h3").hide();
+  });
+  $("a.btn1.btn-circle.btn-default.btn-success").click(function(){
+    $(".Mortgage-wrapper-content h3").show();
+  });
+});
+
+$('').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 6,
+  slidesToScroll: 6,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+// end personal loan tabs
+
+
+$('.refinance-tabs .tabs .nav').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 6,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+  
+
+    
+
 
 
     // $(document).ready(function () {

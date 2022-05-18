@@ -397,6 +397,7 @@
                         <div class="col-lg-3">
                             <div class="card-fiqure">
                                 <figure>
+                                    asdasdasdasdasdasdasdasdasd
                                     <img src="img/debitcard1.png" class="img-fluid" alt="">
                                 </figure>
                             </div>

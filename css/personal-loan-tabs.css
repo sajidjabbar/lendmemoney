@@ -1,0 +1,228 @@
+/*@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');*/
+.Refinance-heading{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 70px;
+}
+.Refinance-heading h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 55px;
+}
+.Refinance-heading h3{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 42px;
+}
+.Refinance-heading p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0px 120px
+}
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+.stepwizard .btn.disabled, .stepwizard .btn1[disabled], .stepwizard fieldset[disabled] .btn1 {
+    opacity:1 !important;
+    color:#bbb;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.stepwizard-row.setup-panel {
+    display: flex;
+    align-items: center;
+    margin: 0px -10px;
+    overflow: hidden;
+}
+.btn-success.focus, .btn-success:focus {
+    box-shadow: none !important;
+}
+
+.stepwizard-row .stepwizard-step .btn1 {
+    /* color: #fff !important; */
+    padding: 6px 14px;
+    /* border: 1px solid #88B379; */
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+    margin: 0px 11px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 103.6px;
+    text-decoration: none;
+}
+button.btn.btn-primary.nextBtn {
+    margin-top: 30px;
+    margin-left: 11px;
+}
+a.btn1.btn-circle.btn-default {
+    color: #9B9B9B !important;
+}
+a.btn1.btn-circle.btn-default.btn-success{
+    color: #fff !important;
+}
+.stepwizard {
+    border-bottom: 1px solid #707070;
+}
+
+.btn-success {
+    color: #9B9B9B !important;
+    background-color: #88b379 !important;
+    border-color:  #88b379;
+}
+
+.tab-1{
+    text-align: center;
+    width: 100%;
+    margin: 90px 0px;
+}
+.form-group select.form-control{
+    border: 1px solid #000000 ! important;
+    height: calc(2.25rem + 6px) !important;
+    width: 424px !important;
+    color: #9E9E9E !important;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 500;
+    padding: 0px 28px;
+}
+ .form-group label {
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #303030;
+}
+
+.loan .form-control {
+    display: block;
+    width: 100%;
+    padding-right: 193px !important;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group{
+    text-align: left;
+}
+ .form-control {
+    padding: 8px 25px;
+    border-radius: 20px !important;
+    border: 1px solid #000000 !important;
+    width: 424px !important;
+}
+.tab1form1 .form-group {
+    margin: 10px 10px;
+}
+input#exampleFormControlSelect1::placeholder {
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #9E9E9E !important;
+}
+.tab1form1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card-button2 {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+@media  (max-width: 1024px){
+    .tab1form1 .form-group .form-control {
+        
+        width: 374px !important;
+    }
+}
+@media  (max-width: 768px){
+    .Refinance-heading p {
+        font-size: 15px;
+        padding: 0px 30px;
+    }
+    
+    .form-control {
+     
+        width: 311px !important;
+    }
+}
+@media  (max-width: 567px){
+    .tab1form1 {
+        display: block;
+    }
+    .form-group {
+        margin: 0px 129px;
+    }
+    .Refinance-heading h1 {
+        font-size: 37px;
+    }
+    .Refinance-heading h3 {
+        font-size: 22px;
+    }
+    .single-input .button {
+        font-size: 8px;
+    }
+    .Refinance-heading p {
+        font-size: 10px;
+        padding: 8px 56px; 
+    }
+    .tab1form1 .form-group {
+        margin: 20px 110px;
+    }
+    select#exampleFormControlSelect1 {
+        
+        background-position-x: 263px !important;
+    }
+    .form-group select.form-control {
+        width: 301px !important;
+
+    }
+    
+} 
+@media  (max-width: 425px){
+
+    .tab1form1 {
+        display: block;
+    }
+    .form-group {
+        margin: 0px 47px;
+    }
+    .Refinance-heading h1 {
+        font-size: 37px;
+    }
+    .Refinance-heading h3 {
+        font-size: 22px;
+    }
+    .single-input .button {
+        font-size: 8px;
+    }
+    .Refinance-heading p {
+        font-size: 10px;
+        padding: 8px 56px; 
+    }
+    .tab1form1 .form-group {
+        margin: 20px 54px;
+    }
+    select#exampleFormControlSelect1 {
+        
+        background-position-x: 263px !important;
+    }
+    .form-group select.form-control {
+        width: 301px !important;
+
+    }
+}
