@@ -11,6 +11,7 @@
 <!-- slick slider js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 
 
@@ -27,14 +28,28 @@
 <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
 <!-- Slick Slider CDN -->
 <script>
+    $('document').ready(function() {
+        $('.canvas-icon i').click(function() {
+            $(".mobile-header").addClass('showheader');
+        });
 
-$('.about-web-header').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  adaptiveHeight: true
-});
+        $(' .mobile-header .cancel').click(function() {
+            $(".mobile-header").removeClass('showheader');
+        });
+    });
+    $('document').ready(function() {
+        $('#toshow').mouseover(function() {
+            $("#show").css("display", "block");
+        });
+    });
+
+    $('.about-web-header').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+    });
 
 
     // $(document).ready(function () {
@@ -45,15 +60,7 @@ $('.about-web-header').slick({
     // Mobile Nav
 
 
-    $('document').ready(function() {
-        $('.canvas-icon i').click(function() {
-            $(".mobile-header").addClass('showheader');
-        });
 
-        $(' .mobile-header .cancel').click(function() {
-            $(".mobile-header").removeClass('showheader');
-        });
-    });
     // Mobile Nav
     $(document).ready(function() {
         $(window).on('load', function() {

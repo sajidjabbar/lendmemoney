@@ -1,0 +1,119 @@
+.auto-insurance {
+    padding: 85px 0px;
+}
+
+.top-text h2 {
+    color: #303030;
+    font-family: poopinsmedium;
+    font-size: 38px;
+}
+
+.top-text p {
+    font-size: 14px;
+    color: #303030;
+}
+
+.contact-form {
+    margin-top: 25px;
+}
+
+.form-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.contact-section {
+    padding: 50px 0px 40px 0px;
+}
+
+.single-input {
+    width: 47%;
+}
+
+.form-control {
+    color: #9E9E9E;
+    font-family: "Poppins-Regular";
+    font-size: 14.5px;
+    border: 1.3px solid #000000;
+    height: 42px;
+    border-radius: 25px;
+}
+
+.single-input label {
+    color: #303030;
+    font-family: "Poppins-Regular";
+    font-size: 14.5px;
+    display: block;
+    margin-bottom: 3px !important;
+    padding: 7px 0px;
+}
+
+textarea.form-control {
+    height: 150px;
+}
+
+button.form-control {
+    border: 0px;
+    background-color: #88B379;
+    font-family: poopinsmedium;
+    color: #FFFFFF;
+    font-size: 14.5px;
+    padding: 12px 45px 31px 45px;
+    cursor: pointer;
+    width: unset !important;
+    border: 2px solid transparent;
+    transition: 0.6s all;
+}
+
+button.form-control:hover {
+    border: 2px solid #88B379;
+    background-color: transparent;
+    color: #88B379;
+}
+
+
+.contact-uson {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.single-contact-source p {
+    font-size: 14px;
+}
+
+.single-contact-source h4 {
+    font-family: poopinsmedium;
+    margin-top: 25px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.single-input .button {
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 23px;
+    padding: 8px 33px;
+    font-size: 14px;
+    font-family: "Poppins-Regular";
+    cursor: pointer;
+}
+
+.single-input .button {
+    border: 1px solid #9E9E9E !important;
+    color: #9E9E9E;
+}
+
+.contact_container {
+    gap: 15px;
+}
+
+.contact_container {
+    display: unset !important;
+}
+
+.contact_container input:checked~span.button {
+    border: 1px solid #88B379 !important;
+    color: #88B379;
+}
