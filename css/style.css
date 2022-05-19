@@ -1,6 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* font family includes */
 @font-face {
     src: url(../fonts/Poppins-Medium.ttf);
-    font-family: poopinsmedium;
+    font-family: 'Poppins-Medium';
+}
+@font-face {
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    font-family: 'Poppins-SemiBold';
+}
+@font-face {
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-family: 'Poppins-Bold';
+}
+/*preloader*/
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #f2f2f2;
+    border-top: 6px solid #88B379;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @-webkit-keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  select#exampleFormControlSelect1{
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    -webkit-appearance: none;
+    background-position-x: 371px;
 }
 
 @font-face {
@@ -407,6 +457,7 @@ a {
     transform: translateX(0%);
 }
 
+
 /* header end here */
 /* header reponsive start here */
 /* / responsive starts here 
@@ -414,10 +465,6 @@ a {
     .canvas-icon {
         display: block;
     }
-
-
-    
-
     .mobile-header ul.mobile-nav {
         margin-bottom: 0;
         padding: 0;
@@ -1011,7 +1058,7 @@ footer .form-group {
     font-family: "poppins";
     font-weight: 500;
     font-size: 29px;
-    margin-bottom: 2px;
+    margin-bottom: 12px;
 }
 
 .article-heading h3 {
@@ -1023,7 +1070,7 @@ footer .form-group {
 }
 
 .articles-btn {
-    padding: 40px 0;
+    padding: 50px 0;
     margin-left: 50px;
     text-align: right;
 }
