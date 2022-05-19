@@ -1,7 +1,3 @@
-/* Latest compiled and minified CSS included as External Resource*/
-
-/* Optional theme */
-
 /*@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');*/
 .Refinance-heading{
     text-align: center;
@@ -25,15 +21,7 @@
     font-family: "poppins";
     font-weight: 400;
     font-size: 15px;
-    padding: 0px 100px
-}
-.stepwizard h4 {
-    text-align: center;
-    color: #303030;
-    font-family: "poppins";
-    font-weight: 500;
-    font-size: 42px;
-    margin-bottom: 30px;
+    padding: 0px 120px
 }
 .stepwizard-step button[disabled] {
     opacity: 1 !important;
@@ -53,15 +41,17 @@
 .stepwizard-row.setup-panel {
     display: flex;
     align-items: center;
-    margin: 0px -10px; 
-    justify-content: center;
+    margin: 0px -10px;
+    overflow: hidden;
 }
 .btn-success.focus, .btn-success:focus {
     box-shadow: none !important;
 }
+
 .stepwizard-row .stepwizard-step .btn1 {
     /* color: #fff !important; */
     padding: 6px 14px;
+    /* border: 1px solid #88B379; */
     font-size: 15px;
     font-family: "poppins";
     font-weight: 500;
@@ -73,7 +63,7 @@
 }
 button.btn.btn-primary.nextBtn {
     margin-top: 30px;
-    margin-left: 61px;
+    margin-left: 11px;
 }
 a.btn1.btn-circle.btn-default {
     color: #9B9B9B !important;
@@ -81,19 +71,10 @@ a.btn1.btn-circle.btn-default {
 a.btn1.btn-circle.btn-default.btn-success{
     color: #fff !important;
 }
-button.btn.btn-success {
-    margin-left: 70px;
-    margin-top: 31px;
-}
 .stepwizard {
     border-bottom: 1px solid #707070;
-    border-top: 1px solid #707070;
-    padding-top: 50px;
 }
-section.refinance-mortgage-lenders-sec .row {
-    display: flex;
-    align-items: center;
-}
+
 .btn-success {
     color: #9B9B9B !important;
     background-color: #88b379 !important;
@@ -162,146 +143,86 @@ input#exampleFormControlSelect1::placeholder {
     margin-top: 30px;
     margin-left: 15px;
 }
-@media  (max-width: 1024px) {
-    .stepwizard:before {
+@media  (max-width: 1024px){
+    .tab1form1 .form-group .form-control {
         
-        left: 119px;
-    }
-    .form-group select.form-control {     
-        width: 354px !important; 
-    }
-    .form-control {
-      
-        width: 369px !important;
-    }
-    button.btn.nextbutton.btn-primary.nextBtn {
-        
-        margin-left: 18px;
-    }
-    .form-group label {
-        font-size: 14px;
-    }
-    .single-input .button {
-       font-size: 10px;
-        margin-left: 6px;
+        width: 374px !important;
     }
 }
-@media  (max-width: 768px) {
-    .stepwizard:before {
-        left: 91px;
-        width: 576px;
-    }
-    .stepwizard-row .stepwizard-step .btn1 {
-               width: 99.6px;
-    }
-    select#exampleFormControlSelect1 {
-        background-position-x: 311px !important;
-       
-    }
-    button.btn.btn-primary.nextBtn {
-        margin-top: 20px;
-        margin-left: 51px;
-    }
-    .single-input .button {
+@media  (max-width: 768px){
+    .Refinance-heading p {
         font-size: 15px;
-        margin-left: 10px;
+        padding: 0px 30px;
     }
     
-    .tab1form1 {
-        display: block;
-        
-    }
-    .Refinance-heading p {
-        padding: 0px 60px;
-        font-size: 10px;
-    }
-    .Refinance-heading h3 {
-        
-        font-size: 22px;
-    }
-    .tab1form1 .form-group {
-        margin: 10px 189px;
-    }
-    .form-group {
-        margin: 0px 191px;
-    }
-    .Refinance-heading h1 {
-       
-        font-size: 35px;
+    .form-control {
+     
+        width: 311px !important;
     }
 }
 @media  (max-width: 567px){
-    .stepwizard:before {
-        left: 20px;
-        width: 516px;
-    }
-    .stepwizard-row .stepwizard-step .btn1 {
-        width: 89.6px;
-    }
-    .tab1form1 .form-group {
-        margin: 20px 90px;
-    }
-    select#exampleFormControlSelect1 {
-        background-position-x: 311px !important;
-       
-    }
-    button.btn.btn-primary.nextBtn {
-        margin-top: 20px;
-        margin-left: 1px;
-    }
-    .Refinance-heading h3 {
-        
-        font-size: 25px;
-        
-    }
-    .Refinance-heading p {
-        
-        font-size: 13px;
-        padding: 0px 0px;
-    }
-    button.btn.btn-primary.nextBtn {
-        margin-top: 20px;
-        margin-left: 9px;
-    }
-    .single-input .button {
-        font-size: 15px;
-        margin-left: 10px;
+    .tab1form1 {
+        display: block;
     }
     .form-group {
-        margin: 0px 106px;
-    }
-}
-@media  (max-width: 425px) {
-    .stepwizard:before {
-        width: 326px;
-        left: 46px;
-    }
-    .stepwizard-row .stepwizard-step .btn1 {
-        width: 66.6px;
-        font-size: 10px;
-    }
-    .tab1form1 .form-group {
-        margin: 20px 20px;
-    }
-    .Refinance-heading p {
-        
-        font-size: 9px;
-        padding: 0px -24px;
-    }
-    .Refinance-heading h3 {
-        
-        font-size: 20px;
-        
-    }
-    button.btn.btn-primary.nextBtn {
-        margin-top: 21px;
-        margin-left: 1px;
-    }
-    .form-group {
-        margin: 0px 20px;
+        margin: 0px 129px;
     }
     .Refinance-heading h1 {
+        font-size: 37px;
+    }
+    .Refinance-heading h3 {
+        font-size: 22px;
+    }
+    .single-input .button {
+        font-size: 8px;
+    }
+    .Refinance-heading p {
+        font-size: 10px;
+        padding: 8px 56px; 
+    }
+    .tab1form1 .form-group {
+        margin: 20px 110px;
+    }
+    select#exampleFormControlSelect1 {
+        
+        background-position-x: 263px !important;
+    }
+    .form-group select.form-control {
+        width: 301px !important;
 
-        font-size: 21px;
+    }
+    
+} 
+@media  (max-width: 425px){
+
+    .tab1form1 {
+        display: block;
+    }
+    .form-group {
+        margin: 0px 47px;
+    }
+    .Refinance-heading h1 {
+        font-size: 37px;
+    }
+    .Refinance-heading h3 {
+        font-size: 22px;
+    }
+    .single-input .button {
+        font-size: 8px;
+    }
+    .Refinance-heading p {
+        font-size: 10px;
+        padding: 8px 56px; 
+    }
+    .tab1form1 .form-group {
+        margin: 20px 54px;
+    }
+    select#exampleFormControlSelect1 {
+        
+        background-position-x: 263px !important;
+    }
+    .form-group select.form-control {
+        width: 301px !important;
+
     }
 }

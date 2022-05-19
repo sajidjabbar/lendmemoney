@@ -1,0 +1,148 @@
+/* credit-card start here */
+*{
+    padding: 0;
+}
+
+.mortgage-heading{
+    text-align: center;
+    padding-top: 40px;
+}
+.mortgage-heading h1 {
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.mortgage-heading h3 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 42px;
+}
+.mortgage-heading p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.heading{
+    margin-top: 30px;
+}
+.heading a{
+    color: #88B379;
+    text-decoration: underline;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 25px;
+    display: block;
+    margin: 10px 0px;
+}
+.heading a:hover{
+    color: #88B379;
+}
+.about-mortagage{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.about-mortagage h5{
+    color:#303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.card-detail-wrapper {
+    border-top: 2px solid #707070;
+    padding-top: 60px;
+}
+
+.about-mortagage p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.card-button {
+    margin-top: 14px;
+    float: right;
+}
+div#accordion {
+    border-top: 1px solid #D3D3D3;
+    padding-top: 20px;
+}
+
+.card-button button.btn  {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 33px;
+    border: 1px solid #88B379;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.card-button button.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+h6.park-heading{
+    color: #7B7B7B;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+    width: 133px;
+    align-self: center;
+}
+p.para{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+p.para span.dollar {
+    margin-right: 58px;
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 20px;
+}
+p.para span.numbering {
+    margin-right: 20px;
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 20px;
+}
+p.para span.doller-200{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-detail-content {
+    display: flex;
+    border-bottom: 1px solid #D3D3D3;
+}
+.card-detail-content1 {
+    display: flex;
+  
+}
+.accord{
+    color:#303030 !important;
+    font-family: "poppins"!important;
+    font-weight: 600 !important;
+    font-size: 25px !important;
+}
+div#accordion .card{
+    border: none !important;
+}
