@@ -189,7 +189,7 @@ div#accordion .card{
     border-radius: 21px !important ;
     padding: 9px 33px;
     border: 1px solid #88B379 !important;
-    font-size: 15px;
+    font-size: 12px;
     font-family: "poppins";
     font-weight: 500;
     color: 88B379;
@@ -213,6 +213,39 @@ div#accordion .card{
     right: 0px;
     display: none !important;
 }
+button.slick-next.slick-arrow {
+    padding-bottom: 30px;
+    background-color: white !important ;   
+}
+button.slick-next.slick-arrow:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #88B379;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 
-
+@media (max-width:1024px) {
+    .nav-bar-slick .nav-item .nav-link {
+       
+        font-size: 13px;
+       
+    }
+}
+@media (max-width:768px) {
+    .nav-bar-slick .nav-item .nav-link {
+       
+        font-size: 13px;
+       
+    }
+}
+@media (max-width:567px) {
+    .nav-bar-slick .nav-item .nav-link {
+       
+        font-size: 13px;
+       
+    }
+}

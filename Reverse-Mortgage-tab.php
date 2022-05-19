@@ -6,10 +6,10 @@
     <div class="container">
         <!-- sec-heading start here -->
         <div class="Refinance-heading">
-            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Reverse Mortgage Lenders</h1>
-            <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Reverse Mortgage Lenders Calculator
+            <h1 class=" wow animate__animated animate__fadeInDown animate__delay-1s">Reverse Mortgage Lenders</h1>
+            <h3 class=" wow animate__animated animate__fadeInDown animate__delay-1s">Reverse Mortgage Lenders Calculator
             </h3>
-            <p class="animate__animated animate__fadeInDown animate__delay-1s">Sit amet commodo nulla facilisi nullam.
+            <p class=" wow animate__animated animate__fadeInDown animate__delay-1s">Sit amet commodo nulla facilisi nullam.
                 Lectus mauris ultrices eros in cursus turpis massa. Velit egestas dui id ornare. Orci porta non pulvinar
                 neque laoreet suspendisse interdum consectetur libero.
             </p>
