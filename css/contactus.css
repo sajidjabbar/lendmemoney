@@ -1,0 +1,72 @@
+p{
+    font-size: 14.5px;
+    font-family: "Poppins-Regular";
+}
+.top-text p{
+    color: #303030;
+}
+
+.form-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-section{
+    padding: 50px 0px 40px 0px;
+}
+
+.single-input{
+    width: 47.5%;
+}
+.form-control{
+    color: #9E9E9E;
+    font-family: "Poppins-Regular";
+    font-size: 14.5px;
+    border: 1.3px solid #000000;
+    height: 42px;
+    border-radius: 25px;
+}
+.single-input label{
+    color: #303030;
+    font-family: "Poppins-Regular";
+    font-size: 14.5px;
+    display: block;
+    margin-bottom: 3px !important;
+}
+textarea.form-control{
+    height: 150px;
+}
+button.form-control{
+    border: 0px;
+    background-color: #88B379;
+    font-family: poopinsmedium;
+    color: #FFFFFF;
+    font-size: 14.5px;
+    padding: 12px 0px;
+    cursor: pointer;
+}
+
+
+.contact-uson{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.single-contact-source p{
+    font-size: 14px;
+}
+
+.single-contact-source h4{
+    font-family: poopinsmedium;
+    margin-top: 25px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.single-contact-source a{
+    color: #88B379;
+    font-size: 14px;
+    font-family: "Poppins-Bold";
+
+}

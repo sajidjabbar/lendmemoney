@@ -1,0 +1,86 @@
+.packages-section{
+    padding: 116px 0px;
+}
+.shadowed-box {
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 24%);
+    padding: 30px 28px;
+    border-radius: 25px;
+    transition: 0.6s all ;
+    animation-name: abcd;
+    overflow: hidden;
+    /* border: 2px solid transparent; */
+}
+
+.shadowed-box:hover {
+    transform: scale(1.05);
+    border: 2px solid #88B379;
+
+}
+
+
+
+.greenheading{
+    font-size: 35px;
+}
+
+.recomended {
+    background-color: #ECEFF7;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 11px;
+    color: #37454F;
+    font-family: poopinsmedium;
+    padding: 4px 12px;
+}
+
+h5 {
+    color: #303030;
+    font-family: "Poppins-SemiBold";
+    font-size: 22px;
+}
+
+p {
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+    color: #303030;
+    margin-top: 12px;
+}
+
+p.lists {
+    display: flex;
+    align-items: center;
+}
+
+.lists::before {
+    content: "";
+    height: 12px;
+    width: 12px;
+    display: block;
+    margin-right: 12px;
+    background-image: url(../img/check.png);
+}
+
+.buy-know {
+    border: 0px;
+    background-color: #88B379;
+    font-family: poopinsmedium;
+    color: #FFFFFF;
+    font-size: 14.5px;
+    padding: 12px 0px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: 0.6s all;
+    border-radius: 25px;
+    border: 2px solid transparent;
+}
+
+.buy-know:hover {
+    border: 2px solid #88B379;
+    background-color: #FFFFFF;
+    font-family: poopinsmedium;
+    color: #88B379;
+    font-size: 14.5px;
+    text-decoration: none;
+}

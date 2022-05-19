@@ -1,0 +1,159 @@
+
+/* Universal Css */
+.greentext {
+    color: #88B379;
+    font-family: "Poppins-SemiBold";
+    font-size: 11px;
+
+}
+
+/* sign pages start */
+section.form-box-section {
+    padding: 155px 0px;
+}
+
+.for-low-section-padding{
+    padding: 80px 0px !important;
+}
+
+
+
+.shadowed-box {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 55px 82px  75px 82px;
+}
+
+.for-low-padding{
+    padding: 45px 82px  45px 82px;
+}
+
+.sign-as-a-company{
+    padding: 35px 82px 65px 82px;
+}
+
+.the-text-box h3 {
+    font-size: 26px;
+}
+
+.the-text-box p {
+    font-family: "Poppins-Regular";
+    color: #000000;
+    font-size: 10.5px;
+    margin-bottom: 0px;
+}
+
+.the-text-box.personal-detail p{
+    font-size: 14px;
+}
+
+.the-text-box span {
+    color: #000000;
+    font-size: 11px;
+    font-family: "Poppins-Regular";
+}
+
+/* Form Css Start Here */
+
+.form-start {
+    margin-top: 27px;
+}
+
+.form-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.single-input {
+    width: 47.5%;
+}
+
+.form-control {
+    color: #9D9D9D;
+    font-family: "Poppins-Regular";
+    font-size: 14.5px;
+    border: 1.3px solid #000000;
+    height: 42px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.single-input label {
+    color: #303030;
+    font-family: "Poppins-Regular";
+    font-size: 14.5px;
+    display: block;
+    margin-bottom: 3px !important;
+}
+
+textarea.form-control {
+    height: 150px;
+}
+
+button.form-control {
+    border: 0px;
+    background-color: #88B379;
+    font-family: poopinsmedium;
+    color: #FFFFFF;
+    font-size: 14.5px;
+    padding: 12px 0px;
+    cursor: pointer;
+    transition: 0.6s all;
+}
+
+button.form-control:hover {
+    border: 2px solid #88B379;
+    background-color: #FFFFFF;
+    font-family: poopinsmedium;
+    color: #88B379;
+    font-size: 14.5px;
+}
+
+
+.upload-your-photo  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.upload-your-photo  label span {
+    display: block;
+    text-align: left;
+}
+
+.for-upload-file{
+    color: #303030 !important;
+    font-family: "Poppins-Regular" !important;
+    font-size: 14.5px !important;
+}
+
+.for-browse-file{
+    font-family: poopinsmedium !important;
+    color: #88B379 !important;
+    font-size: 14.5px !important;
+    cursor: pointer;
+}
+
+.for-personal-details{
+    padding: 45px 60px  45px 60px;
+}
+
+.for-personal-details input{
+    text-align: left ;
+    padding-left: 24px;
+}
+
+h5 {
+    color: #4E4E4E;
+    font-family: "Poppins-SemiBold";
+    font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .shadowed-box{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
