@@ -34,7 +34,7 @@
                                 <input type="password" class="form-control" placeholder="Confirm Password" name="" id="">
                             </div>
                             <div class="form-row">
-                                <button type="submit" class="form-control">Submit</button>
+                                <button type="submit" class="form-control"> <a href="sign-in.php"> Submit</a></button>
                             </div>
                         </form>
                     </div>

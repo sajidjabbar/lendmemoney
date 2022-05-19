@@ -153,3 +153,8 @@
             </div>
         </div>
     </div>
+
+</section>
+
+<!--  end Here -->
+<?php include 'inc/footer.php'; ?>

@@ -16,9 +16,11 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- slick slider js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+
 <!-- Bootstrap CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!-- wow js -->
 <script src="js/wow.min.js"></script>
 <!-- wow js  -->
@@ -221,20 +223,6 @@ $('.refinance-tabs .tabs .nav').slick({
     ]
 });
 
-
-
-
-
-
-
-// $(document).ready(function () {
-//     $(window).on('load', function(){
-//         $("#preloader").fadeOut(1000);
-//     });
-// })
-// Mobile Nav
-
-
 $('document').ready(function() {
     $('.canvas-icon i').click(function() {
         $(".mobile-header").addClass('showheader');
@@ -245,9 +233,9 @@ $('document').ready(function() {
     });
 });
 // Mobile Nav
-$(document).ready(function() {
+
     $(window).on('load', function() {
-        $("#preloader").fadeOut(1000);
+        $("#preloader").fadeOut(500);
     });
-});
+
 </script>

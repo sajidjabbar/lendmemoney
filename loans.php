@@ -16,9 +16,9 @@
             </div>
         </div>
         <div class="heading">
-      
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Home Equity Loan</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Auto Refinance</a>
+        <a href="personal-loantable2.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Personal Loan</a>
+            <a href="homeequityloantable.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Home Equity Loan</a>
+            <a href="best-student-loan.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Auto Refinance</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Home Insurance</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Student Loan Refinance</a>
             <!-- <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Pet Insurance</a> -->
@@ -27,7 +27,7 @@
         <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Additional Resources</h3>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Auto Loans</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Home Equity Loans</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Student Loans</a>
+            <a href="best-student-loan.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Student Loans</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Instalment Loans for Bad Credit</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Home Improvement Loans</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Small Business Loans</a>

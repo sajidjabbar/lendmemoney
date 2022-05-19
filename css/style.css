@@ -12,22 +12,21 @@
     src: url(../fonts/Poppins-Bold.ttf);
     font-family: 'Poppins-Bold';
 }
+
+@font-face {
+  font-family: "Aileron";
+  src: url("../fonts/Aileron-Regular.otf");
+}
+@font-face {
+  font-family: "Aileron-bold";
+  src: url("../fonts/Aileron-Bold.otf");
+}
+@font-face {
+  font-family: "Aileron-SemiBold";
+  src: url("../fonts/Aileron-SemiBold.otf");
+}
 /*preloader*/
-#preloader:before {
-    content: "";
-    position: fixed;
-    top: calc(50% - 30px);
-    left: calc(50% - 30px);
-    border: 6px solid #f2f2f2;
-    border-top: 6px solid #88B379;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    -webkit-animation: animate-preloader 1s linear infinite;
-    animation: animate-preloader 1s linear infinite;
-  }
-  
-  @-webkit-keyframes animate-preloader {
+@-webkit-keyframes animate-preloader {
     0% {
       transform: rotate(0deg);
     }
@@ -44,13 +43,75 @@
       transform: rotate(360deg);
     }
   }
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #000;
+}
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #f2f2f2;
+    border-top: 6px solid #88B379;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+  }
   
+ 
+  /* form and button*/
   select#exampleFormControlSelect1{
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-position:right;
     -webkit-appearance: none;
     background-position-x: 371px;
+}
+.form-control:focus {
+    /* color: #495057; */
+    background-color: #fff;
+    border-color: #88B379 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #88B379(0 123 255 / 25%) ;
+}
+select#exampleFormControlSelect1:focus {
+    background-color: #fff;
+    border-color: #88B379 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #88B379(0 123 255 / 25%) ;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn {
+    color: #fff !important;
+    background-color: #88B379 !important;
+    border-radius: 21px;
+    padding: 8px 56px;
+    border: 1px solid #88B379;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 15px;
 }
 /* Mobile Header */
 .custom-container{
@@ -246,8 +307,6 @@ li.normal-nav-items a i {
     top: unset !important;
 }
 
-
-
 .dropdown-menu111 {
     position: absolute;
     right: -87% !important;
@@ -351,7 +410,6 @@ a.dropdown-item {
     padding: 0.5rem 1rem;
     color: #303030;
     z-index: 999;
-;
 }
 
 .about-nav .dropdown-menu1 {
