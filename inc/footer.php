@@ -66,7 +66,7 @@
                         <div class="form-group">
 
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
-                           <a href="#"> <button>Submit<span class="iconify" data-icon="mdi-light:arrow-right"></span></button></a>
+                           <a href="#"> <button>Submit <span><img src="img/arrow-right.png" alt=""></span></button></a>
                         </div>
                     </form>
                 </div>

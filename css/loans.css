@@ -1,0 +1,140 @@
+/* mortgage-sec start here */
+.mortgage-heading{
+    text-align: center;
+    padding-top: 40px;
+}
+.mortgage-heading h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+.mortgage-heading h3{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.mortgage-heading p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+}
+.heading{
+    margin-top: 30px;
+}
+.heading a{
+    color: #88B379;
+    text-decoration: underline;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 25px;
+    display: block;
+}
+.heading a:hover{
+    color: #88B379;
+}
+.about-mortagage{
+    margin-top: 50px;
+
+}
+.about-mortagage h5{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.about-mortagage h2{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 29px;
+}
+.about-mortagage p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+.points{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.points li{
+    list-style:circle ;
+    color: #303030;
+    display: flex;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.points li::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    margin-top: 10px;
+    background-image: url(../img/dot.png);
+    background-size: cover;
+    margin-right: 10px;
+}
+.mortagage-faqs{
+    margin: 30px 0;
+}
+.mortagage-faqs h1{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+div#accordion .card-header {
+    background: transparent;
+    border: none;
+    padding: 21px 0px;
+}
+
+div#accordion .card {
+    /* border-top: 1px solid #777575 !important; */
+    border-radius: 0px;
+    border-bottom: 1px solid #000000 !important;
+    border: none;
+    border-color: #A0A0A0 !important;
+
+}
+
+div#accordion a.card-link {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-header span {
+    font-size: 17px;
+    color: #000000;
+    font-family: "Aileron";
+    font-weight: 400;
+}
+
+.faq-wrapper .card-body {
+    padding: 20px;
+    font-size: 14px;
+    color: #afafaf;
+}
+
+.faq .card .card-body {
+    color: #000000;
+    padding-right: 11%;
+    padding: 20px !important;
+}
+
+a.card-link[aria-expanded="true"] .fa-plus::before {
+    content: "\f068";
+}
+
+div#accordion a.card-link:active,
+div#accordion a.card-link:focus {
+    text-decoration: none;
+}
+
+/* mortgage-sec end here */

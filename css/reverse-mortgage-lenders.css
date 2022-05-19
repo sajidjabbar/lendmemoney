@@ -1,0 +1,188 @@
+/* mortgage-sec start here */
+.mortgage-heading {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.mortgage-headings {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #707070;
+}
+.mortgage-heading h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+.mortgage-headings h3{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.mortgage-headings p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+}
+.heading{
+    margin-top: 30px;
+}
+.heading a{
+    color: #88B379;
+    text-decoration: underline;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 25px;
+    display: block;
+}
+.heading a:hover{
+    color: #88B379;
+}
+.about-mortagage{
+    margin-top: 50px;
+
+}
+.about-mortagage h5{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.about-mortagages h2{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 29px;
+}
+.about-mortagages p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+.points{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.points li{
+    list-style:circle ;
+    color: #303030;
+    display: flex;
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+.mortagage-faqs{
+    margin: 30px 0;
+}
+.mortagage-faqs h1{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.about-calculatorpage h2 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-calculatorpage p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about-calculatorpage {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.pointcalculatorpage h2 {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 29px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pointscalculatorpage p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.pointscalculatorpage {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.pointscalculatorpage li {
+    list-style: none;
+    display: flex;
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+.pointscalculatorpage li::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    margin-top: 10px;
+    background-image: url(../img/dot.png);
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.mortgage-calculatorsec option {
+    background-color: #EBF1EA;
+    font-size: 16px;
+}
+
+
+.mortgage-headings a{
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 41px;
+    border: 1px solid  #88B379;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.quick-box{
+    background-color: #EBEFEA;
+    padding: 20px 40px;
+}
+.box-heading h3{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 29px;
+}
+.box-heading p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+.box-heading a{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+.box-img {
+    margin-top: 30px;
+}
+
+/* mortgage-sec end here */

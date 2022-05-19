@@ -384,7 +384,7 @@
                     <div class="col-md-5">
                     <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                         <div class="articles-btn">
-                            <a href="#"> View More <i class='fas fa-long-arrow-alt-right'></i></a>
+                            <a href="#"> View More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                         <div class="articlecards-img">
@@ -464,6 +464,7 @@
                     <h5 class="animate__animated animate__fadeInLeft ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmd tempor incididunt ut labore et dolore magna aliqua. </h5>
                 </div>
             </div>
+            <div class="accordions">
                 <div id="accordion">
                 <div class="animate__animated animate__fadeInDown animate__delay-1s ">
                     <div class="card">
@@ -565,7 +566,48 @@
                         </div>
                     </div>
                 </div>
+                <div class="animate__animated animate__fadeInDown animate__delay-1s ">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseFourss">
+                                <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div id="collapseFourss" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <p>
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                    anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="animate__animated animate__fadeInDown animate__delay-1s ">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseFourrs">
+                                <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div id="collapseFourrs" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <p>
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                    anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
             </div>
             <div class="col-md-6">
             <div class="animate__animated animate__fadeInDown  animate__delay-1s">

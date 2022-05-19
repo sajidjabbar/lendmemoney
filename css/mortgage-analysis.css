@@ -1,4 +1,7 @@
 /* refinance-mortgage-lenders start here */
+.about-refinancepage {
+    margin-top: 35px;
+}
 .Refinance-heading{
     text-align: center;
     padding-top: 40px;
@@ -20,7 +23,7 @@
     font-size: 15px;
 }
 .tabs{
-    width: 68%;
+    width: 90%;
 }
 .refinance-tabs{
     width: 100%;
@@ -40,11 +43,39 @@
 }
 .tab1form {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-direction: row;
     /* width: 108%; */
     padding: 10px 0;
-    /* justify-content: center; */
+    justify-content: center;
+}
+.about-tab2{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding-top: 84px;
+}
+.tab-2{
+    text-align: center;
+    width: 100%;
+}
+.tab2form {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    /* width: 108%; */
+    padding: 10px 0;
+    justify-content:left;
+}
+.tab-2 button {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 56px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
 }
 .tab3{
     width: 100%;
@@ -83,6 +114,8 @@ padding-top: 60px;
 .tab-3info .form-control {
     display: block;
     width: 100% !important;
+    /* padding: 6px 70px !important; */
+    padding-right:88px !important;
     margin: 0 24px;
     font-size: 10px !important;
     border-radius: 20px !important;
@@ -96,10 +129,12 @@ padding-top: 60px;
 .abouttab4{
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
 }
 .loan .form-control {
     display: block;
     width: 100%;
+    padding-right: 193px !important;
     font-size: 1rem;
     line-height: 1.5;
     color: #495057;
@@ -138,7 +173,7 @@ padding-top: 60px;
 }
 label {
     display: inline-block;
-    margin-bottom: 0;
+    margin-bottom: .5rem;
     font-family: "poppins";
     font-weight: 400;
     text-align: left;
@@ -149,11 +184,18 @@ label {
     text-align: left;
 }
 .form-control {
-    display: block;
-    font-size: 1rem;
-    border-radius: 20px !important;
-    border: 2px solid #000000 !important;
-    color: #9E9E9E !important;
+    width: 100%;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 130px !important;
+    padding-left: 20px !important;
+    color: #9D9D9D;
+    font-family: "Poppins-Regular";
+    font-size: 14.5px;
+    border: 1.3px solid #000000 !important;
+    height: 42px;
+    border-radius: 25px !important;
+    text-align: center;
 }
 .nav-tabs {
     width: 100%;
@@ -276,18 +318,13 @@ label {
     margin-bottom: 20px;
     font-size: 35px;
 }
-
-/* refinance-mortgage-lenders end here */
-@media screen  and (max-width: 576px){
-    .nav-tabs .nav-item a {
-        color: #9B9B9B !important;
-        padding: 10px 0px;
-        font-size: 10px;
-    }
-    .tabs {
-        width: 100%;
-    }
+.analysis{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 30px;
 }
+/* refinance-mortgage-lenders end here */
 @media screen and (max-width: 768px) {
     .abouttab3 {
         display: block;

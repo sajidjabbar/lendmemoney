@@ -35,9 +35,12 @@
                     <div class="tab-content" id="myTabContent">
                         <!-- tab1 start here -->
                         <div class="tab-pane fade show active" id="step01" role="tabpanel" aria-labelledby="step01-tab">
+
                             <div class="about-tab1">
                                 <div class="tab-1">
+                                <div class="col-md-12">
                                     <div class="tab1form">
+                                        <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="exampleFormControlSelect1">Select Home type</label>
                                             <select class="form-control" id="exampleFormControlSelect1" |>
@@ -50,6 +53,8 @@
                                                 <option>Manufactured home</option>
                                             </select>
                                         </div>
+                                        </div>
+                                        <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="exampleFormControlSelect1">Select Credit type</label>
                                             <select class="form-control" id="exampleFormControlSelect1" >
@@ -60,8 +65,9 @@
                                                 <option>Poor (519 or lower)</option>
                                             </select>
                                         </div>
+                                        </div>
                                     </div>
-
+                                </div>
                                     <a href="#"><button>Next</button></a>
                                 </div>
                             </div>
@@ -71,7 +77,9 @@
                         <div class="tab-pane fade" id="step02" role="tabpanel" aria-labelledby="step02-tab">
                             <div class="about-tab1">
                                 <div class="tab-1">
+                                <div class="col-md-12">
                                     <div class="tab1form">
+                                        <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="exampleFormControlSelect1">Loan type</label>
                                             <select class="form-control" id="exampleFormControlSelect1">
@@ -83,12 +91,16 @@
 
                                             </select>
                                         </div>
+                                        </div>
+                                        <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="exampleFormControlSelect1">Enter Zip code</label>
                                             <input class="form-control" id="exampleFormControlSelect1" placeholder="Enter Zip">
                                             </input>
                                         </div>
                                     </div>
+                                    </div>
+                                </div>
 
                                     <a href="#"><button>Next</button></a>
                                 </div>
@@ -98,7 +110,9 @@
                         <!-- tab start here -->
                         <div class="tab-pane fade" id="step03" role="tabpanel" aria-labelledby="step03-tab">
                             <div class="tab3">
+                                <div class="col-md-12">
                                 <div class="tab-3info">
+                                    <div class="col-md-5 p-0 m-0">
                                     <div class="buyer1">
                                         <label>Are you a first-time home buyer ?</label>
                                         <div class="buyer">
@@ -108,6 +122,9 @@
                                             <div class="buyer-btn2"> <a href="#"><button>No</button></a></div>
                                         </div>
                                     </div>
+                                    </div>
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-5">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Purchase price of the new home</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
@@ -119,8 +136,12 @@
 
                                         </select>
                                     </div>
+                                    </div>
                                 </div>
+                                </div>
+                                <div class="col-md-12 p-0 m-0">
                                 <div class="abouttab3">
+                                <div class="col-md-5">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Estimated Down Payment</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
@@ -131,6 +152,9 @@
 
                                         </select>
                                     </div>
+                                    </div>
+                                  <div class="col-md-1"></div>
+                                    <div class="col-md-5">
                                     <div class="form-group loan">
                                         <label for="exampleFormControlSelect1">Loan type</label>
                                         <select class="form-control" id="exampleFormControlSelect1" >
@@ -141,15 +165,19 @@
 
                                         </select>
                                     </div>
+                                    </div>
+                                </div>
                                 </div>
                                 <a href="#"><button class="foam-btn">Next</button></a>
-                            </div>
+                        </div>
                         </div>
                         <!-- tab3 end here -->
                         <!-- tab4 start here -->
                         <div class="tab-pane fade" id="step04" role="tabpanel" aria-labelledby="step04-tab">
                             <div class="tab3">
+                                <div class="col-md-12">
                                 <div class="abouttab3">
+                                    <div class="col-md-5 m-0 p-0">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">How old are you?</label>
                                         <select class="form-control" id="exampleFormControlSelect1" placeholder="Select Your Age">
@@ -160,6 +188,9 @@
 
                                         </select>
                                     </div>
+                                    </div>
+                                    <div class="col-md-2 p-0 m-0"></div>
+                                    <div class="col-md-5 p-0 m-0">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Employment status</label>
                                         <select class="form-control" id="exampleFormControlSelect1" placeholder="Select Your Employment Status">
@@ -170,6 +201,8 @@
 
                                         </select>
                                     </div>
+                                    </div>
+                                </div>
                                 </div>
                                 <div class="tab-3info">
                                     <div class="buyer1">
@@ -267,7 +300,7 @@
                                         </input>
                                     </div>
                                 </div>
-                                <a href="#"><button class="foam-btn">Next</button></a>
+                                <a href="#"><button class="foam-btn">submit</button></a>
                             </div>
                         </div>
                         <!-- tab5 end here -->

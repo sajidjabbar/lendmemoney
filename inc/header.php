@@ -1,17 +1,17 @@
 <style>
 </style>
 <header>
-<div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light lead">
             <div class="nav-container">
 
                 <div class="logo-img">
-                    <img src="logo.png" alt="" class="img-fluid">
+                    <img src="img/logo.png" alt="" class="img-fluid">
                 </div>
                 <div class="about-nav">
-                    <ul class="nav" >
+                    <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link1 " >Home</a>
+                            <a class="nav-link1 ">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link1 " href="file:///C:/xampp/htdocs/lendmemoney/dropdown.html">
@@ -47,8 +47,7 @@
                                 <i class="fa fa-angle-down"></i></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link1 " id="drop-down-tab" data-toggle="dropdown" href="#" role="tab"
-                                aria-controls="profile" aria-selected="true">
+                            <a class="nav-link1 " id="drop-down-tab" data-toggle="dropdown" href="#" role="tab" aria-controls="profile" aria-selected="true">
                                 Loan <i class="fa fa-angle-down"></i></a>
                             <div class="dropdown-menu1">
                                 <a class="dropdown-item" href="#">personal loan</a>
@@ -62,15 +61,17 @@
                             <a class="nav-link disabled">Become A Member</a>
                         </li>
                         <li class="nav-item nbar">
-                            <a class="nav-link disabled">Login/Register <i class="fa fa-search"
-                                    style="color: #88B379;"></i>
+                            <a class="nav-link disabled">Login/Register <i class="fa fa-search" style="color: #88B379;"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
-
+                <div class="canvas_btn">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
             </div>
         </nav>
+        <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
     </div>
 </header>
 <div class="mobile-header">
