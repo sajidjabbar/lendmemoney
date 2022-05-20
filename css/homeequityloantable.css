@@ -37,15 +37,18 @@ section.homeequityloan-sec {
     font-family: "poppins";
     font-weight: 500;
 }
-.home-btn a{
+.home-btn a {
     color: #fff;
     background-color: #88B379;
     border-radius: 21px;
-    padding: 9px 56px;
+    padding: 9px 37px;
     border: transparent;
     font-size: 15px;
     font-family: "poppins";
     font-weight: 500;
+}
+.home-btn {
+    margin-left: 24px;
 }
 .detail-tables {
     display: flex;
@@ -77,6 +80,11 @@ section.homeequityloan-sec {
 }
 .est-about{
     border-left: 2px solid #707070;
+    padding: 4px 10px ;
+    text-align: center;
+}
+.est-abouts1{
+    border-right: 2px solid #707070;
     padding: 4px 10px ;
     text-align: center;
 }
@@ -126,6 +134,9 @@ section.homeequityloan-sec {
 .home-btn3  {
     padding: 35px 0;
 }
+.Refinance-heading6{
+    padding-bottom: 60px;
+}
 .home-btn3 a{
     color: #fff;
     background-color: #88B379;
@@ -153,11 +164,19 @@ label {
 .personal-heading{
     padding: 20px 0;
 }
+.better-img img {
+    width: 85%;
+}
 .accordion li {
     list-style: none;
     margin: 0;
   }
-  
+  .about-est {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   .accordion-trigger {
     margin: 1px 0 0;
     padding: 2px 15px;

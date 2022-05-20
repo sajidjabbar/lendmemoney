@@ -11,7 +11,7 @@
             <div class="great-job-imgbox">
                 <img src="img/feelings.png" alt="" class="img-fluid">
             </div>
-            <a href="#">Continue</a>
+            <a href="mortgage-toolspage.php">Continue</a>
         </div>
     </div>
 </section>

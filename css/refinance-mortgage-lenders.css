@@ -23,10 +23,7 @@
     font-size: 15px;
     padding: 0px 70px;
 }
-.Mortgage-wrapper-content {
-    border-bottom: 1px solid #707070;
-   
-}
+
 .Mortgage-wrapper-content h3 {
     color: #303030;
     font-family: "poppins";
@@ -178,6 +175,16 @@ input#exampleFormControlSelect1::placeholder {
 .card-button2 {
     margin-top: 30px;
     margin-left: 15px;
+}
+.btnn{
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 56px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
 }
 /* radio button */
 .single-input .button {

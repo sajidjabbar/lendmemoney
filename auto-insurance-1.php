@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md-8  mx-auto px-0">
                     <div class="form-start">
-                        <form action="">
+                        <form action="autoinsurance.php">
                             <div class="form-row">
                                 <div class="single-input">
                                     <label for="">Zip code</label>

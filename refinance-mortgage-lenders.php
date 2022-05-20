@@ -397,7 +397,8 @@
                                         </div>
 
                                     </div>
-                                    <button class="btn nextbutton btn-primary nextBtn" type="button">submit</button>
+                                    <a href="refinance-mortgage-lenders2.php" class="btnn"> submit</a>
+                                    <!-- <button class="btn nextbutton btn-primary nextBtn" type="button">submit</button> -->
                                 </div>
                             </div>
                         </div>

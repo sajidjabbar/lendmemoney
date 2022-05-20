@@ -43,7 +43,7 @@
                                     id="">
                             </div>
                             <div class="form-row">
-                                <button type="submit" class="form-control"><a href=""> Submit</a></button>
+                                <button type="submit" class="form-control">Submit</button>
                             </div>
                         </form>
                     </div>

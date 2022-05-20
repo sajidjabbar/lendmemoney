@@ -243,7 +243,7 @@
                             </div>
                         </div>
                         <div class="col-lg-5">
-                            <button class="btn btn-success " type="submit">submit</button>
+                            <button class="btn btn-success " onclick="location.href='great-job-you-received-an-a.php';" type="submit">submit</button>
                         </div>
                     </div>
                 </div>

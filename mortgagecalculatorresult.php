@@ -55,15 +55,16 @@
                 </tr>
                 <tr>
                     <th scope="row" class="side-border">lower rates</th>
-                    <td><img src="img/tick-icon.png" alt="" class="img-fluid"></td>
-                    <td><img src="img/tick-icon.png" alt="" class="img-fluid"></td>
-                    <td><img src="img/tick-icon.png" alt="" class="img-fluid"></td>
+                    <td><img src="img/cross-img.png" alt="" class="img-fluid"></td>
+                    <td><img src="img/cross-img.png" alt="" class="img-fluid"></td>
+                    <td><img src="img/cross-img.png" alt="" class="img-fluid"></td>
                 </tr>
                 <tr>
                     <th scope="row" class="side-border">Pay off Faster</th>
-                    <td><img src="img/cross-img.png" alt="" class="img-fluid"></td>
-                    <td><img src="img/cross-img.png" alt="" class="img-fluid"></td>
-                    <td><img src="img/cross-img.png" alt="" class="img-fluid"></td>
+
+                    <td><img src="img/tick-icon.png" alt="" class="img-fluid"></td>
+                    <td><img src="img/tick-icon.png" alt="" class="img-fluid"></td>
+                    <td><img src="img/tick-icon.png" alt="" class="img-fluid"></td>
                 </tr>
                 <tr>
                     <th scope="row" class="side-border">Pay Less Interest </th>
@@ -73,9 +74,9 @@
                 </tr>
                 <tr>
                     <th scope="row" class="side-border"></th>
-                    <td> <a href="#"><button>More Info</button></a></td>
-                    <td> <a href="#"><button>More Info</button></a></td>
-                    <td> <a href="#"><button>More Info</button></a></td>
+                    <td> <a href="15-year-vs-30-year-mortgage.php"><button>More Info</button></a></td>
+                    <td> <a href="15-year-vs-30-year-mortgage.php"><button>More Info</button></a></td>
+                    <td> <a href="15-year-vs-30-year-mortgage.php"><button>More Info</button></a></td>
                 </tr>
             </tbody>
         </table>

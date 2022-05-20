@@ -17,8 +17,8 @@
         </div>
         <div class="heading">
             <a href="auto-insurance-1.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Auto Insurance </a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Life Insurance</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Home Insurance</a>
+            <a href="home-insurance.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Life Insurance</a>
+            <a href="home-insurance.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Home Insurance</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">About Life insurance calculator</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Pet Insurance</a>
         </div>    

@@ -1,82 +1,327 @@
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-<link rel="stylesheet" href="css/loans.css">
+<link rel="stylesheet" href="css/homeequityloantable.css">
 <?php include 'inc/app.php'; ?>
 <!-- start here -->
-<section class="mortgage-sec">
+<section class="homeequityloan-sec">
     <div class="container">
-        <div class="mortgage-heading">
-            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Loans</h1>
-            <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Find the best loan According to your needs</h3>
-            <p class="animate__animated animate__fadeInDown animate__delay-1s">Sit amet commodo nulla facilisi nullam. Lectus mauris ultrices eros in cursus turpis massa. Velit egestas dui id ornare. Orc<br>
-            porta non pulvinar neque laoreet suspendisse interdum consectetur libero.</p>
-        </div>
-        <div class="animate__animated animate__fadeInLeft animate__delay-1s">
-            <div class="mortage-imgbox">
-                <img src="img/loans.png" alt="" class="img-fluid">
+        <div class="Refinance-heading">
+        <div class="Refinance-heading6">
+            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Instalment Loans for Bad Credits</h1>
+            <div class="aboutrefinance-heading">
+                <h3 class="animate__animated animate__fadeInDown animate__delay-1s"> Find the Best Instalment Loans for Bad Credits</h3>
+                <p class="animate__animated animate__fadeInDown animate__delay-1s">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. </p>
+                <div class="home-btn">
+                    <a href="Home-Improvement.php">Get Started</a>
+                </div>
             </div>
         </div>
-        <div class="heading">
-        <a href="personal-loantable2.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Personal Loan</a>
-            <a href="homeequityloantable.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Home Equity Loan</a>
-            <a href="auto-loanstables.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Auto Refinance</a>
-            <a href="best-student-refinance-option.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Student Loan Refinance</a>
-            <!-- <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Pet Insurance</a> -->
-        </div>    
-        <div class="heading">
-        <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Best Auto Loans</h3>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Home Equity Loans</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Student Loans</a>
-            <a href="instalment-loans-for-bad-credits.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Instalment Loans for Bad Credit</a>
-            <a href="home-improve.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Home Improvement Loans</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Small Business Loans</a>
-            <!-- <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Pet Insurance</a> -->
-        </div>   
-        <div class="about-mortagage"> 
-            <div class="animate__animated animate__fadeInLeft animate__delay-1s">
-                <h2>Quicken Loans</h2>
+        </div>
+        <div class="this-table">
+
+            <div class="animate__animated animate__fadeInRight animate__delay-1s ">
+                <div class="base-heading">
+                    <h3>Here are some lenders for you</h3>
+                </div>
+                <div class="better-info">
+                    <div class="row better">
+                        <div class="col-md-2">
+                            <div class="better-img">
+                                <img src="img/sofi.png" alt="" class="class-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="est-abouts1">
+                                <div class="est-heading">
+                                    <h5>Terms of Loan:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>2 to 7 years</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="est-abouts">
+                                <div class="est-heading">
+                                    <h5>Loan amount</h5>
+                                </div>
+                                <div class="est">
+                                    <p>$5,000 - <BR>
+                                        $100,000 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="est-about">
+                                <div class="est-heading">
+                                    <h5>Estimated Monthly <BR>
+                                        Payment:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>$500</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="est-about">
+                                <div class="est-heading">
+                                    <h5>Fixed APR:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>4.49-20.49% </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="detail-tables">
+                                <div class="col-md-12 p-0 m-0">
+
+                                    <ul class="accordion">
+                                        <li>
+                                            <h5 class="accordion-trigger">View all details</h5>
+                                            <div class="accordion-content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+                                                    assumenda autem, odio! Dolor, non animi eaque numquam consequuntur
+                                                    quae iure doloremque, odit laudantium quo esse totam quos ab,
+                                                    expedita rem</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed est
+                                                    natus ducimus, illo dolore possimus cumque. Magnam minus, cumque
+                                                    eligendi, ratione natus repellat architecto beatae illo, dolores
+                                                    delectus totam eaque.</p>
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row better">
+                        <div class="col-md-2">
+                            <div class="better-img">
+                            <img src="img/discoverLogo.png" alt="" class="class-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="est-abouts1">
+                                <div class="est-heading">
+                                    <h5>Terms of Loan:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>2 to 7 years</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="est-abouts">
+                                <div class="est-heading">
+                                    <h5>Loan amount</h5>
+                                </div>
+                                <div class="est">
+                                    <p>$5,000 - <BR>
+                                        $100,000 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="est-about">
+                                <div class="est-heading">
+                                    <h5>Estimated Monthly <BR>
+                                        Payment:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>$500</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="est-about">
+                                <div class="est-heading">
+                                    <h5>Fixed APR:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>4.49-20.49% </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="detail-tables">
+                                <div class="col-md-12 p-0 m-0">
+
+                                    <ul class="accordion">
+                                        <li>
+                                            <h5 class="accordion-trigger">View all details</h5>
+                                            <div class="accordion-content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+                                                    assumenda autem, odio! Dolor, non animi eaque numquam consequuntur
+                                                    quae iure doloremque, odit laudantium quo esse totam quos ab,
+                                                    expedita rem</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed est
+                                                    natus ducimus, illo dolore possimus cumque. Magnam minus, cumque
+                                                    eligendi, ratione natus repellat architecto beatae illo, dolores
+                                                    delectus totam eaque.</p>
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row better">
+                        <div class="col-md-2">
+                            <div class="better-img">
+                                <img src="img/upgradeLogo.png" alt="" class="class-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="est-abouts1">
+                                <div class="est-heading">
+                                    <h5>Terms of Loan:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>2 to 7 years</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="est-abouts">
+                                <div class="est-heading">
+                                    <h5>Loan amount</h5>
+                                </div>
+                                <div class="est">
+                                    <p>$5,000 - <BR>
+                                        $100,000 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="est-about">
+                                <div class="est-heading">
+                                    <h5>Estimated Monthly <BR>
+                                        Payment:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>$500</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="est-about">
+                                <div class="est-heading">
+                                    <h5>Fixed APR:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>4.49-20.49% </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="detail-tables">
+                                <div class="detail-btn">
+                                    <a href="#">View all details</a>
+                                </div>
+                                <div class="arrow">
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row better">
+                        <div class="col-md-2">
+                            <div class="better-img">
+                            <img src="img/marcusbygoldmansachslogo.png" alt="" class="class-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="est-abouts1">
+                                <div class="est-heading">
+                                    <h5>Terms of Loan:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>2 to 7 years</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="est-abouts">
+                                <div class="est-heading">
+                                    <h5>Loan amount</h5>
+                                </div>
+                                <div class="est">
+                                    <p>$5,000 - <BR>
+                                        $100,000 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="est-about">
+                                <div class="est-heading">
+                                    <h5>Estimated Monthly <BR>
+                                        Payment:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>$500</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="est-about">
+                                <div class="est-heading">
+                                    <h5>Fixed APR:</h5>
+                                </div>
+                                <div class="est">
+                                    <p>4.49-20.49% </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="detail-tables">
+                                <div class="col-md-12 p-0 m-0">
+
+                                    <ul class="accordion">
+                                        <li>
+                                            <h5 class="accordion-trigger">View all details</h5>
+                                            <div class="accordion-content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+                                                    assumenda autem, odio! Dolor, non animi eaque numquam consequuntur
+                                                    quae iure doloremque, odit laudantium quo esse totam quos ab,
+                                                    expedita rem</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed est
+                                                    natus ducimus, illo dolore possimus cumque. Magnam minus, cumque
+                                                    eligendi, ratione natus repellat architecto beatae illo, dolores
+                                                    delectus totam eaque.</p>
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="home-btn2">
+                        <a href="#">Load More</a>
+                    </div>
+                </div>
+                </div>
             </div>
-            <p class="animate__animated animate__fadeInRight animate__delay-1s">Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Blandit aliquam etiam erat velit scelerisque in dictum. Iaculis nunc sed augue lacus. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Convallis posuere morbi leo urna molestie at. Tristique senectus et netus et malesuada. Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in hac. Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Donec pretium
-                vulputate sapien nec. Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc.</p>
         </div>
-        <div class="points">
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Aliquet porttitor lacus luctus accumsan tortor posuere. </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Tellus id interdum velit laoreet id donec ultrices tincidunt.
-            </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Donec pretium vulputate sapien nec.</li>
-        </div>
-        <div class="about-mortagage"> 
-            <div class="animate__animated animate__fadeInLeft animate__delay-1s">
-                <h2>loanDepot</h2>
-            </div>
-            <p class="animate__animated animate__fadeInRight animate__delay-1s">Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Blandit aliquam etiam erat velit scelerisque in dictum. Iaculis nunc sed augue lacus. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Convallis posuere morbi leo urna molestie at. Tristique senectus et netus et malesuada. Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in hac. Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Donec pretium
-                vulputate sapien nec. Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc.</p>
-        </div>
-        <div class="points">
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Aliquet porttitor lacus luctus accumsan tortor posuere. </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Tellus id interdum velit laoreet id donec ultrices tincidunt.
-            </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Donec pretium vulputate sapien nec.</li>
-        </div>
-        <div class="about-mortagage"> 
-            <div class="animate__animated animate__fadeInLeft animate__delay-1s">
-                <h2>New American Funding</h2>
-            </div>
-            <p class="animate__animated animate__fadeInRight animate__delay-1s">Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Blandit aliquam etiam erat velit scelerisque in dictum. Iaculis nunc sed augue lacus. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Convallis posuere morbi leo urna molestie at. Tristique senectus et netus et malesuada. Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in hac. Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Donec pretium
-                vulputate sapien nec. Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc.</p>
-        </div>
-        <div class="points">
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Aliquet porttitor lacus luctus accumsan tortor posuere. </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Tellus id interdum velit laoreet id donec ultrices tincidunt.
-            </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. </li>
-            <li class="animate__animated animate__fadeInRight animate__delay-1s">Donec pretium vulputate sapien nec.</li>
-        </div>
-        <div class="animate__animated animate__fadeInDown animate__delay-1s">
+    </div>
+</section>
+<section class="faqs-sec">
+    <div class="container">
+<div class="animate__animated animate__fadeInDown animate__delay-1s">
             <div class="mortagage-faqs">
                 <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">Some FAQs Regarding Mortgage</h1>
                 <div id="accordion">
@@ -404,6 +649,5 @@
                 </div>
     </div>
 </section>
-
 <!--  end Here -->
 <?php include 'inc/footer.php'; ?>

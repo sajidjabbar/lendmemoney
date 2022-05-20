@@ -187,7 +187,7 @@ div#accordion .card{
 }
 .nav-bar-slick .nav-item .nav-link {
     border-radius: 21px !important ;
-    padding: 9px 33px;
+    padding: 9px 24px;
     border: 1px solid #88B379 !important;
     font-size: 12px;
     font-family: "poppins";
@@ -215,7 +215,8 @@ div#accordion .card{
 }
 button.slick-next.slick-arrow {
     padding-bottom: 30px;
-    background-color: white !important ;   
+    background-color: white !important ;  
+    display: block !important ; 
 }
 button.slick-next.slick-arrow:before {
     font-family: 'slick';

@@ -19,7 +19,7 @@
 
             <div class="animate__animated animate__fadeInRight animate__delay-1s ">
                 <div class="base-heading">
-                    <h3>Here is the list of companies providing Personal Loan</h3>
+                    <h3>Here are some Best Installment Loans for Bad Credit</h3>
                 </div>
                 <div class="better-info">
                     <div class="row better">
@@ -31,11 +31,10 @@
                         <div class="col-md-3">
                             <div class="est-abouts">
                                 <div class="est-heading">
-                                    <h5>Loan amount</h5>
+                                    <h5>Est. APR</h5>
                                 </div>
                                 <div class="est">
-                                    <p>$5,000 - <br>
-                                        $100,000 </p>
+                                    <p>5.94-35.47% </p>
 
                                 </div>
                             </div>
@@ -43,10 +42,10 @@
                         <div class="col-md-3">
                             <div class="est-about">
                                 <div class="est-heading">
-                                    <h5>Credit Score Range</h5>
+                                    <h5>Loan amount</h5>
                                 </div>
                                 <div class="est">
-                                    <p>500</p>
+                                    <p>$1,000-$50,000</p>
                                 </div>
                             </div>
                         </div>
@@ -54,16 +53,14 @@
                         <div class="col-md-4">
                             <div class="est-about">
                                 <div class="est-heading">
-                                    <h5>Fixed APR:</h5>
+                                    <h5>Min. credit score</h5>
                                 </div>
                                 <div class="about-est">
                                     <div class="est">
-                                        <p>4.49-20.49%</p>
+                                        <p>560</p>
 
                                     </div>
-                                    <div class="home-btn">
-                                        <a href="#">Continue</a>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -101,11 +98,10 @@
                         <div class="col-md-3">
                             <div class="est-abouts">
                                 <div class="est-heading">
-                                    <h5>Loan amount</h5>
+                                    <h5>Est. APR</h5>
                                 </div>
                                 <div class="est">
-                                    <p>$5,000 - <br>
-                                        $100,000 </p>
+                                    <p>5.94-35.47% </p>
 
                                 </div>
                             </div>
@@ -113,10 +109,10 @@
                         <div class="col-md-3">
                             <div class="est-about">
                                 <div class="est-heading">
-                                    <h5>Credit Score Range</h5>
+                                    <h5>Loan amount</h5>
                                 </div>
                                 <div class="est">
-                                    <p>500</p>
+                                    <p>$1,000-$50,000</p>
                                 </div>
                             </div>
                         </div>
@@ -124,16 +120,14 @@
                         <div class="col-md-4">
                             <div class="est-about">
                                 <div class="est-heading">
-                                    <h5>Fixed APR:</h5>
+                                    <h5>Min. credit score</h5>
                                 </div>
                                 <div class="about-est">
                                     <div class="est">
-                                        <p>4.49-20.49%</p>
+                                        <p>560</p>
 
                                     </div>
-                                    <div class="home-btn">
-                                        <a href="#">Continue</a>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -171,11 +165,10 @@
                         <div class="col-md-3">
                             <div class="est-abouts">
                                 <div class="est-heading">
-                                    <h5>Loan amount</h5>
+                                    <h5>Est. APR</h5>
                                 </div>
                                 <div class="est">
-                                    <p>$5,000 - <br>
-                                        $100,000 </p>
+                                    <p>5.94-35.47% </p>
 
                                 </div>
                             </div>
@@ -183,10 +176,10 @@
                         <div class="col-md-3">
                             <div class="est-about">
                                 <div class="est-heading">
-                                    <h5>Credit Score Range</h5>
+                                    <h5>Loan amount</h5>
                                 </div>
                                 <div class="est">
-                                    <p>500</p>
+                                    <p>$1,000-$50,000</p>
                                 </div>
                             </div>
                         </div>
@@ -194,16 +187,14 @@
                         <div class="col-md-4">
                             <div class="est-about">
                                 <div class="est-heading">
-                                    <h5>Fixed APR:</h5>
+                                    <h5>Min. credit score</h5>
                                 </div>
                                 <div class="about-est">
                                     <div class="est">
-                                        <p>4.49-20.49%</p>
+                                        <p>560</p>
 
                                     </div>
-                                    <div class="home-btn">
-                                        <a href="#">Continue</a>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -241,11 +232,10 @@
                         <div class="col-md-3">
                             <div class="est-abouts">
                                 <div class="est-heading">
-                                    <h5>Loan amount</h5>
+                                    <h5>Est. APR</h5>
                                 </div>
                                 <div class="est">
-                                    <p>$5,000 - <br>
-                                        $100,000 </p>
+                                    <p>5.94-35.47% </p>
 
                                 </div>
                             </div>
@@ -253,10 +243,10 @@
                         <div class="col-md-3">
                             <div class="est-about">
                                 <div class="est-heading">
-                                    <h5>Credit Score Range</h5>
+                                    <h5>Loan amount</h5>
                                 </div>
                                 <div class="est">
-                                    <p>500</p>
+                                    <p>$1,000-$50,000</p>
                                 </div>
                             </div>
                         </div>
@@ -264,16 +254,14 @@
                         <div class="col-md-4">
                             <div class="est-about">
                                 <div class="est-heading">
-                                    <h5>Fixed APR:</h5>
+                                    <h5>Min. credit score</h5>
                                 </div>
                                 <div class="about-est">
                                     <div class="est">
-                                        <p>4.49-20.49%</p>
+                                        <p>560</p>
 
                                     </div>
-                                    <div class="home-btn">
-                                        <a href="#">Continue</a>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -301,9 +289,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="home-btn2">
-                        <a href="#">Load More</a>
                     </div>
                 </div>
                 </div>
