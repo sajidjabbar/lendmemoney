@@ -2,11 +2,13 @@
 .Refinance-heading{
     text-align: center;
     padding-top: 40px;
+    margin-bottom: 70px;
 }
 .Refinance-heading h1{
     color: #88B379;
     font-family: "poppins";
     font-weight: 600;
+    margin-bottom: 30px;
 }
 .Refinance-heading h3{
     color: #303030;
@@ -80,7 +82,7 @@ label {
     margin-left: 20px;
     font-size: 16px;
 }
-.form-group{
+/* .form-group{
     text-align: left;
 }
 .form-control {
@@ -91,7 +93,7 @@ label {
     border-radius: 20px !important;
     border: 2px solid #000000 !important;
     color: #9E9E9E !important;
-}
+} */
 
 .refinance-mortgage-lenders-sec option{
     background-color: #EBF1EA;
@@ -133,6 +135,7 @@ label {
     font-family: "poppins";
     font-weight: 500;
     font-size: 29px;
+    margin-bottom: 30px;
 }
 .about-refinancepage p{
     color: #303030;
@@ -145,12 +148,14 @@ label {
     font-family: "poppins";
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 30px;
 }
 .pointsrefinancepage h2{
     color: #303030;
     font-family: "poppins";
     font-weight: 500;
     font-size: 29px;
+    margin-bottom: 50px;
 }
 .pointsrefinancepage{
     margin-top: 50px;
@@ -162,6 +167,7 @@ label {
     display: flex;
     font-family: "poppins";
     font-weight: 400;
+    line-height: 29px;
 }
 .pointsrefinancepage li::before {
     content: "";

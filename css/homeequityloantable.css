@@ -37,6 +37,27 @@ section.homeequityloan-sec {
     font-family: "poppins";
     font-weight: 500;
 }
+.personal-info  .form-group select#exampleFormControlSelect1{
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    -webkit-appearance: none;
+    background-position-x: 230px;
+}
+.personal-info  .form-group select#exampleFormControlSelect1{
+    color: #9E9E9E;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.personal-info .form-control::placeholder{
+    color: #9E9E9E;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+}
 .home-btn a {
     color: #fff;
     background-color: #88B379;
@@ -92,7 +113,7 @@ section.homeequityloan-sec {
     text-align: center;
 }
 .base-heading {
-    text-align: center;
+    text-align: start;
     padding: 29px 0;
     border-bottom: 1px solid;
     margin-bottom: 13px;
@@ -141,7 +162,7 @@ section.homeequityloan-sec {
     color: #fff;
     background-color: #88B379;
     border-radius: 21px;
-    padding: 9px 56px;
+    padding: 9px 106px;
     border: transparent;
     font-size: 15px;
     font-family: "poppins";

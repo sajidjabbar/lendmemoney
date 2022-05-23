@@ -16,23 +16,6 @@
     src: url(../fonts/Poppins-Regular.ttf);
     font-family: "Poppins-Regular";
 }
-@font-face {
-    src: url(../fonts/Poppins-Regular.ttf);
-    font-family: "Poppins-Regular";
-}
-@font-face {
-    src: url(../fonts/Aileron-Bold.otf);
-    font-family: "Aileron-Bold";
-}
-@font-face {
-    src: url(../fonts/Aileron-SemiBold.otf);
-    font-family: "Aileron-SemiBold";
-}
-@font-face {
-    src: url(../fonts/Aileron-Regular.otf);
-    font-family: "Aileron-Regular";
-}
-
 /*preloader*/
 #preloader:before {
     content: "";
@@ -74,7 +57,13 @@
     }
     }
   
-
+  select#exampleFormControlSelect1{
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    -webkit-appearance: none;
+    background-position-x: 371px;
+}
 
 /* forms */
  select#exampleFormControlSelect1{
@@ -171,8 +160,8 @@ li.nav-link a {
     text-align: center;
     height: 34px;
     line-height: 35px;
+    margin: 0px 20px 20px auto;
     color: #fff;
-    padding: 4px 0px;
 }
 
 #header .mobile-header ul.mobile-nav li.nav-item {
@@ -252,23 +241,24 @@ li.nav-link a {
 }
 
 /* Mobile Header */
-.all-nav {
-    margin-top: 20px;
-}
+
 .for-logo {
-    margin-left: 13px;
+    position: relative;
+    top: 15px;
 }
+
 .all-normal-navs {
     display: flex;
     height: 70px;
     align-items: center;
     margin-top: 0;
     margin-bottom: 0px;
+    padding-left: 0;
 }
 .navbar-items {
     display: flex;
     margin-top: auto;
-    margin-left: 35px ! important;
+    margin-left: 45px;
 }
 
 .normal-nav-items {
@@ -303,28 +293,36 @@ li.normal-nav-items a i {
 }
 
 .navbar-items a {
-    text-decoration: none;
     color: #303030;
-    font-family: "poppins";
-    font-size: 15px;
-    font-weight: 400;
+    text-decoration: none;
 }
 
 .bar-icon i {
     cursor: pointer;
 }
-
-.dropdown-menu {
-    background: #EBF1EA;
+.btn {
+    color: #fff !important;
+    background-color: #88B379 !important;
+    border-radius: 21px;
+    padding: 8px 56px;
+    border: 1px solid #88B379;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
 }
-
-.dropdown:hover .dropdown-menu {
-    display: block !important;
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .all-nav .all-normal-navs .dropdown-menu {
     top: unset !important;
 }
+
+
 
 .dropdown-menu111 {
     position: absolute;
@@ -337,25 +335,25 @@ li.normal-nav-items a i {
 a.dropdown-item {
     color: #000000 !important;
     font-weight: 400;
-    font-family: "Poppins";
-    padding: 5px 24px 5px 17px;
     font-size: 14px;
+    font-family: "Poppins-Regular";
+    padding: 5px 24px 5px 17px;
 }
 
 .dropdown-item.dropdown a:hover .dropdown-menu111{
     display: block !important;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1490px) {
     .all-normal-navs {
-        padding: 0px 5.7% 0px -5.2%;
-        }
+        padding: 0px 5.7% 0px 4.8%;
+    }
+
 }
 
-@media screen and (max-width: 1024px) {
-    .navbar-items {
-        
-        margin-left: -45px ! important;
+@media screen and (max-width: 1380px) {
+    .all-normal-navs {
+        padding: 0px 3%;
     }
 }
 
@@ -394,12 +392,6 @@ a.dropdown-item {
         top: 0px;
     }
 }
-@media screen and (max-width: 800px) {
-    .for-logo {
-        margin-left: 29px;
-    }
-    
-}
 
 /* Universal Css Start Here */
 .greenheading {
@@ -425,7 +417,6 @@ a.dropdown-item {
 
 .dropdown-menu {
     background-color: #EBF1EA;
-    border: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -610,7 +601,7 @@ a {
     header .mobile-header {
         width: 60%;
     }
-} */
+}
 
 /* header reponsive end here */
 /* footer start here */
@@ -640,9 +631,7 @@ footer h5 {
     color: #88B379;
     font-size: 20px;
 }
-.social-footer h5 {
-    letter-spacing: 8px;
-}
+
 footer {
     background-color: #303030;
 }
@@ -654,54 +643,38 @@ footer p {
     margin-top: 20px;
 }
 
-input#exampleInputEmail1 {
-    width: 96% !important;
+footer .form-control {
+    display: inline !important;
+    width: 80% !important;
     border: transparent !important;
     padding-left: 20px !important;
-    border-radius: 25px !important;
-    background-color: #EBF1EA !important;
-    /* padding: 6px 90px; */
-    position: relative;
-    height: 50px;
+    border-radius:25px !important;
+    background-color: #ffffff !important;
 }
 
-.news .footer footer .form-control::placeholder {
+footer .form-control::placeholder {
     color: #5B5B5B;
     opacity: 0.8;
     font-size: 14px;
 }
 
-.form-group button  {
+footer button {
     width: 139px;
     background-color: #88B379;
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 16px;
     height: 48px;
-    /* margin-left: -151px; */
+    margin-left: -35px;
     border-radius: 23px;
     font-weight: 600;
     border: transparent;
     font-family: "Poppins";
-    position: absolute;
-    margin-top: 1px;
-    top: 28px;
-    right: 36px;
 }
-input#exampleInputEmail1::placeholder{
-    color: #A9AEA9;
-    font-family: "poppins";
-    font-weight: 400;
-    font-size: 15px;
-    padding-left: 10px;
-}
-footer button span {
-    margin-left: 10px;
-}
+
 footer .form-group {
     display: flex;
     margin-top: 28px;
-    margin-left: -41px;
 }
 
 .footer {
@@ -726,18 +699,15 @@ footer .form-group {
 }
 
 .social-footer {
-    padding: 0px 0px 25px 0px
+    padding: 10px 0;
 }
 
 .footer-text {
     margin-top: 38px;
-    margin-left: -30px;
 }
-
 .footer-border {
     margin-left: 49px;
 }
-
 /* footer end here */
 /* footer reponsive start here */
 @media screen and (max-width: 768px) {
@@ -757,25 +727,20 @@ footer .form-group {
         text-align: center;
         margin-left: 0;
     }
-
     .footer h5 {
         color: #FFFFFF;
         margin-top: 0;
     }
-
     .footer-border {
         margin-left: 0;
     }
-
-    .footer-logo {
+    .footer-logo{
         text-align: center;
     }
-
-    .resources {
+    .resources{
         text-align: center;
     }
-
-    .contact-us {
+    .contact-us{
         text-align: center;
     }
 }
@@ -783,7 +748,7 @@ footer .form-group {
 /* footer reponsive end here */
 /* webheader-sec start here */
 .webheader-sec {
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     padding-top: 71px;
 }
 
@@ -796,21 +761,21 @@ footer .form-group {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 35px;
+    font-size: 42px;
 }
 
 .web-header h1 {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .web-header h3 {
     color: #88B379;
     font-family: "poppins";
     font-weight: 600;
-    font-size: 35px;
+    font-size: 45;
 }
 
 .web-header button {
@@ -839,12 +804,12 @@ footer .form-group {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
 
 }
 
 .web-header-img {
-    width: 55%;
+    width: 60%;
     background-color: #E1F9D9;
     margin-left: auto;
     display: flex;
@@ -885,22 +850,13 @@ footer .form-group {
 .top-card {
     justify-content: space-between;
 }
-
-.about-web-header {
-    margin-left: 87px;
-    margin-top: 10px;
-}
-
-.header-card {
-    padding: 0 20px;
+.about-web-header{
+    margin-left: 20px;
 }
 .header-card{
-    width: 556px !important;
+    padding: 0 20px;
 }
-.slick-list.draggable{
-    height: 455.547px !important;
 
-}
 .slick-prev,
 .slick-next {
     display: none !important;
@@ -908,29 +864,37 @@ footer .form-group {
 
 .slick-dots {
     bottom: 15px !important;
-    right: -33px;
-}
-
-.slick-dots li.slick-active button:before {
+    right: 0px;
+  }
+  .slick-dots li.slick-active button:before{
     color: #88B379;
-}
+  }
 
-
-.slick-dots li button:before {
+  
+  .slick-dots li button:before{
     opacity: 1 !important;
     color: #c5c5c5;
-}
-
-.slick-dots li.slick-active button:before {
+  }
+  
+  .slick-dots li.slick-active button:before{
     border: 0px !important;
     font-size: 18px !important;
 }
 
+@media screen and (max-width: 768px) {
+    .web-header h1 {
+        font-size: 27px;
+    }
+
+    .web-header h3 {
+        font-size: 20px;
+    }
+}
 
 /* webheader-sec end here */
 /* vission-sec start here */
 .vission-sec {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .vission-imgbox {
@@ -1018,10 +982,7 @@ footer .form-group {
     padding-top: 25px;
     padding-bottom: 61px;
 }
-.money-heading {
-    margin-left: 40px;
-    margin-top: 20px;
-}
+
 .money-heading h2 {
     color: #FFFFFF;
     font-family: "poppins";
@@ -1032,14 +993,15 @@ footer .form-group {
     color: #FFFFFF;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
+    padding-right: 20px;
 }
 
 .money-heading button {
     background-color: #fff;
     color: #88B379;
     border-radius: 30px;
-    padding: 9px 27px;
+    padding: 9px 20px;
     border: transparent;
     font-size: 15px;
     font-family: "poppins";
@@ -1121,14 +1083,14 @@ margin: 0px 10px;
 /* info-sec end here */
 /* articles-sec start here */
 .articles-sec {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .articlecards-img {
     display: flex;
     flex-direction: column;
     border-left: 1px solid #70707042;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .article-card {
@@ -1181,7 +1143,7 @@ margin: 0px 10px;
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 16px;
+    font-size: 10;
     margin-bottom: 10px;
 }
 
@@ -1207,10 +1169,9 @@ margin: 0px 10px;
 }
 
 .articles-btn {
+    padding: 50px 0;
     margin-left: 50px;
     text-align: right;
-    margin-top: 40px;
-    padding: 30px 0px;
 }
 
 .articles-btn a {
@@ -1235,7 +1196,7 @@ margin: 0px 10px;
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 24px;
+    font-size: 19px;
     margin-bottom: 0;
 }
 
@@ -1257,7 +1218,6 @@ margin: 0px 10px;
     .article-heading h3 {
         font-size: 22px;
     }
-
     .article-container {
         border-right: transparent;
         padding-right: 15px;
@@ -1267,12 +1227,12 @@ margin: 0px 10px;
 /* articles-sec end here */
 /* frequently-sec start here */
 .frequently-sec {
-    padding: 0px 0px 65px 0px;
+    padding-bottom: 60px;
 }
 
 .frequently-heading {
-    padding-top: 1px;
-    padding-bottom: 70px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .frequently-heading h3 {
@@ -1285,15 +1245,16 @@ margin: 0px 10px;
 }
 
 .frequently-heading h5 {
-    font-size: 15px;
+    font-size: 14px;
     font-family: "poppins";
     font-weight: 400;
     color: #303030;
 }
 
 .side-btn {
-    padding-top: 5px;
-    padding-bottom: 95px;
+    /* width: 139px; */
+    padding-top: 35px;
+    padding-bottom: 45px;
     text-align: right;
 }
 
@@ -1376,14 +1337,6 @@ div#accordion .card-header {
     border: none;
     padding: 21px 0px;
 }
-.accordions {
-  overflow: scroll;
-  height: 349px;
-}
-
-.accordions::-webkit-scrollbar{
-    display: none;
-}
 
 div#accordion .card {
     /* border-top: 1px solid #777575 !important; */
@@ -1397,7 +1350,7 @@ div#accordion .card {
 div#accordion a.card-link {
     color: #000;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -1417,10 +1370,6 @@ div#accordion a.card-link {
     color: #afafaf;
 }
 
- i.fa.fa-plus{
-    font-size: 18px;
-    font-weight: 700;
-}
 .faq .card .card-body {
     color: #000000;
     padding-right: 11%;
@@ -1429,249 +1378,11 @@ div#accordion a.card-link {
 
 a.card-link[aria-expanded="true"] .fa-plus::before {
     content: "\f068";
-    font-size:18px;
-    font-weight: 700;
 }
 
 div#accordion a.card-link:active,
 div#accordion a.card-link:focus {
     text-decoration: none;
 }
-@media screen and (max-width:1100px){
-    .web-header h2 {
-        font-size: 25px;
-    }
-    .web-header h1 {
-        font-size: 35px;
-    }
-    .web-header h3 {
-        font-size: 25px;
-    }
-    .web-header p {
-        font-size: 12px;
-    }
-    .header-card {
-        width: 443px !important;
-    }
-    .about-card h5 {
-        font-size: 14px;      
-    }
-    .about-card h6 {
-        font-size: 14px;
-    }
-    .web-header-img {
-        width: 65%;
-        height: 90px;
-       
-    }
-    
-    .vission-heading h3 {
-        
-        font-size: 22px !important;
-    }
-    .vission-text p {
-        font-size: 11px;
-    }
-    .info-heading h3 {
-        font-size: 24px;
-    }
-    .about-info p {
-        font-size: 11px !important ;
-    }
-    .article p {
-           font-size: 14px;       
-    }
-    .article p {
-      font-size: 20px;       
-    }
-    .card-header span {
-        font-size: 16px;
-    }
-    .frequently-heading {
-        padding-top: 1px;
-        padding-bottom: 4px;
-    }
-    .article-card .img-card3 .card-imgbox .img-fluid {
-        height: 164px !important;
-        width: 180px;
-    }
-    .article-card1 .img-card1 .card-imgbox .img-fluid {
-        height: 164px !important;
-        width: 180px;
-    }
-    .articles-sec p {
-        font-size: 15px;       
-    }
-    .footer h4 {
-        color: #FFFFFF;
-        margin-top: 38px;
-        font-size: 19px;
-        margin-left: -13px;
-    }
-    footer p {
-            font-size: 14px;  
-    }
-}
-@media screen and (max-width: 1024px) {
-    .web-header h2 {
-        font-size: 25px;
-    }
-    .web-header h1 {
-        font-size: 35px;
-    }
-    .web-header h3 {
-        font-size: 25px;
-    }
-    .web-header p {
-        font-size: 12px;
-    }
-    .header-card {
-        width: 443px !important;
-    }
-    .about-card h5 {
-        font-size: 14px;      
-    }
-    .about-card h6 {
-        font-size: 14px;
-    }
-    .web-header-img {
-        width: 65%;
-        height: 90px;
-       
-    }
-    
-    .vission-heading h3 {
-        
-        font-size: 22px !important;
-    }
-    .vission-text p {
-        font-size: 11px;
-    }
-    .info-heading h3 {
-        font-size: 24px;
-    }
-    .about-info p {
-        font-size: 11px !important ;
-    }
-    .article p {
-           font-size: 14px;       
-    }
-    .article p {
-      font-size: 20px;       
-    }
-    .card-header span {
-        font-size: 16px;
-    }
-    .frequently-heading {
-        padding-top: 1px;
-        padding-bottom: 4px;
-    }
-    .article-card .img-card3 .card-imgbox .img-fluid {
-        height: 164px !important;
-        width: 180px;
-    }
-    .article-card1 .img-card1 .card-imgbox .img-fluid {
-        height: 164px !important;
-        width: 180px;
-    }
-    .articles-sec p {
-        font-size: 15px;       
-    }
-    .footer h4 {
-        color: #FFFFFF;
-        margin-top: 38px;
-        font-size: 19px;
-        margin-left: -13px;
-    }
-    footer p {
-            font-size: 14px;  
-    }
-}
-@media screen and (max-width:800px){
-    .img-fluid {
-        max-width: 100% !important;
-        height: auto;
-    }
-    .money-imgbox {
-        top: -84px;   
-    }
-    .money-heading h2 {
-        font-size: 20px;
-    }
-    .money-heading p {
-       
-        font-size: 12px;
-    }
-    .slick-list.draggable {
-        height: 455.547px !important;
-        width: 440px;
-    }
-    .slick-dots {
-        bottom: 45px !important;
-        right: 77px;
-    }
-    .vission-heading h3 {
-        font-size: 17px !important;
-    }
-    .articles-sec p {
-        font-size: 10px;
-    }
-    .article-card1 .img-card1 .card-imgbox .img-fluid {
-        height: 114px !important;
-        width: 298px;
-    }
-    .article-card .img-card3 .card-imgbox .img-fluid {
-        height: 114px !important;
-        width: 180px;
-    }
-    .article-heading h3 {
-        font-size: 18px;
-    }
-    .frequently-heading h3 {
-        
-        font-size: 19px;
-    }
-    .frequently-heading h5 {
-        font-size: 12px;
-    }
-    .card-header span {
-        font-size: 11px;
-    }
-    .accordions {
-        overflow: scroll;
-        height: 260px;
-    }
-    footer p {
-        font-size: 10px;
-    }
-    .about-footer ul li a {
-        font-size: 13px;
-    }
-    footer h5 {
-        color: #88B379;
-        font-size: 16px;
-    }
-    .social-footer h5 {
-        letter-spacing: -2px;
-    }
-    .contact-us ul li a {
-        font-size: 13px;
-    }
-    .footer-text {
-        
-        width: 210px;
-    }
-    .footer h4 {
-        font-size: 12px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .web-header h1 {
-        font-size: 27px;
-    }
 
-    .web-header h3 {
-        font-size: 20px;
-    }
-}
 /* frequently-sec end here */

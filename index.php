@@ -4,7 +4,7 @@
 <section class="webheader-sec">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-5">
                 <div class="web-header">
                     <h2 class=" wow animate__animated animate__fadeInDown">Let us help you to</h2>
                     <h1 class=" title wow animate__animated animate__fadeInDown">Lower your monthly</h1>
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-7">
                 <div class="about-web-header ">
                     <div class="header-card">
                         <div class="row top-card">
@@ -247,14 +247,15 @@
 <section class="vission-sec">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-auto ">
                 <div class=" wow animate__animated animate__fadeInLeft">
                     <div class="vission-imgbox">
                         <img src="img/vission-img.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 vission">
+            <div class="col-lg-1 col-auto px-4 "></div>
+            <div class="col-md-5 col-auto pl-4">
                 <div class="animate__animated animate__fadeInRight">
                     <div class="vission-heading">
                         <h5>Our Vission</h5>
@@ -397,7 +398,7 @@
                 </div>
                 <div class="articlecards-img">
                     <div class="article-card1">
-                        <div class="col-md-6 ">
+                        <div class="col-md-6 pr-0 pl-0">
                             <div class="animate__animated animate__fadeInLeftBig">
                                 <div class="img-card1">
                                     <div class="card-imgbox">
@@ -411,7 +412,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6  pr-0">
                             <div class="animate__animated animate__fadeInLeftBig">
                                 <div class="img-card2">
                                     <div class="card-imgbox">
@@ -427,7 +428,7 @@
                         </div>
                     </div>
                     <div class="article-card">
-                        <div class="col-md-6">
+                        <div class="col-md-6 pr-0 pl-0">
                             <div class="animate__animated animate__fadeInRightBig">
                                 <div class="img-card3">
                                     <div class="card-imgbox">
@@ -441,7 +442,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 pr-0">
                             <div class="animate__animated animate__fadeInRightBig">
                                 <div class="img-card4">
                                     <div class="card-imgbox">
@@ -463,7 +464,6 @@
 </section>
 <section class="frequently-sec">
     <div class="container">
-
         <div class="row">
             <div class="col-md-6">
                 <div class="animate__animated animate__fadeInDown animate__delay-1s">
@@ -582,6 +582,70 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="animate__animated animate__fadeInDown animate__delay-1s ">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
+                                        <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i
+                                            class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                                <div id="collapseFours" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+
+                                        <p>
+                                            Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                            anim id est laborum.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animate__animated animate__fadeInDown animate__delay-1s ">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
+                                        <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i
+                                            class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                                <div id="collapseFours" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+
+                                        <p>
+                                            Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                            anim id est laborum.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animate__animated animate__fadeInDown animate__delay-1s ">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
+                                        <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i
+                                            class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                                <div id="collapseFours" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+
+                                        <p>
+                                            Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                            anim id est laborum.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
 
                     </div>
                 </div>
@@ -589,7 +653,7 @@
             <div class="col-md-6">
                 <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                     <div class="side-btn">
-                        <a href="#"> support <i class='fas fa-long-arrow-alt-right'></i></a>
+                        <a href="#">Contact Us<i class='fas fa-long-arrow-alt-right'></i></a>
                     </div>
                 </div>
                 <div class="animate__animated animate__fadeInRight animate__delay-1s">

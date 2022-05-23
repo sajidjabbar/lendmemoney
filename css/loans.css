@@ -29,6 +29,7 @@
     font-weight: 500;
     font-size: 25px;
     display: block;
+    line-height: 40px;
 }
 .heading a:hover{
     color: #88B379;
