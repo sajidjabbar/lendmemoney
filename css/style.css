@@ -12,6 +12,10 @@
     src: url(../fonts/Poppins-Bold.ttf);
     font-family: 'Poppins-Bold';
 }
+@font-face {
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-family: "Poppins-Regular";
+}
 /*preloader*/
 #preloader:before {
     content: "";
@@ -44,6 +48,14 @@
       transform: rotate(360deg);
     }
   }
+  /* calculator */
+  @keyframes controll{
+    0% {
+        transform: translatex(-6%);
+      }100%{
+        transform: translatex(0%);
+    }
+    }
   
   select#exampleFormControlSelect1{
     background-image: url(../img/arrow.png);
@@ -51,21 +63,6 @@
     background-position:right;
     -webkit-appearance: none;
     background-position-x: 371px;
-}
-
-@font-face {
-    src: url(../fonts/Poppins-SemiBold.ttf);
-    font-family: "Poppins-SemiBold";
-}
-
-@font-face {
-    src: url(../fonts/Poppins-Bold.ttf);
-    font-family: "Poppins-Bold";
-}
-
-@font-face {
-    src: url(../fonts/Poppins-Regular.ttf);
-    font-family: "Poppins-Regular";
 }
 
 /* forms */
@@ -272,6 +269,12 @@ li.nav-link a {
     list-style-type: none;
     margin-right: 11px;
 }
+.active{
+    border-bottom: 3px solid #88B379;
+  }
+/* li.normal-nav-items {
+    border-bottom: 3px solid #88B379;
+} */
 
 .yellowish-color{
     color: #88B379 !important;
@@ -315,7 +318,7 @@ li.normal-nav-items a i {
 .dropdown-menu111 {
     position: absolute;
     right: -80% !important;
-    background: #88B379;
+    background: #E1F9D9;
     top: 0px;
     display: none;
 }
@@ -391,7 +394,7 @@ a.dropdown-item {
 /* Universal Css End Here */
 
 /* header start here */
-/* .side {
+ .side {
     position: absolute;
     top: 0 !important;
     left: 255px !important;
@@ -505,7 +508,7 @@ a {
 
 /* header end here */
 /* header reponsive start here */
-/* / responsive starts here 
+ /* responsive starts here  */
 @media (max-width: 768px) {
     .canvas-icon {
         display: block;
@@ -544,11 +547,11 @@ a {
     }
 }
 
-/* #header .canvas-icon {
+ #header .canvas-icon {
     display: none;
-  } */
-/* header ends here  */
-/* / responsive starts here 
+  } 
+ /* header ends here   */
+  /* responsive starts here  */
 @media (max-width: 1100px) {
     .logo-img {
         margin-right: 0 ;
@@ -599,13 +602,22 @@ a {
     justify-content: space-between;
     margin-left: 30px;
 }
-
-.about-footer a {
+.about-footer ul {
+    margin: 0px -37px;
+}
+.about-footer ul li a {
     display: block;
     color: #f8f8f8c2;
     margin-top: 15px;
 }
-
+.contact-us ul{
+    margin: 0px -37px;
+}
+.contact-us ul li a{
+    display: block;
+    color: #f8f8f8c2;
+    margin-top: 15px;
+}
 footer h5 {
     color: #88B379;
     font-size: 20px;
@@ -617,7 +629,7 @@ footer {
 
 footer p {
     color: #F8F8F8;
-    font-size: 16px;
+    font-size: 15px;
     opacity: 0.8;
     margin-top: 20px;
 }
@@ -666,6 +678,7 @@ footer .form-group {
     color: #FFFFFF;
     margin-top: 38px;
     font-size: 20px;
+    margin-left: -15px;
 }
 
 .footer-container {
@@ -746,31 +759,39 @@ footer .form-group {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 32px;
+    font-size: 42px;
 }
 
 .web-header h1 {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .web-header h3 {
     color: #88B379;
     font-family: "poppins";
     font-weight: 600;
+    font-size: 45;
 }
 
 .web-header button {
     color: #fff;
     background-color: #88B379;
-    border-radius: 17px;
+    border-radius: 52px;
     padding: 9px 20px;
     border: transparent;
     font-size: 15px;
     font-family: "poppins";
     font-weight: 500;
+}
+.web-header button:hover {
+    background-color:#E1F9D9;
+    color: #88B379;
+}
+.web-header button i.fas.fa-long-arrow-alt-right {
+    margin: 7px 10px;
 }
 
 .web-header .fa {
@@ -786,14 +807,16 @@ footer .form-group {
 }
 
 .web-header-img {
-    width: 100%;
+    width: 60%;
     background-color: #E1F9D9;
+    margin-left: auto;
     display: flex;
     justify-content: center;
-    /* height: 48px; */
+    height: 100px;    
     border: 3px solid #88B379;
-    padding: 20px 5px;
+    padding: 27px 21px;
     border-radius: 101px;
+    margin-right: auto;
 }
 
 .about-card {
@@ -809,14 +832,14 @@ footer .form-group {
 }
 
 .about-card h5 {
-    font-size: 13px;
+    font-size: 22px;
     font-family: "poppins";
     font-weight: 600;
     color: #303030;
 }
 
 .about-card h6 {
-    font-size: 14px;
+    font-size: 20px;
     font-family: "poppins";
     font-weight: 600;
     color: #303030;
@@ -892,8 +915,26 @@ footer .form-group {
     color: #88B379;
     font-family: "poppins";
     font-weight: 400;
+    font-size: 22px;
+}
+.about-info button i.fas.fa-long-arrow-alt-right{
+    margin: 7px 10px;
+}
+.vission-sec button i.fas.fa-long-arrow-alt-right{
+    margin: 7px 10px;
+}
+.money-heading button i.fas.fa-long-arrow-alt-right{
+    margin: 7px 10px;
+}
+.money-heading button:hover {
+    background-color:#E1F9D9;
+    color: #88B379;
 }
 
+.about-info button:hover {
+    background-color:#E1F9D9;
+    color: #88B379;
+}
 .vission-heading h3 {
     color: #303030;
     font-family: "poppins";
@@ -924,6 +965,10 @@ footer .form-group {
     font-weight: 500;
     margin: 20px 0;
 }
+.vission-sec button:hover {
+    background-color:#E1F9D9;
+    color: #88B379;
+}
 
 /* vission-sec end here */
 
@@ -950,12 +995,13 @@ footer .form-group {
     font-family: "poppins";
     font-weight: 400;
     font-size: 16px;
+    padding-right: 20px;
 }
 
 .money-heading button {
     background-color: #fff;
     color: #88B379;
-    border-radius: 17px;
+    border-radius: 30px;
     padding: 9px 20px;
     border: transparent;
     font-size: 15px;
@@ -967,6 +1013,7 @@ footer .form-group {
     width: 100%;
     position: absolute;
     top: -114px;
+    animation: controll 2s infinite alternate ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
@@ -992,7 +1039,7 @@ footer .form-group {
 }
 
 .info-heading {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .info-heading h5 {
@@ -1030,6 +1077,9 @@ footer .form-group {
     font-weight: 500;
     margin-top: 53px;
 }
+.articles-btn a i.fa.fa-arrow-right{
+margin: 0px 10px;
+}
 
 /* info-sec end here */
 /* articles-sec start here */
@@ -1040,11 +1090,14 @@ footer .form-group {
 .articlecards-img {
     display: flex;
     flex-direction: column;
+    border-left: 1px solid #70707042;
+    padding-left: 10px;
 }
 
 .article-card {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 
 .article-card1 {
@@ -1064,7 +1117,8 @@ footer .form-group {
     font-weight: 400;
     color: #303030;
     opacity: 0.4;
-
+    line-height: 30px;
+    margin: 90px 0px;
 }
 
 .article-text {
@@ -1090,9 +1144,10 @@ footer .form-group {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 15px;
-    margin-bottom: 0;
+    font-size: 10;
+    margin-bottom: 10px;
 }
+
 
 .article-heading {
     padding: 20px 0;
@@ -1142,14 +1197,14 @@ footer .form-group {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 0;
 }
 
-.article-container {
+/* .article-container {
     border-right: 2px solid #70707042;
     padding-right: 15px;
-}
+} */
 
 @media screen and (max-width: 768px) {
     .articles-btn {
@@ -1174,7 +1229,7 @@ footer .form-group {
 /* articles-sec end here */
 /* frequently-sec start here */
 .frequently-sec {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .frequently-heading {
@@ -1187,7 +1242,8 @@ footer .form-group {
     font-family: "poppins";
     font-weight: 500;
     margin-bottom: 3px;
-    font-size: 38px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .frequently-heading h5 {
@@ -1210,6 +1266,9 @@ footer .form-group {
     font-weight: 400;
     font-size: 16px;
 
+}
+.side-btn a i.fas.fa-long-arrow-alt-right{
+    margin: 0px 10px;
 }
 
 .side-btn .fa {

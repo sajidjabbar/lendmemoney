@@ -10,9 +10,9 @@
                         <li><a href="index.php"><img src="img/logo.png" alt=""></a></li>
                     </div>
                     <div class="navbar-items ml-auto">
-                        <li class="normal-nav-items"><a href="index.php">Home</a></li>
+                        <li class="normal-nav-items"><a class="menu active" href="index.php">Home</a></li>
                         <li class="normal-nav-items dropdown">
-                            <a href="mortgage.php">Mortgage<i class="fa fa-angle-down"></i></a>
+                            <a class="menu" href="mortgage.php">Mortgage<i class="fa fa-angle-down"></i></a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item" href="refinance-mortgage-lenders.php">Refinance mortgage lenders</a>
                                 <a class="dropdown-item" href="comparecurrentmortgage.php">Compare current mortgage rates</a>
@@ -31,7 +31,7 @@
                             </div>
                         </li>
                         <li class="normal-nav-items dropdown">
-                            <a href="#">Insurance<i class="fa fa-angle-down"></i></a>
+                            <a class="menu" href="#">Insurance<i class="fa fa-angle-down"></i></a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item" href="auto-insurance-1.php">Auto insurance</a>
                                 <a class="dropdown-item" href="insurance.php">life insurance</a>
@@ -41,10 +41,10 @@
                             </div>
                         </li>
                         <li class="normal-nav-items dropdown">
-                            <a href="credit-card.php">Credit Cards<i class="fa fa-angle-down"></i></a>
+                            <a class="menu" href="credit-card.php">Credit Cards<i class="fa fa-angle-down"></i></a>
                         </li>
                         <li class="normal-nav-items dropdown">
-                            <a href="">Loans<i class="fa fa-angle-down"></i></a>
+                            <a class="menu"  href="">Loans<i class="fa fa-angle-down"></i></a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item" href="loans.php">personal loan</a>
                                 <a class="dropdown-item" href="homeequityloantable.php">home equity loan</a>
