@@ -1,4 +1,4 @@
-/* advisor start here */
+/* .income-calculator start here */
 .income-calculator-sec {
     padding-bottom: 140px;
 }
@@ -223,7 +223,7 @@ label {
     font-family: "poppins";
     font-weight: 600;
 }
-/* advisor end here */
+/* .income-calculatorend here */
 @media screen and (max-width: 580px) {
     .about-work {
         display: flex;

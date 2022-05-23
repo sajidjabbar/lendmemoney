@@ -17,11 +17,11 @@
             </div>
         </div>
         <div class="heading">
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Cash Back</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Travel
+            <a href="Cash-Back.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Cash Back</a>
+            <a href="Cash-Back.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Travel
             </a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">0% Interest</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Balance Transfer</a>
+            <a href="Cash-Back.php" class="animate__animated  animate__fadeInDown animate__delay-1s">0% Interest</a>
+            <a href="Cash-Back.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Balance Transfer</a>
 
         </div>
         <div class="about-mortagage">

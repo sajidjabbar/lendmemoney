@@ -314,7 +314,7 @@
                         <div class="form-group">
                             <label ><br></label>
                            <div class="submit">
-                           <a href="#"><button>Submit</button>
+                           <a href="cheerspage.php"><button>Submit</button>
                            </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@
                         <p>We’ve observed at all the major types of mortgages out there and at today’s rates and you look to be in a great mortgage.</p>
                     </div>
                            <div class="submit">
-                           <a href="#"><button>Continue</button>
+                           <a href="mortgage-toolspage.php"><button>Continue</button>
                            </div>
                         </div>
                 </div>

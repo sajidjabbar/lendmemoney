@@ -1,0 +1,213 @@
+@font-face {
+    font-family: Poppinssemi;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+  }
+/* homeequityloansec start here */
+.Refinance-heading{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #707070;
+}
+.Refinance-heading h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+.aboutrefinance-heading{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.Refinance-heading h3{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.Refinance-heading p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+}
+section.homeequityloan-sec {
+    padding-bottom: 60px;
+}
+.base-heading h3{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.home-btn a {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 37px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.home-btn {
+    margin-left: 24px;
+}
+.detail-tables {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0;
+    border-top:1px solid #7070704f ;
+    margin-top: 20px;
+}
+.detail-btn a{
+    color: #303030;
+    font-family: Poppinssemi;
+    font-weight: 400;
+    font-size: 15px;
+}
+.est-heading h5 {
+    color: #303030;
+    opacity: 0.5;
+    font-size: 16px;
+}
+.est p{
+    color: #303030;
+    font-family: Poppinssemi;
+    font-size: 18px;
+}
+.better {
+    border-bottom: 1px solid #707070;
+    padding: 15px 0;
+}
+.est-about{
+    border-left: 2px solid #707070;
+    padding: 4px 10px ;
+    text-align: center;
+}
+.est-abouts1{
+    border-right: 2px solid #707070;
+    padding: 4px 10px ;
+    text-align: center;
+}
+.est-abouts{
+    text-align: center;
+}
+.base-heading {
+    text-align: center;
+    padding: 29px 0;
+    border-bottom: 1px solid;
+    margin-bottom: 13px;
+}
+.home-btn2  {
+    text-align: center;
+    padding: 45px 0;
+}
+.home-btn2 a{
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 56px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.personal-info .form-control {
+    display: block;
+    width:100% !important;
+    border: 1px solid #000000 !important;
+    border-radius: 21px !important;
+}
+
+
+.text-select {
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+.personal-info ::placeholder {
+    color: #303030;
+}
+.personal-info {
+    padding: 23px 0;
+}
+.home-btn3  {
+    padding: 35px 0;
+}
+.Refinance-heading6{
+    padding-bottom: 60px;
+}
+.home-btn3 a{
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 56px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-family: "poppins";
+    font-weight: 400;
+    text-align: left;
+    font-size: 16px;
+}
+.personal-heading h4{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 20px;
+}
+.personal-heading{
+    padding: 20px 0;
+}
+.better-img img {
+    width: 85%;
+}
+.accordion li {
+    list-style: none;
+    margin: 0;
+  }
+  .about-est {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .accordion-trigger {
+    margin: 1px 0 0;
+    padding: 2px 15px;
+    color: #303030;
+    font-family: Poppinssemi;
+    font-weight: 400;
+    font-size: 15px;
+    transition: .2s ease-in;
+}
+  
+  .accordion-trigger:hover {
+    cursor: pointer;
+    background: #FFF;
+  }
+  
+  .accordion-content {
+    background: #FFF;
+    padding: 5px 15px;
+    margin: 0;
+  }
+
+  h5.accordion-trigger::before {
+    content: '\f107';
+    font-family: 'Fontawesome';
+    position: absolute;
+    right: 20px;
+    top: 7px;
+}
+ul.accordion {
+    padding: 0;
+}
+.faqs-sec{
+    padding-bottom: 60px;
+}

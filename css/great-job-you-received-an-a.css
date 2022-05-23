@@ -1,0 +1,40 @@
+/* .great-job start here */
+.great-jobsec {
+    padding-bottom: 100px;
+}
+
+.great-job-heading {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.great-job-heading h1 {
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.great-job-heading {
+    padding-top: 50px;
+}
+
+.great-job-heading p {
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+}
+.great-job-imgbox {
+    margin-bottom: 66px;
+}
+.great-job-heading a  {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 11px 51px;
+    border: transparent;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+    margin-top: 30px;
+}

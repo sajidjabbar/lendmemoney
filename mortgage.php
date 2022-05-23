@@ -16,9 +16,9 @@
             </div>
         </div>
         <div class="heading">
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Refinance mortgage lenders</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Compare current mortgage rates</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage Tools page</a>
+            <a href="refinance-mortgage-lenders.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Refinance mortgage lenders</a>
+            <a href="comparecurrentmortgage.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Compare current mortgage rates</a>
+            <a href="mortgage-toolspage.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage Tools page</a>
         </div>
         <div class="about-mortagage">
             <div class="animate__animated animate__fadeInLeft animate__delay-1s">

@@ -4,9 +4,9 @@
 <section class="camparison-sec">
     <div class="container">
         <div class="camparison-heading">
-            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Mortgage Advisor</h1>
+            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Mortgage comparison</h1>
             <div class="aboutcamparison-heading">
-                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">How Mortgage Advisor works </h3>
+                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">How Mortgage comparison works</h3>
             </div>
         </div>
         <div class="work">
@@ -153,3 +153,8 @@
             </div>
         </div>
     </div>
+
+</section>
+
+<!--  end Here -->
+<?php include 'inc/footer.php'; ?>

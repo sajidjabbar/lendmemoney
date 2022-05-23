@@ -16,9 +16,11 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- slick slider js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+
 <!-- Bootstrap CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!-- wow js -->
 <script src="js/wow.min.js"></script>
 <!-- wow js  -->
@@ -27,6 +29,31 @@
 <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
 <!-- Slick Slider CDN -->
 <script>
+
+    const CurrentLocation = location.href;
+const menuItem = document.querySelectorAll('.navbar-items .menu');
+const menuLength = menuItem.length
+for (let i = 0; i < menuLength; i++) {
+    if (menuItem[i].href === CurrentLocation) {
+        menuItem[i].className = "active";
+    }
+}
+
+
+$('document').ready(function() {
+    $('.canvas-icon i').click(function() {
+        $(".mobile-header").addClass('showheader');
+    });
+
+    $(' .mobile-header .cancel').click(function() {
+        $(".mobile-header").removeClass('showheader');
+    });
+});
+$('document').ready(function() {
+    $('#toshow').mouseover(function() {
+        $("#show").css("display", "block");
+    });
+});
 wow = new WOW({
     boxClass: 'wow', // default
     animateClass: 'animated', // default
@@ -45,12 +72,12 @@ $('.about-web-header').slick({
     adaptiveHeight: true
 });
 
-$('.nav-bar-slick .nav .nav-item ').click(function() {
+// $('.nav-bar-slick .nav .nav-item ').click(function() {
 
-    //console.log("Clicked");
-    $('.nav-bar-slick .nav .nav-item .nav-link.active').removeClass('active');
-    $(this).addClass('active');
-});
+//     //console.log("Clicked");
+//     $('.navbar li a').removeClass('active');
+//     $(this).addClass('active');
+// });
 
 $('.nav-bar-slick .nav').slick({
     dots: true,
@@ -88,11 +115,6 @@ $('.nav-bar-slick .nav').slick({
     ]
 });
 
-$(' .refinance-tabs .tabs .nav .nav-item ').click(function() {
-    //console.log("Clicked");
-    $(' .refinance-tabs .tabs .nav .nav-item .nav-link.active').removeClass('active');
-    $(this).addClass('active');
-});
 
 // wizard
 $(document).ready(function() {
@@ -221,20 +243,6 @@ $('.refinance-tabs .tabs .nav').slick({
     ]
 });
 
-
-
-
-
-
-
-// $(document).ready(function () {
-//     $(window).on('load', function(){
-//         $("#preloader").fadeOut(1000);
-//     });
-// })
-// Mobile Nav
-
-
 $('document').ready(function() {
     $('.canvas-icon i').click(function() {
         $(".mobile-header").addClass('showheader');
@@ -245,9 +253,8 @@ $('document').ready(function() {
     });
 });
 // Mobile Nav
-$(document).ready(function() {
-    $(window).on('load', function() {
-        $("#preloader").fadeOut(1000);
-    });
+
+$(window).on('load', function() {
+    $("#preloader").fadeOut(500);
 });
 </script>

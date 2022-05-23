@@ -4,9 +4,9 @@
 <section class="income-calculator-sec">
     <div class="container">
         <div class="income-calculator-heading">
-            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Mortgage Advisor</h1>
+            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Debt to income Calculator </h1>
             <div class="aboutincome-calculator-heading">
-                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">How Mortgage Advisor works </h3>
+                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">How Debt to income Calculator works</h3>
             </div>
         </div>
         <div class="income-calculator">
@@ -95,7 +95,7 @@
                     <div class="animate__animated animate__fadeInDown animate__delay-1s">
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Monthly Non-Mortgage Loan Payments </label>
-                            <input class="form-control" id="exampleFormControlSelect1" placeholder="Enter Your ZIp Code">
+                            <input class="form-control" id="exampleFormControlSelect1">
                             </input>
                         </div>
                     </div>

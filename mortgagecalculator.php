@@ -17,25 +17,15 @@
                     <div class="animate__animated animate__fadeInDown animate__delay-1s">
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Loan Amount </label>
-                            <select class="form-control" id="exampleFormControlSelect1" aria-placeholder="Select Loan Amount">
-                                <!-- <option selected class="text-select">Select Loan Amount</option> -->
-                                <option>$25000-$35000</option>
-                                <option>$35000-$45000</option>
-                                <option>$40000-$45000</option>
-                                <option>$55000-$65000</option>
-                            </select>
+                            <input class="form-control" id="exampleFormControlSelect1" placeholder="Select Loan Amount">
+                                </input>
                         </div>
                     </div>
                     <div class="animate__animated animate__fadeInDown animate__delay-1s">
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Credit Profile</label>
-                            <select class="form-control" id="exampleFormControlSelect1" aria-placeholder="Select Credit Profile">
-                                <option>Excellent (720 or above)</option>
-                                <option> Good (620-719)</option>
-                                <option>Fair(580-619)</option>
-                                <option > Needs Improvement (50-579)</option>
-                                <option>Poor (539)</option>
-                            </select>
+                            <input class="form-control" id="exampleFormControlSelect1" placeholder="Select Credit Profile">
+                                </input>
                         </div>
                     </div>
                 </div>
@@ -51,7 +41,7 @@
                         <div class="animate__animated animate__fadeInDown animate__delay-1s">
                             <div class="buyer-btn1">
                                 <label for="exampleFormControlSelect1"></label>
-                                <a href="#"><button>Calculate</button></a>
+                                <a href="mortgagecalculatorresult.php"><button>Calculate</button></a>
                             </div>
                         </div>
                     </div>

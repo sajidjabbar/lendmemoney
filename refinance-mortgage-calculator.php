@@ -4,9 +4,9 @@
 <section class="mortgage-calculatorsec">
     <div class="container">
         <div class="calculator-heading">
-            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Mortgage Calculator</h1>
+            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Refinance Mortgage Calculator</h1>
             <div class="aboutcalculator-heading">
-                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Calculate the Mortgage</h3>
+                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Refinancing will help you to save money by paying less interest</h3>
                 <p class="animate__animated animate__fadeInDown animate__delay-1s">Sit amet commodo nulla facilisi nullam. Lectus mauris ultrices eros in
                     cursus turpis <br> massa. Velit egestas dui id ornare. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero.</p>
             </div>
@@ -90,7 +90,7 @@
                 <div class="animate__animated animate__fadeInDown animate__delay-1s">
                     <div class="buyer-btn1">
                         <label for="exampleFormControlSelect1"></label>
-                        <a href="#"><button>Calculate</button></a>
+                        <a href="mortgage-calculator-result2.php"><button>Calculate</button></a>
                     </div>
                 </div>
             </div>

@@ -18,12 +18,12 @@
             </div>
         </div>
         <div class="toolspageheading">
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage Calculator</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Refinancing Calculator</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage Advisor</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage comparison</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Debt to income Calculator</a>
-            <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage Analysis</a>
+            <a href="mortgagecalculator.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage Calculator</a>
+            <a href="refinance-mortgage-calculator.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Refinancing Calculator</a>
+            <a href="mortgage-advisor.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage Advisor</a>
+            <a href="mortgage-comparison.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage comparison</a>
+            <a href="income-calculator-works.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Debt to income Calculator</a>
+            <a href="mortgage-analysis.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Mortgage Analysis</a>
         </div>
         <div class="about-mortagagetoolspage">
             <div class="animate__animated animate__fadeInLeft animate__delay-1s">
