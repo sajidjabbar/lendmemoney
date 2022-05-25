@@ -1,45 +1,33 @@
-<!-- Jquery JS-->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
-</script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-<script src="js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <!-- Jquery JS -->
+<script src="https://code.jquery.com/jquery-3.1.0.js" type="text/javascript"></script>
 <!-- Bootstrap CDN -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- select CDN -->
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<!-- select CDN -->
+<!-- font-Kit -->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<!-- font-Kit -->
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<!-- Popper JS -->
+<!-- wow slider js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!-- wow slider js -->
 <!-- slick slider js -->
-
-
-<!-- Bootstrap CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<!-- wow js -->
-<script src="js/wow.min.js"></script>
-<!-- wow js  -->
-
-<!-- Slick Slider CDN -->
-<!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
-<!-- Slick Slider CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!-- slick slider js -->
 <script>
-
+// Header
     const CurrentLocation = location.href;
-const menuItem = document.querySelectorAll('.navbar-items .menu');
+const menuItem = document.querySelectorAll('.normal-nav-items .menu');
 const menuLength = menuItem.length
 for (let i = 0; i < menuLength; i++) {
     if (menuItem[i].href === CurrentLocation) {
         menuItem[i].className = "active";
     }
 }
-
-
+// responsive navbar
 $('document').ready(function() {
     $('.canvas-icon i').click(function() {
         $(".mobile-header").addClass('showheader');
@@ -54,6 +42,16 @@ $('document').ready(function() {
         $("#show").css("display", "block");
     });
 });
+// slick
+$('.about-web-header').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true
+});
+
+// wow animated
 wow = new WOW({
     boxClass: 'wow', // default
     animateClass: 'animated', // default
@@ -63,21 +61,11 @@ wow = new WOW({
 })
 
 
-
-$('.about-web-header').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    adaptiveHeight: true
+$(' .mortgage-sec  .nav .nav-item ').click(function() {
+//console.log("Clicked");
+$(' .mortgage-sec  .nav .nav-item .nav-link.active').removeClass('active');
+$(this).addClass('active');
 });
-
-// $('.nav-bar-slick .nav .nav-item ').click(function() {
-
-//     //console.log("Clicked");
-//     $('.navbar li a').removeClass('active');
-//     $(this).addClass('active');
-// });
 
 $('.nav-bar-slick .nav').slick({
     dots: true,

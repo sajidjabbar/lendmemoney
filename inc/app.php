@@ -7,6 +7,6 @@
 
 <body>
 <?php include 'header.php';?>
-<div id="preloader"></div>
+<!-- <div id="preloader"></div> -->
 </body>
 </html>

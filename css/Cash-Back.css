@@ -204,10 +204,12 @@ div#accordion .card{
 .slick-slider .slick-track, .slick-slider .slick-list .slick-slide
 {
     
-    height: 71px;
+    height: 71px !important;
 
 }
-
+.nav-bar-slick .slick-list.draggable{
+    height: 66.547px !important;
+}
 .slick-dots {
     bottom: 15px !important;
     right: 0px;

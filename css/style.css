@@ -82,7 +82,7 @@
     background-repeat: no-repeat;
     background-position:right;
     -webkit-appearance: none;
-    background-position-x: 371px;
+    background-position-x: 407px;
 }
 .form-control:focus {
     background-color: #fff;
@@ -137,7 +137,7 @@ select#exampleFormControlSelect1:focus {
 }
 
 .mobile-header {
-    width: 25%;
+    width: 50%;
     height: 100%;
     position: fixed;
     background: #ffffffc2;
@@ -146,17 +146,19 @@ select#exampleFormControlSelect1:focus {
     right: 0;
     padding: 30px 10px 0px 10px;
     transition: 0.7s;
-    transform: translateX(100%);
+    transform: translateX(100%) !important;
     box-shadow: 0px 0px 7px #ddd;
 }
-
+button.btn-mobile{
+    border: none;
+    color:#88B379;
+}
+button.btn-mobile a  {
+    color:#88B379;
+}
 li.nav-link a {
     color: #000;
     text-decoration: none;
-}
-
-#header .mobile-header.show {
-    transform: translateX(0%);
 }
 
 #header .mobile-header ul.mobile-nav {
@@ -206,9 +208,28 @@ li.nav-link a {
 }
 
 #header .mobile-header.showheader {
-    transform: translateX(0%);
+    transform: translateX(0%) !important;
 }
-
+.card-header-mobile {
+    margin: 20px -5px;
+}
+button.btn-mobile a i.fa.fa-angle-down {
+    margin: 5px 10px;
+    position: absolute;
+}
+.accordion1 .card1 .card-body1 a.dropdown-item {
+    color: #000000 !important;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding: 5px 24px 5px 17px;
+    font-size: 14px;
+}
+li.nav-item-card i.fa.fa-search.yellowish-color {
+    margin: 30px 40px;
+    position: absolute;
+    top: 67px;
+    right: 5px;
+}
 @media (max-width: 991px) {
     #header .nav {
         display: none;
@@ -258,6 +279,9 @@ li.nav-link a {
 .for-logo {
     margin-left: 13px;
 }
+/* .accordiondx {
+    display: none;
+} */
 .all-normal-navs {
     display: flex;
     height: 70px;
@@ -346,273 +370,6 @@ a.dropdown-item {
     display: block !important;
 }
 
-@media screen and (max-width: 1440px) {
-    .all-normal-navs {
-        padding: 0px 5.7% 0px -5.2%;
-        }
-}
-
-@media screen and (max-width: 1024px) {
-    .navbar-items {
-        
-        margin-left: -45px ! important;
-    }
-}
-
-@media screen and (max-width: 1320px) {
-    .all-normal-navs {
-        padding: 0px 2%;
-    }
-
-    .responsive-contact-btn a {
-        display: unset;
-        padding: 9px 21px !important;
-    }
-
-}
-
-@media screen and (max-width: 1250px) {
-    .all-normal-navs {
-        padding: 0px 1%;
-    }
-
-}
-
-@media screen and (min-width: 991px) {
-    .mobile-header.show{
-        display: none;
-    }
-}
-
-
-@media screen and (max-width: 1200px) {
-    .normal-nav-items {
-        padding: 8px 2px;
-    }
-
-    .for-logo {
-        top: 0px;
-    }
-}
-@media screen and (max-width: 800px) {
-    .for-logo {
-        margin-left: 29px;
-    }
-    
-}
-
-/* Universal Css Start Here */
-.greenheading {
-    color: #88B379;
-    font-size: 47px;
-    font-family: "Poppins-SemiBold";
-}
-
-/* Universal Css End Here */
-
-/* header start here */
- .side {
-    position: absolute;
-    top: 0 !important;
-    left: 255px !important;
-    z-index: 1000;
-    display: none;
-}
-
-.about-nav {
-    margin-top: 22px;
-}
-
-.dropdown-menu {
-    background-color: #EBF1EA;
-    border: none;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #303030;
-}
-.nav-link1 {
-    position: relative;
-    padding: 0.5rem 1rem;
-    color: #303030;
-    z-index: 999;
-;
-}
-
-.dropdown-menu1 {
-    display: none;
-    position: absolute;
-    width: 288px;
-    transition: 0.6s all;
-    top: 35px;
-    background-color: #EBF1EA;
-
-}
-
-.dropdown-menu1 a {
-    display: block;
-}
-
-.nav-item:hover .dropdown-menu1 {
-    display: block;
-}
-.nav-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.nbar a {
-    color: #88B379 !important;
-}
-
-a {
-    font-size: 15px;
-    font-family: "poppins";
-    font-weight: 400;
-}
-
-.logo-img {
-    margin-right: 118px;
-}
-
-.bg-light {
-    background-color: transparent !important;
-}
-
-
-.mobile-header {
-    display: none;
-}
-
-.nav-link:focus,
-.nav-link:hover {
-    text-decoration: none;
-    border-bottom: 4px solid #88B379;
-}
-
-.navlink:focus,
-.navlink:hover {
-    text-decoration: none;
-    border-bottom: transparent !important;
-}
-
-.canvas-icon {
-    display: none;
-}
-.dropdown-menu.show {
-    display: block;
-}
-
-
-.mobile-header {
-    width: 86%;
-    height: 100%;
-    display: block;
-    position: fixed;
-    overflow: scroll;
-    background: #88B379;
-    top: 0;
-    z-index: 10;
-    right: 0;
-    padding-top: 30px;
-    transition: 0.7s;
-    transform: translateX(100%);
-}
-
-.showheader {
-    transform: translateX(0%);
-}
-
-
-/* header end here */
-/* header reponsive start here */
- /* responsive starts here  */
-@media (max-width: 768px) {
-    .canvas-icon {
-        display: block;
-    }
-    .mobile-header ul.mobile-nav {
-        margin-bottom: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    .mobile-header .cancel {
-        background: #fff;
-        width: 35px;
-        text-align: center;
-        height: 35px;
-        line-height: 55px;
-        margin: 0px 20px 20px auto;
-    }
-
-    .mobile-header ul.mobile-nav li.nav-item {
-        padding: 10px 0;
-        border: 0;
-        border-bottom: 1px solid #606060;
-    }
-
-    .mobile-header ul.mobile-nav li.nav-item a {
-        color: #000;
-        font-size: 14px;
-        padding: 0 20px;
-    }
-
-    .nav-link:focus,
-    .nav-link:hover {
-        text-decoration: none;
-        border-bottom: transparent;
-    }
-}
-
- #header .canvas-icon {
-    display: none;
-  } 
- /* header ends here   */
-  /* responsive starts here  */
-@media (max-width: 1100px) {
-    .logo-img {
-        margin-right: 0 ;
-    }
-}
-@media (max-width: 1100px) {
-    div#myTopnav {
-        display: none;
-    }
-
-    #header .canvas-icon {
-        display: block;
-        text-align: end;
-        margin-right: 29px;
-    }
-
-    .header-background .col-9 {
-        padding: 0px;
-    }
-
-    .header-background {
-        overflow: hidden;
-    }
-
-    .header-background .canvas-icon i {
-        color: #000;
-        font-size: 20px;
-    }
-}
-
-.btn-secondary.dropdown-toggle {
-    background: transparent !important;
-    border: 0px;
-    color: #000 !important;
-}
-
-@media (max-width: 480px) {
-    header .mobile-header {
-        width: 60%;
-    }
-} */
-
-/* header reponsive end here */
 /* footer start here */
 .about-footer {
     display: flex;
@@ -625,7 +382,7 @@ a {
 }
 .about-footer ul li a {
     display: block;
-    color: #f8f8f8c2;
+    color: #BCBCBC;
     margin-top: 15px;
 }
 .contact-us ul{
@@ -633,7 +390,7 @@ a {
 }
 .contact-us ul li a{
     display: block;
-    color: #f8f8f8c2;
+    color: #BCBCBC;
     margin-top: 15px;
 }
 footer h5 {
@@ -645,13 +402,15 @@ footer h5 {
 }
 footer {
     background-color: #303030;
+    height: 80%;
 }
 
 footer p {
-    color: #F8F8F8;
+    color: #8A8A8A;
     font-size: 15px;
     opacity: 0.8;
     margin-top: 20px;
+    font-weight: 400;
 }
 
 input#exampleInputEmail1 {
@@ -739,48 +498,7 @@ footer .form-group {
 }
 
 /* footer end here */
-/* footer reponsive start here */
-@media screen and (max-width: 768px) {
-    .footer {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .footer-border {
-        text-align: center;
-    }
-
-    .about-footer {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .footer h5 {
-        color: #FFFFFF;
-        margin-top: 0;
-    }
-
-    .footer-border {
-        margin-left: 0;
-    }
-
-    .footer-logo {
-        text-align: center;
-    }
-
-    .resources {
-        text-align: center;
-    }
-
-    .contact-us {
-        text-align: center;
-    }
-}
-
-/* footer reponsive end here */
 /* webheader-sec start here */
 .webheader-sec {
     padding-bottom: 70px;
@@ -897,7 +615,7 @@ footer .form-group {
 .header-card{
     width: 556px !important;
 }
-.slick-list.draggable{
+.about-web-header .slick-list.draggable{
     height: 455.547px !important;
 
 }
@@ -906,9 +624,9 @@ footer .form-group {
     display: none !important;
 }
 
-.slick-dots {
+.about-web-header .slick-dots {
     bottom: 15px !important;
-    right: -33px;
+    right: -22px;
 }
 
 .slick-dots li.slick-active button:before {
@@ -1511,6 +1229,25 @@ div#accordion a.card-link:focus {
     footer p {
             font-size: 14px;  
     }
+    .about-web-header .slick-dots {
+        bottom: 65px!important;
+        right: -3px;
+    }
+    .webheader-sec {
+        padding-bottom: 0px;
+        padding-top: 71px;
+    }
+    .money-banner {
+        background-color: #88B379;
+        padding-top: 25px;
+        padding-bottom: 23px;
+    }
+    .info-heading {
+        padding: 10px 0;
+    }
+    .form-group button {
+        right: 33px;
+    }
 }
 @media screen and (max-width: 1024px) {
     .web-header h2 {
@@ -1664,14 +1401,156 @@ div#accordion a.card-link:focus {
     .footer h4 {
         font-size: 12px;
     }
+    .about-web-header .slick-dots {
+        bottom: 65px!important;
+        right: 72px;
+    }
+    .vission-heading {
+        padding-top: -15px;
+    }
+    .vission-text p {
+        font-size: 9px;
+    }
+    .money-banner {
+        padding-bottom: 69px;
+    }
+    .info-heading h3 {
+        font-size: 17px;
+    }
+    .form-group button {
+        right: 31px;
+    }
+    .footer-text {
+        margin-top: 43px;
+        margin-left: -30px;
+    }
+    .footer h4 {      
+        margin-top: 47px;  
+    }
 }
 @media screen and (max-width: 768px) {
+    .for-logo {
+        margin-left: 10px;
+    }
     .web-header h1 {
         font-size: 27px;
     }
 
     .web-header h3 {
         font-size: 20px;
+    }
+    .vission-heading {
+        padding-top: 5px;
+    }
+    .money-heading {
+        margin-left: -13px;
+        margin-top: 20px;
+    }
+    .about-info button {
+          
+        margin-top: 24px;
+    }
+    .form-group button {
+        right: 45px;
+    }
+    .form-group button {
+        right: 31px;
+    }
+    .money-banner {
+        padding-bottom: 0px;
+        height: 250px;
+    }
+    .money-imgbox {
+        top: -84px;
+        margin: -100px -10px;
+    }   
+    .articles-btn {
+        padding-top: 8px;
+        margin-left: 0;
+    }
+    .side-btn {
+        padding-bottom: 75px;
+        
+    }
+    .frequently-heading h3 {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .for-logo {
+        margin-left: 0px;
+    }
+    .about-web-header {
+        margin-left: -173px;
+        margin-top: 20px;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 30px;
+        margin-top: 550px;
+    }
+    .about-web-header .header-card .row {
+        
+        flex-wrap: unset;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .slick-list.draggable {
+        height: 455.547px !important;
+        width: 600px;
+    }
+    .vission-imgbox .img-fluid {
+        max-width: 417px !important;
+        height: auto;
+    }
+    .money-heading {
+        margin-left: 7px;
+        margin-top: -20px;
+    }
+    .money-imgbox {
+        width: 30%;
+        top: -74px;
+        margin: -100px 310px;
+    }
+    .header-card {
+        width: 453px !important;
+    }
+    .about-web-header .slick-dots {
+        bottom: 65px!important;
+        /* right: -78px; */
+        padding-left: 292px;
+    }
+    .article-card1 .img-card1 .card-imgbox .img-fluid {
+        height: 204px !important;
+        width: 298px;
+    }
+    .article-card .img-card3 .card-imgbox .img-fluid {
+        height: 204px !important;
+        width: 210px;
+    }
+    .about-footer ul li a {
+        font-size: 10px;
+    }
+    .contact-us ul li a {
+        font-size: 10px;
+    }
+    footer h5 {
+        font-size: 9px;
+    }
+    .footer-text {
+        margin-top: 53px;
+        margin-left: -150px;
+    }
+    .footer h4 {
+        font-size: 8px;
+    }
+    .form-group button {
+        width: 79px;
+        right: 18px
+    }
+    .form-group button {
+       
     }
 }
 /* frequently-sec end here */

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/homeequityloantable.css">
+<link rel="stylesheet" href="css/Cash-Back.css">
 <?php include 'inc/app.php'; ?>
 <!-- start here -->
 <section class="homeequityloan-sec">

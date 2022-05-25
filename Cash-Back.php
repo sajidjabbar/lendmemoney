@@ -108,7 +108,7 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
+                                        <div class="card-header" id="headingOne">
                                             <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
                                                 aria-expanded="true">
                                                 <span class="accord">What Makes discover best it is Best </span>
@@ -116,7 +116,7 @@
                                             </a>
                                         </div>
                                         <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -173,15 +173,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingtwo">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsetwo"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsetwo" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -237,15 +237,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingthree">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsethree"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsethree" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -301,15 +301,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingfour">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsefour"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsefour" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -365,15 +365,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingfive">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsefive"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsefive" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -397,7 +397,6 @@
                         <div class="col-lg-3">
                             <div class="card-fiqure">
                                 <figure>
-                                    asdasdasdasdasdasdasdasdasd
                                     <img src="img/debitcard1.png" class="img-fluid" alt="">
                                 </figure>
                             </div>
@@ -431,17 +430,17 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="faq-wrapper">
-                                <div id="accordion">
+                            <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
-                                                aria-expanded="true">
+                                        <div class="card-header" id="headingone">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseone"
+                                                aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapseone" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -453,7 +452,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -498,15 +496,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingtwo">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsetwo"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsetwo" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -562,15 +560,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingthree">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsethree"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsethree" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -626,15 +624,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingfour">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsefour"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsefour" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -690,15 +688,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingfive">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsefive"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsefive" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -756,15 +754,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingone">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseone"
                                                 aria-expanded="true">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapseone" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -821,15 +819,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingtwo">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsetwo"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsetwo" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -885,15 +883,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingthree">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsethree"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsethree" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -949,15 +947,15 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
+                                        <div class="card-header" id="headingfour">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsefour"
                                                 aria-expanded="false">
                                                 <span class="accord">What Makes discover best it is Best </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsefour" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -1013,15 +1011,16 @@
                             <div class="faq-wrapper">
                                 <div id="accordion">
                                     <div class="card">
-                                        <div class="card-header">
-                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
-                                                aria-expanded="false">
-                                                <span class="accord">What Makes discover best it is Best </span>
+                                        <div class="card-header" id="headingfive">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapsefive"
+                                                aria-expanded="false" data-target="#collapsefive" aria-expanded="false"
+                                                aria-controls="collapseOne">
+                                                <span class="accord">What Makes discover best it is Best  </span>
                                                 <img src="img/arrowdown.png" alt="">
                                             </a>
                                         </div>
-                                        <div id="collapseOnes" class="collapse" data-parent="#accordion"
-                                            aria-expanded="false" style="">
+                                        <div id="collapsefive" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false" aria-labelledby="headingten" >
                                             <div class="card-body">
                                                 <p>
                                                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -1039,7 +1038,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 <!--  end Here -->

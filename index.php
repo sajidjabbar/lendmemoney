@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="col-lg-7">
-                <div class="about-web-header ">
+                <div class="about-web-header">
                     <div class="header-card">
                         <div class="row top-card">
                             <div class="col-md-4 p-0 m-0 ">
@@ -254,7 +254,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-1 col-auto px-4 "></div>
+            <div class="col-lg-1 col-sm-12 px-4 "></div>
             <div class="col-md-5 col-auto pl-4">
                 <div class="animate__animated animate__fadeInRight">
                     <div class="vission-heading">
@@ -393,7 +393,7 @@
             <div class="col-md-5">
                 <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                     <div class="articles-btn">
-                        <a href="#"> View More <i class="fa fa-arrow-right"></i></a>
+                        <a href="#"> View More <img src="img/arrow-right1.png" alt=""></a>
                     </div>
                 </div>
                 <div class="articlecards-img">
@@ -486,7 +486,6 @@
                                 </div>
                                 <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false">
                                     <div class="card-body">
-
                                         <p>
                                             Duis aute irure dolor in reprehenderit in voluptate velit esse
                                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -564,12 +563,12 @@
                         <div class="animate__animated animate__fadeInDown animate__delay-1s ">
                             <div class="card">
                                 <div class="card-header">
-                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsefive">
                                         <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i
                                             class="fa fa-plus"></i>
                                     </a>
                                 </div>
-                                <div id="collapseFours" class="collapse" data-parent="#accordion">
+                                <div id="collapseFive" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
 
                                         <p>
@@ -585,12 +584,12 @@
                         <div class="animate__animated animate__fadeInDown animate__delay-1s ">
                             <div class="card">
                                 <div class="card-header">
-                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsesix">
                                         <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i
                                             class="fa fa-plus"></i>
                                     </a>
                                 </div>
-                                <div id="collapseFours" class="collapse" data-parent="#accordion">
+                                <div id="collapsesix" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
 
                                         <p>
@@ -606,12 +605,12 @@
                         <div class="animate__animated animate__fadeInDown animate__delay-1s ">
                             <div class="card">
                                 <div class="card-header">
-                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseseven">
                                         <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i
                                             class="fa fa-plus"></i>
                                     </a>
                                 </div>
-                                <div id="collapseFours" class="collapse" data-parent="#accordion">
+                                <div id="collapseseven" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
 
                                         <p>
@@ -627,12 +626,12 @@
                         <div class="animate__animated animate__fadeInDown animate__delay-1s ">
                             <div class="card">
                                 <div class="card-header">
-                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseeight">
                                         <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i
                                             class="fa fa-plus"></i>
                                     </a>
                                 </div>
-                                <div id="collapseFours" class="collapse" data-parent="#accordion">
+                                <div id="collapseeight" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
 
                                         <p>
@@ -653,7 +652,7 @@
             <div class="col-md-6">
                 <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                     <div class="side-btn">
-                        <a href="#">Contact Us<i class='fas fa-long-arrow-alt-right'></i></a>
+                        <a href="#">Contact Us <img src="img/arrow-right1.png" alt=""></a>
                     </div>
                 </div>
                 <div class="animate__animated animate__fadeInRight animate__delay-1s">
