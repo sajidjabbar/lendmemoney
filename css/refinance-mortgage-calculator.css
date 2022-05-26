@@ -14,14 +14,16 @@
 
 .calculator-heading h1 {
     color: #88B379;
-    font-family: "poppins";
+    font-family: "poppins-semibold";
     font-weight: 600;
+    font-size: 42px;
 }
 
 .calculator-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 30;
 }
 
 .calculator-heading p {
@@ -29,6 +31,7 @@
     font-family: "poppins";
     font-weight: 400;
     font-size: 15px;
+    padding: 0px 80px;  
 }
 
 .calculator-form {
@@ -68,23 +71,72 @@
 
 label {
     display: inline-block;
-    margin-bottom: .5rem;
+    margin-bottom:10px !important;
     font-family: "poppins";
     font-weight: 400;
     text-align: left;
     font-size: 16px;
 }
-
-.about-calculatorform  .form-control {
-    display: block;
-    width: 350px !important;
-    padding-right: 143px !important;
-    padding-top: 9px !important;
-    padding-left: 4px;
-    border: 1px solid #000000 !important;
-    border-radius: 21px !important;
+.panel-body .tab-1 .tab1form1 .form-group {
+    margin-bottom: 37px;
 }
 
+input#exampleInputEmail2{
+    background-color: #FFFFFF !important;
+    border: transparent !important;
+    padding-left: 36px !important;
+    border-radius: 25px !important;
+    border: 1px solid #303030 !important;
+    height: 48px;
+}
+input#exampleInputEmail2::placeholder{
+    color: #9E9E9E;
+    padding:10px 10px ;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "poppins";   
+}
+.panel-body .tab-1 .tab1form1 .form-group select#exampleFormControlSelect1 {
+    
+    background-position-x: 360px !important;
+}
+.panel-body .tab-1 .tab1form1 .form-group select.form-control {
+    border: 1px solid #000000 ! important;
+    height: calc(2.25rem + 6px) !important;
+    color: #9E9E9E !important;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 500;
+    padding: 0px 28px;
+}
+input#exampleFormControlSelect1::placeholder{
+    color: #9E9E9E !important;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 500;
+    padding: 0.375rem 0.75rem;
+}
+.btncalculator .btncal {
+    color: #fff !important;
+    background-color: #88B379 !important;
+    border-radius: 21px;
+    padding: 9px 37px;
+    border: 1px   solid #88B379;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.form-control {
+    display: block;
+    font-size: 1rem;
+    border-radius: 20px !important;
+    border: 1px solid #000000 !important;
+    color: #9E9E9E !important;
+    height: calc(2.25rem + 6px) !important;
+
+}
 
 .text-select {
     font-size: 15px;
@@ -99,22 +151,30 @@ label {
 
 .about-calculatorpage h2 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
-    font-size: 29px;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pointscalculatorpage h2{
+    color: #303030;
+    font-family: "poppins-medium";
+    font-weight: 500;
+    font-size: 35px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .about-calculatorpage p {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-regular";
     font-weight: 400;
     font-size: 16px;
 }
 
 .about-calculatorpage {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 30px;
 }
 
@@ -129,9 +189,10 @@ label {
 
 .pointscalculatorpage p {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-regular";
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 50px;
 }
 
 .pointscalculatorpage {
@@ -144,6 +205,7 @@ label {
     display: flex;
     font-family: "poppins";
     font-weight: 400;
+    line-height: 31px;
 }
 
 .pointscalculatorpage li::before {

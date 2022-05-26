@@ -4,7 +4,7 @@
 <section class="result-calculatorsec">
     <div class="container">
         <div class="result-heading">
-            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Mortgage Calculator</h1>
+            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Refinance Mortgage Calculator</h1>
             <div class="aboutresult-heading">
                 <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Result based on information Provided</h3>
                 <p class="animate__animated animate__fadeInDown animate__delay-1s">Sit amet commodo nulla facilisi nullam. Lectus mauris ultrices eros in

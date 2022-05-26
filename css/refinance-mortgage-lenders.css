@@ -566,3 +566,47 @@ label {
     }
 
 }
+@media screen and (max-width: 375px){
+    .Refinance-heading h1 {
+        font-size: 21px;
+    }
+    .Refinance-heading p {
+        font-size: 11px;
+        padding: 0px 0px;
+    }
+    .Refinance-heading h3 {
+        margin-top: 20px;
+    }
+    .stepwizard-row .stepwizard-step .btn1 {
+        padding: 9px 0px;
+        font-size: 10px;
+        width: 72.6px;
+        margin: 0px -2px;
+    }
+    .tab-1 .tab1form1 .form-group select#exampleFormControlSelect1 {
+        background-position-x: 330px;
+    }
+    .about-refinancepage h2 {
+      font-size: 14px;   
+    }
+    .about-refinancepage p {
+        font-size: 10px;
+    }
+    .pointsrefinancepage p {
+        font-size: 10px;
+    }
+    .pointsrefinancepage li {
+        font-size: 10px;
+        
+    }
+    .pointsrefinancepage h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .refinance-faqs h1 {
+        font-size: 17px;
+    }
+    .card-header span {
+        font-size: 10px;
+    }
+}

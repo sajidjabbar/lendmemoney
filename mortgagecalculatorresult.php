@@ -8,7 +8,7 @@
             <div class="aboutresult-heading">
                 <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Result based on information Provided</h3>
                 <p class="animate__animated animate__fadeInDown animate__delay-1s">Sit amet commodo nulla facilisi nullam. Lectus mauris ultrices eros in
-                    cursus turpis <br> massa. Velit egestas dui id ornare. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero.</p>
+                    cursus turpis massa. Velit egestas dui id ornare. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero.</p>
             </div>
         </div>
         <div class="animate__animated animate__fadeInDown animate__delay-2s result-table">

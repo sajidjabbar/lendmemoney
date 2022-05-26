@@ -5,6 +5,7 @@
 }
 .campare-heading2{
     text-align: center;
+    margin-bottom: 100px;
 }
 .compare-heading h1{
     color: #88B379;
@@ -13,35 +14,41 @@
     margin-bottom: 50px;
     font-size: 45px;
 }
-.compare-heading2 h3{
+
+.campare-heading2 h3 {
+    font-size: 40px;
     color: #303030;
     font-family: "poppins";
     font-weight: 500;
 }
-
- .form-control {
-    display: inline !important;
-    width: 75% !important;
-    border:1px solid #303030 !important;
-    padding: 3px;
-    border-radius: 21px !important;
-    background-color: #ffffff !important;
-}
-
- .form-control::placeholder {
+.campare-heading2 p {
+    font-size: 19px;
+    margin-bottom: 40px;
     color: #303030;
-    opacity: 0.8;
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+ input#exampleInputEmail2{
+    background-color: #FFFFFF !important;
+    border: transparent !important;
+    padding-left: 36px !important;
+    border-radius: 25px !important;
+    border: 1px solid #303030 !important;
+    height: 48px;
+}
+input#exampleInputEmail2::placeholder{
+    color: #9E9E9E;
+    padding:10px 10px ;
     font-size: 14px;
+    font-weight: 400;
+    font-family: "poppins";   
 }
-.zip-btn{
-    width: 47%;
-}
-.zip{
-    display: flex;
-    justify-content: center;
-}
-.zip button {
-    width: 35%;
+.zip .zip-btn .form-group1 button {
+    padding: 10px 28px;
+    position: absolute;
+    top: 0;
+    right: 0;
     background-color: #88B379;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -54,41 +61,56 @@
     font-family: "Poppins";
 }
 
- .form-group {
+ .form-group1 {
     display: flex;
 
+}
+/* .result-table  .table .table tbody tr td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top:none;
+} */
+.table thead th {
+    vertical-align: bottom;
+    border-top: none;
 }
 .table h3{
     color: #303030;
     font-family: "poppins";
     font-weight: 500;
+    font-size: 42px;
 }
 .table thead th {
     color: #303030;
-    font-family: "poppins";
-    font-weight: 500;
+    font-family: "poppins-medium";
+    font-size: 15px;
 }
 .table td, .table th {
     color: #303030;
     font-family: "poppins";
-    font-weight: 400;
+    /* font-weight: 400; */
+    font-size: 15px;
 }
-.table{
-    margin-top: 67px
+.table {
+    margin-top: 37px;
+}
+ .result-table .table .table thead tr  .apr{
+    text-align: center;
 }
 .page-item.disabled .page-link {
-    padding: 12px;
+    padding: 8.5px 12px;
 }
 .page-change{
     padding: 20px 0;
 }
 .page-item:last-child .page-link {
-    padding: 12px;
+    padding: 8px 12px;
     color: #303030 !important;
     pointer-events: none;
     cursor: auto;
     background-color: #88B379 !important;
     border-color: transparent !important;
+    padding: 8px 15px;
 }
 .page-item.disabled .page-link {
     color: #303030 !important;
@@ -96,16 +118,20 @@
     cursor: auto;
     background-color: #88B379 !important;
     border-color: transparent !important;
+    padding: 8px 15px;
 }
+.page-item:first-child .page-link {
+    border-radius:none;
+}
+
 .page-item.active .page-link {
     position: relative;
     display: block;
-    padding: .5rem .75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #88B379 !important;
+    color: #000000 !important;
     background-color: #fff !important;
-    border: 4px solid #88B379 !important;
+    border: 3px solid #88B379 !important;
 }
 .page-link {
     position: relative;
@@ -115,7 +141,7 @@
     line-height: 1.25;
     color: #303030 !important;
     background-color: #fff;
-    border: 4px solid #B6B6B6 !important;
+    border: 3px solid #B6B6B6 !important;
 }
 .page-item{
 margin: 0 5px;
@@ -133,7 +159,7 @@ margin: 0 5px;
 }
 .compare-mortagage-faqs h1{
     color: #303030;
-    font-family: "poppins";
+    font-family: 'Poppins-Medium';
     font-weight: 500;
     margin-bottom: 20px;
     font-size: 36px;
@@ -159,5 +185,8 @@ margin: 0 5px;
         width: 100%;
         overflow: scroll;
     }
+}
+.active{
+    border-bottom: 0px;
 }
 /*compare-mortgage-sec end here */

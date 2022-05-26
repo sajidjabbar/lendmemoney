@@ -10,20 +10,23 @@
 
 .advisor-heading h1 {
     color: #88B379;
-    font-family: "poppins";
+    font-family: "poppins-semibold";
     font-weight: 600;
+    font-size: 55px;
 }
-
 .aboutadvisor-heading {
     padding-top: 50px;
 }
 
 .advisor-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 42px;
 }
-
+.panel-body {
+    margin: -60px 0px;
+}
 .about-work {
     display: flex;
     flex-direction: row;
@@ -45,26 +48,31 @@
     border-radius: 53px;
     width: 81px;
     height: 78px;
-    padding: 1px 13px;
+    padding: 8px 13px;
     text-align: center;
 }
 
 .step-img span {
-    font-family: "poppins";
-    font-weight: 400;
-    color: #303030;
+    font-family: "poppins-semibold";
+    font-weight: 600;
+    color: #88B379;
     margin-top: 2px;
+    font-size: 30px;
+    line-height: 23px;
 }
 
 .step-img p {
     font-family: "poppins";
     font-weight: 600;
-    color: #88B379;
+    color: #303030;
+    margin: 3px;
+    text-transform: uppercase;
 }
 
 .step-circle {
     display: flex;
     justify-content: center;
+    margin-bottom: 47px;
 }
 
 .about-step {
@@ -73,31 +81,31 @@
 
 .about-step p {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-regular";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
+    padding: 0px 10px;
 }
-
 .work {
     width: 100%;
     text-align: center;
     margin-top: 33px;
     padding-bottom: 50px;
-    border-bottom: 2px solid #707070;
+    border-bottom: 1px solid #707070;
 }
 
 .information-heading {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
 .information-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 42px;
 }
-
 .calculator-form {
     width: 90%;
     display: flex;
@@ -113,7 +121,91 @@
     width: 100%;
 }
 
+.tab-1{
+    /* text-align: center; */
+    width: 100%;
+    margin: 90px 0px;
+}
+.form-group select.form-control{
+    border: 1px solid #000000 ! important;
+    height: calc(2.25rem + 6px) !important;
+    color: #9E9E9E !important;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 500;
+    padding: 0px 28px;
+}
+ .form-group label {
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #303030;
+    margin-bottom: 10px;
+}
+.form-group1 label {
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #303030;
+}
 
+/* radio button */
+.single-input .button {
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 23px;
+    padding: 8px 33px;
+    font-size: 14px;
+    font-family: "Poppins-Regular";
+    cursor: pointer;
+}
+
+.single-input .button {
+    border: 1px solid #9E9E9E !important;
+    color: #9E9E9E;
+    margin: 0px 5px;
+}
+.form-group8 {
+    margin: 3px 21px;
+}
+.form-group9 {
+    margin: 10px 20px;
+}
+.form-group10 {
+    margin: 31px 21px;
+}
+.contact_container input:checked~span.button {
+    border: 2px solid #88B379 !important;
+    color: #88B379;
+}
+label.contact_container {
+    display: table-cell;
+}
+.tab1form1 .form-group1 {
+    margin-left: 162px;
+}
+
+.tab1form {
+    margin: 8px 0px;
+}
+.form-group{
+    text-align: left;
+}
+ .form-control {
+    padding: 8px 25px;
+    border-radius: 20px !important;
+    border: 1px solid #000000 !important;
+    width: 424px !important;
+}
+.tab1form1 .form-group {
+    margin: 20px 20px;
+}
+input#exampleFormControlSelect1::placeholder {
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #9E9E9E !important;
+}
 label {
     display: inline-block;
     margin-bottom: .5rem;
@@ -123,16 +215,44 @@ label {
     font-size: 16px;
 }
 
-.about-calculatorform .form-control {
-    display: block;
-    width: 100% !important;
-    padding-right: 143px !important;
-    padding-top: 9px !important;
-    padding-left: 4px;
-    border: 2px solid #000000 !important;
-    border-radius: 21px !important;
-}
 
+.form-group4 {
+    margin: 0 19px;
+}
+.form-group4 select.form-control {
+    border: 1px solid #000000 ! important;
+    height: calc(2.25rem + 6px) !important;
+    color: #9E9E9E !important;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 500;
+    padding: 0px 28px;
+}
+.form-group5 {
+    margin: 0 19px;
+}
+.form-group5 select.form-control {
+    border: 1px solid #000000 ! important;
+    height: calc(2.25rem + 6px) !important;
+    color: #9E9E9E !important;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 500;
+    padding: 0px 28px;
+}
+.btnvisitor {
+    margin: 54px 20px;
+}
+.btnvisitor .btn10 {
+    color: #fff !important;
+    background-color: #88B379 !important;
+    border-radius: 21px;
+    padding: 8px 56px;
+    border: 1px solid #88B379;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
 .current-btn {
     width: 100%;
 }

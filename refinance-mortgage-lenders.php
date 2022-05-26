@@ -194,8 +194,7 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <button class="btn btn-primary nextBtn" type="button">Next</button>
+                                    <button class="btn btn-primary nextBtn" type="button">Next</button>
                                     </div>
                                 </div>
                             </div>

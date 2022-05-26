@@ -77,12 +77,13 @@
 
 
 /* forms */
+
  select#exampleFormControlSelect1{
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-position:right;
     -webkit-appearance: none;
-    background-position-x: 407px;
+    background-position-x: 387px;
 }
 .form-control:focus {
     background-color: #fff;
@@ -143,8 +144,8 @@ select#exampleFormControlSelect1:focus {
     background: #ffffffc2;
     top: 0;
     z-index: 9;
-    right: 0;
-    padding: 30px 10px 0px 10px;
+    right: 2px;
+    padding: 40px;
     transition: 0.7s;
     transform: translateX(100%) !important;
     box-shadow: 0px 0px 7px #ddd;
@@ -303,12 +304,9 @@ li.nav-item-card i.fa.fa-search.yellowish-color {
     list-style-type: none;
     margin-right: 11px;
 }
-.active{
+.normal-nav-items a.active{
     border-bottom: 3px solid #88B379;
   }
-/* li.normal-nav-items {
-    border-bottom: 3px solid #88B379;
-} */
 
 .yellowish-color{
     color: #88B379 !important;
@@ -403,6 +401,7 @@ footer h5 {
 footer {
     background-color: #303030;
     height: 80%;
+  
 }
 
 footer p {
@@ -1475,6 +1474,32 @@ div#accordion a.card-link:focus {
     .frequently-heading h3 {
         margin-top: 10px;
     }
+    footer h5 {
+        font-size: 13px;
+    }
+    .about-footer ul li a {
+        font-size: 10px;
+    }
+
+    .contact-us ul li a {
+        font-size: 10px;
+        line-height: 8px;
+    }
+
+    .social-footer h5 {
+        letter-spacing: 1px;
+    }
+
+    .footer h4 {
+        font-size: 11px;
+        
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+  
 }
 @media screen and (max-width: 480px) {
     .for-logo {
@@ -1552,5 +1577,7 @@ div#accordion a.card-link:focus {
     .form-group button {
        
     }
+
+   
 }
 /* frequently-sec end here */

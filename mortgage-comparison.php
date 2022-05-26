@@ -15,8 +15,9 @@
                     <div class="step">
                         <div class="step-circle">
                             <div class="step-img">
+
+                                <p>steps</p>
                                 <span>01</span>
-                                <p>steps</p>
                             </div>
                         </div>
                         <div class="about-step">
@@ -29,8 +30,9 @@
                     <div class="step">
                         <div class="step-circle">
                             <div class="step-img">
+
+                                <p>steps</p>
                                 <span>02</span>
-                                <p>steps</p>
                             </div>
                         </div>
                         <div class="about-step">
@@ -43,8 +45,9 @@
                     <div class="step">
                         <div class="step-circle">
                             <div class="step-img">
-                                <span>03</span>
+
                                 <p>steps</p>
+                                <span>03</span>
                             </div>
                         </div>
                         <div class="about-step">
@@ -62,35 +65,48 @@
                 </div>
                 <div class="row about-check">
                     <div class="col-md-3">
-                        <input type="checkbox" aria-label="Checkbox for following text input">
-                        <span class="texts">30 Year Fixed </span>
+                        <label class="container">30 Year Fixed
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                     <div class="col-md-3">
-                        <input type="checkbox" aria-label="Checkbox for following text input">
-                        <span class="texts">15 Year Fixed</span>
+                        <label class="container">15 Year Fixed
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                     <div class="col-md-3">
-                        <input type="checkbox" aria-label="Checkbox for following text input">
-                        <span class="texts">Cash Out Refinance</span>
+                        <label class="container">Cash Out Refinance
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                     <div class="col-md-3">
-                        <input type="checkbox" aria-label="Checkbox for following text input">
-                        <span class="texts">5/1 Year Adjustable</span>
+                        <label class="container">5/1 Year Adjustable
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                 </div>
-
                 <div class="row about-check">
                     <div class="col-md-3">
-                        <input type="checkbox" aria-label="Checkbox for following text input">
-                        <span class="texts">FHA Loan </span>
+                        <label class="container">FHA Loan   
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                     <div class="col-md-3">
-                        <input type="checkbox" aria-label="Checkbox for following text input">
-                        <span class="texts">VA Loan</span>
+                        <label class="container">VA Loan
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                     <div class="col-md-3">
-                        <input type="checkbox" aria-label="Checkbox for following text input">
-                        <span class="texts">HARP Refinance</span>
+                        <label class="container">HARP Refinance
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                 </div>
                 <div class="check-box-button">
@@ -102,7 +118,7 @@
         </div>
         <div class="camparison-table">
             <div class="animate__animated animate__fadeInTopLeft animate__delay-2s result-table">
-                <table class="table table-hover">
+                <table class="table">
                     <thead>
                         <tr>
                             <th scope="col">loan Type</th>
