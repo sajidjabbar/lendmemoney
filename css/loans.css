@@ -5,22 +5,32 @@
 }
 .mortgage-heading h1{
     color: #88B379;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 30px;
 }
-.mortgage-heading h3{
+.mortgage-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 35px;
 }
-.mortgage-heading p{
+.mortgage-heading p {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
     font-size: 15px;
+    padding: 2px 100px;
 }
 .heading{
     margin-top: 30px;
+}
+.heading h3{
+    color: #303030;
+    font-family: "poppins-medium";
+    font-weight: 500;
+    font-size: 40px;
 }
 .heading a{
     color: #88B379;
@@ -29,7 +39,7 @@
     font-weight: 500;
     font-size: 25px;
     display: block;
-    line-height: 40px;
+    line-height: 50px;
 }
 .heading a:hover{
     color: #88B379;
@@ -43,15 +53,16 @@
     font-family: "poppins";
     font-weight: 400;
 }
-.about-mortagage h2{
+.about-mortagage h2 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
-    font-size: 29px;
+    font-size: 42px;
+    margin-bottom: 30px;
 }
 .about-mortagage p{
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-regular";
     font-weight: 400;
     font-size: 16px;
 }
@@ -65,6 +76,7 @@
     display: flex;
     font-family: "poppins";
     font-weight: 400;
+    line-height: 30px;
 }
 .points li::before {
     content: "";
@@ -73,7 +85,7 @@
     margin-top: 10px;
     background-image: url(../img/dot.png);
     background-size: cover;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .mortagage-faqs{
     margin: 30px 0;

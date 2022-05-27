@@ -11,31 +11,35 @@
 }
 .Refinance-heading h1{
     color: #88B379;
-    font-family: "poppins";
+    font-family: "poppins-semibold";        
     font-weight: 600;
+    font-size: 55px;
 }
 .aboutrefinance-heading{
     padding-top: 30px;
     padding-bottom: 10px;
 }
-.Refinance-heading h3{
+.Refinance-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 40;
 }
 .Refinance-heading p{
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
     font-size: 15px;
+    padding: 0px 200px;
 }
 section.homeequityloan-sec {
     padding-bottom: 60px;
 }
-.base-heading h3{
+.base-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 35px;
 }
 .personal-info  .form-group select#exampleFormControlSelect1{
     background-image: url(../img/arrow.png);
@@ -70,13 +74,13 @@ section.homeequityloan-sec {
 }
 .home-btn {
     margin-left: 24px;
+    margin-top: 30px;
 }
 .detail-tables {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 15px 0;
-    border-top:1px solid #7070704f ;
     margin-top: 20px;
 }
 .detail-btn a{
@@ -96,7 +100,6 @@ section.homeequityloan-sec {
     font-size: 18px;
 }
 .better {
-    border-bottom: 1px solid #707070;
     padding: 15px 0;
 }
 .est-about{
@@ -113,7 +116,7 @@ section.homeequityloan-sec {
     text-align: center;
 }
 .base-heading {
-    text-align: start;
+    text-align: center;
     padding: 29px 0;
     border-bottom: 1px solid;
     margin-bottom: 13px;

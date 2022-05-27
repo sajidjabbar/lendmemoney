@@ -21,7 +21,8 @@
             <a href="Cash-Back.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Travel
             </a>
             <a href="Cash-Back.php" class="animate__animated  animate__fadeInDown animate__delay-1s">0% Interest</a>
-            <a href="Cash-Back.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Balance Transfer</a>
+            <a href="Cash-Back.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Balance
+                Transfer</a>
 
         </div>
         <div class="about-mortagage">
@@ -74,13 +75,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
-                                        aria-expanded="true">
+                                        aria-expanded="false">
                                         <span class="accord">What Makes discover best it is Best </span>
                                         <img src="img/arrowdown.png" alt="">
                                     </a>
                                 </div>
-                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false"
-                                    style="">
+                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false">
                                     <div class="card-body">
                                         <p>
                                             Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -144,8 +144,7 @@
                                         <img src="img/arrowdown.png" alt="">
                                     </a>
                                 </div>
-                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false"
-                                    style="">
+                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false">
                                     <div class="card-body">
                                         <p>
                                             Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -208,8 +207,7 @@
                                         <img src="img/arrowdown.png" alt="">
                                     </a>
                                 </div>
-                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false"
-                                    style="">
+                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false">
                                     <div class="card-body">
                                         <p>
                                             Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -272,8 +270,7 @@
                                         <img src="img/arrowdown.png" alt="">
                                     </a>
                                 </div>
-                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false"
-                                    style="">
+                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false">
                                     <div class="card-body">
                                         <p>
                                             Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -336,8 +333,7 @@
                                         <img src="img/arrowdown.png" alt="">
                                     </a>
                                 </div>
-                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false"
-                                    style="">
+                                <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false">
                                     <div class="card-body">
                                         <p>
                                             Duis aute irure dolor in reprehenderit in voluptate velit esse

@@ -1,16 +1,36 @@
+.greenheading {
+    color: #88B379;
+    font-family: "poppins-semibold";
+    font-weight: 600;
+    font-size: 55px;
+}
+.aboutrefinance-heading{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.Refinance-heading p {
+    color: #303030;
+    font-family: "poppins-regular";
+    font-weight: 400;
+    font-size: 16px;
+}
 .auto-insurance {
     padding: 85px 0px;
 }
 
 .top-text h2 {
     color: #303030;
-    font-family: poopinsmedium;
-    font-size: 38px;
+    font-family: poppins-medium;
+    font-size: 42px;
 }
 
 .top-text p {
-    font-size: 14px;
+    font-size: 15px;
     color: #303030;
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: poppins-regular;
 }
 
 .contact-form {
@@ -23,7 +43,13 @@
     justify-content: space-between;
     margin-top: 26px;
 }
-
+.single-input select.form-control {
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-appearance: none;
+    background-position-x: 317px;
+}
 .contact-section {
     padding: 50px 0px 40px 0px;
 }
@@ -39,6 +65,7 @@
     border: 1.3px solid #000000;
     height: 42px;
     border-radius: 25px;
+    padding: 8px 20px;
 }
 
 .single-input label {
@@ -48,23 +75,29 @@
     display: block;
     margin-bottom: 3px !important;
     padding: 7px 0px;
+    margin: 10px 1px;
 }
 
 textarea.form-control {
     height: 150px;
 }
+.single-input input.form-control::placeholder {
+    color: #9E9E9E;
+    font-family: "Poppins-Regular";
+    font-size: 14.5px;
+}
 
 button.form-control {
     border: 0px;
     background-color: #88B379;
-    font-family: poopinsmedium;
+    font-family: poppins-medium;
     color: #FFFFFF;
-    font-size: 14.5px;
-    padding: 12px 45px 31px 45px;
+    font-size: 16px;
+    padding: 9px 59px;
     cursor: pointer;
     width: unset !important;
-    border: 2px solid transparent;
-    transition: 0.6s all;
+    border: 1px solid transparent;
+    transition: 0.2s all;
 }
 
 button.form-control:hover {

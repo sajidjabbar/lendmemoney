@@ -9,7 +9,7 @@
 <section class="auto-insurance">
     <div class="container">
         <div class="row">
-            <div class="col-md-9 PX-0 mx-auto">
+            <div class="col-md-12 PX-0 mx-auto">
                 <div class="top-text text-center">
                     <h1 class="greenheading">Auto Insurance</h1>
                     <h2 class="mt-4">Find Auto Insurance</h2>
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md-8  mx-auto px-0">
                     <div class="form-start">
-                        <form action="autoinsurance.php">
+                        <form action="home-insurance.php">
                             <div class="form-row">
                                 <div class="single-input">
                                     <label for="">Zip code</label>
@@ -89,7 +89,7 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="form-row justify-content-center">
+                            <div class="form-row justify-content-center mt-5">
                                 <button type="submit" class="form-control">Next</button>
                             </div>
                         </form>

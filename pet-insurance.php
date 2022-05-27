@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/about-life-insurance-calculator.css">
+<link rel="stylesheet" href="css/pet-insurance.css">
 <?php include 'inc/app.php'; ?>
 <!-- start here -->
 <section class="refinance-lenders-sec">
@@ -66,7 +66,7 @@
         <!-- div pointsrefinancepage start here -->
         <div class="pointsrefinancepage">
             <div class="animate__animated animate__fadeInLeft animate__delay-1s">
-                <h2>Which type of life insurance is right for me?</h2>
+                <h2>Which type of life insurance is right for pet?</h2>
             </div>
             <p class="animate__animated animate__fadeInRight animate__delay-1s">
                 Lacus sed viverra tellus in hac. Volutpat commodo sed egestas egestas fringilla. Quis viverra nibh cras

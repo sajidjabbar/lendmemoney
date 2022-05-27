@@ -48,8 +48,7 @@
 }
 .about-mortagage h5{
     color:#303030;
-    font-family: "poppins";
-    font-weight: 400;
+    font-family: "poppins-medium";
     font-size: 42px;
 }
 
@@ -64,6 +63,7 @@
     font-weight: 400;
     font-size: 16px;
     margin-top: 30px;
+    padding-right: 100px;
 }
 .card-button {
     margin-top: 14px;

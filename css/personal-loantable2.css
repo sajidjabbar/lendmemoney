@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* refinance-lenders start here */
+.Refinance-heading{
+    text-align: center;
+    padding-top: 40px;
+}
+.Refinance-heading h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
+.aboutrefinance-heading{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.personal-heading h4{
+    color: #303030;
+    font-family: "poppins-regular";
+    font-size: 22px;
+    font-weight: 400;
+}
+.Refinance-heading p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 70px;
+}
+.personaloan-sec .better-btn button {
+    color: #fff;
+    background-color: #88B379;
+    border-radius: 21px;
+    padding: 9px 41px;
+    border: 1px solid  #88B379;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.form-group select.form-control{
+    border: 1px solid #000000 ! important;
+    height: calc(2.25rem + 6px) !important;
+    color: #9E9E9E !important;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 500;
+    padding: 0px 28px;
+}
+ .form-group label {
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #303030;
+    margin-bottom: 10px;
+}
+
+.form-control::placeholder {
+    color: #9E9E9E !important;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 500;
+    padding: 0px 23px;
+   
+}
+.form-group{
+    text-align: left;
+}
+ .form-control {
+    padding: 8px 25px;
+    border-radius: 20px !important;
+    border: 1px solid #000000 !important;
+    height: calc(2.25rem + 6px) !important;   
+}
+
+.tab1form1 .form-group {
+    margin: 10px 10px;
+}
+.personal-info {
+    border-top: 1px solid #707070;
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+input#exampleFormControlSelect1::placeholder {
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #9E9E9E !important;
+}
+.personaloan-sec .better-img p{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+}
+.form-group select#exampleFormControlSelect1 {
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-appearance: none;
+    background-position-x: 246px;
+}
+.personaloan-sec .better {
+    padding: 30px 0 !important;
+    vertical-align: top;
+    border-top: transparent !important;
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: middle !important;
+}
+.better-img{
+    text-align: left;
+}
+.better-btn {
+    /* text-align: right; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 38px;
+}
+.better-info{
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.this-table{
+    text-align: center;
+    padding-bottom: 140px;
+}
+.about-it{
+  text-align: center;
+}
+.lender{
+    width: 39%;
+}
+.est {
+    margin-left: 24px;
+    margin-top: 29px;
+}
+.est {
+    margin-left: 0px;
+    margin-top: 29px;
+}
+.est-abouts {
+    height: 109px;
+}
+
+.est-about {
+    height: 109px;
+    border-right: 1px solid #303030;
+    text-align: start;
+}
+.est-about1 {
+    
+    text-align: start;
+}
+.est-about4{
+    height: 109px;
+}
+.est {
+    margin-top: 29px;
+}
+.est-heading h5{
+    color: #303030;
+    font-family: "poppins-regular";
+    font-size: 15px;
+}
+.est3 {
+    margin-top: 13px;
+}
+.est p{
+    color: #303030;
+    font-family: "poppins-semibold";
+    font-size: 20px;
+}
+.est3 p{
+    color: #303030;
+    font-family: "poppins-semibold";
+    font-size: 20px;
+}
+
+.anchor-tag {
+    text-align: start;
+    margin-top: 27px;
+}
+.anchor-tag a{
+    color: #88B379;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.est-abouts12{
+    border-right: 1px solid #303030;
+    height: 109px;
+}
+.est-abouts {
+    border-right: 1px solid #303030;
+    text-align: left;
+    height: 109px;
+}
+
+
+.down-payment{
+    text-align: center;
+}
+
+.personaloan-sec .table{
+    padding-top: 30px;
+}
+.personaloan-sec.table h3{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    font-size: 42px;
+}
+.home-btn3 {
+    background-color: #88B379;
+    font-family: poppins-medium;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 9px 109px;
+    cursor: pointer;
+    width: unset !important;
+    border: 1px solid transparent;
+    transition: 0.2s all;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.home-btn3 a {
+    text-decoration: none !important;
+    color: #ffffff;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 15px;
+}
+.home-btn3:hover {
+    border: 2px solid #88B379;
+    background-color: transparent; 
+    color: #88B379!important;
+}
+.home-btn3 a:hover {
+    color: #88B379!important;
+}
+
+
+
+.personaloan-sec .table p{
+    margin-top: 8px;
+}
+.personaloan-sec a {
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.base-heading{
+    text-align: start;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #707070;
+    border-top: 1px solid #707070;
+}
+/* refinance-lenders end here */
+@media screen and (max-width: 768px) {
+    .refinance-lenders-sec  .table h3 {
+        font-size: 33px;
+    }
+    .table img{
+        width: 76px;
+    }
+}
+@media screen  and (max-width: 576px){
+
+
+      .refinance-lenders-sec .table p {
+        font-size: 10px;
+        margin-bottom: 0 !important;
+    }
+}
+.personaloan-sec{
+    padding-bottom: 50px;
+}
+/* mortgage-sec end here */
