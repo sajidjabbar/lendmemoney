@@ -4,26 +4,30 @@
 .Refinance-heading{
     text-align: center;
     padding-top: 40px;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 50px;
 }
-.Refinance-heading h1{
+.Refinance-heading h1 {
     color: #88B379;
-    font-family: "poppins";
+    font-family: "poppins-semibold";
     font-weight: 600;
+    font-size: 55px;
 }
 .aboutrefinance-heading{
     padding-top: 30px;
     padding-bottom: 10px;
 }
-.Refinance-heading h3{
+.Refinance-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 42px;
 }
-.Refinance-heading p{
+.Refinance-heading p {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-regular";
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
 }
 .refinance-lenders-sec .better-btn button {
     color: #fff;
@@ -39,24 +43,27 @@
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
 }
 .refinance-lenders-sec .better {
     padding: 30px 0 !important;
     vertical-align: top;
     border-top: transparent !important;
-    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6 !important;
     vertical-align: middle !important;
 }
 .better-img{
     text-align: left;
+}
+.better-img img{
+    margin-bottom: 15px;
 }
 .better-btn {
     /* text-align: right; */
     display: flex;
     align-items: center;
     justify-content: right;
-    margin-top: 38px;
+    margin-top: 54px;
 }
 .better-info{
     padding-bottom: 30px;
@@ -81,20 +88,10 @@
 .refinance-lenders-sec .table h3{
     color: #000000;
     font-family: 'Poppins', sans-serif;
-
     padding-bottom: 20px;
     font-size: 42px;
 }
-/* .refinance-lenders-sec  p {
-    color: #000000;
-    font-family: "poppins";
-    font-weight: 300;
-}
-.refinance-lenders-sec   {
-    color: #000000;
-    font-family: "poppins";
-    font-weight: 400;
-} */
+
 .refinance-lenders-sec .table p{
     margin-top: 8px;
 }
@@ -105,10 +102,16 @@
     font-size: 16px;
 
 }
-.base-heading{
+.base-heading {
     text-align: center;
     padding-bottom: 30px;
-    border-bottom: 1px solid #707070;
+    margin-top: 40px;
+}
+.base-heading h3 {
+    font-family: "poppins";
+    font-size: 33px;
+    color: #303030;
+    font-weight: 500;
 }
 /* refinance-lenders end here */
 @media screen and (max-width: 768px) {

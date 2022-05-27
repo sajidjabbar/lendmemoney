@@ -10,8 +10,9 @@
 
 .income-calculator-heading h1 {
     color: #88B379;
-    font-family: "poppins";
+    font-family: "poppins-semibold";
     font-weight: 600;
+    font-size: 55px;
 }
 
 .aboutincome-calculator-heading {
@@ -29,53 +30,64 @@
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .step {
     width: 100%;
 }
-
+.camparison-table{
+    margin-top: 70px;
+}
 .abt-step {
     width: 30%;
 }
 
 .step-img {
-    border: 1px solid #707070;
+    border: 2px solid #707070;
     border-radius: 53px;
     width: 81px;
     height: 78px;
-    padding: 1px 13px;
+    padding: 7px 14px;
     text-align: center;
 }
 
 .step-img span {
-    font-family: "poppins";
-    font-weight: 400;
-    color: #303030;
+    font-family: "poppins-semibold";
+    font-weight: 600;
+    color: #88B379;
     margin-top: 2px;
+    font-size: 30px;
+    line-height: 23px;
 }
-
+section.camparison-sec {
+    margin-bottom: 120px;
+}
 .step-img p {
     font-family: "poppins";
     font-weight: 600;
-    color: #88B379;
+    color: #303030;
+    margin: 3px;
+    text-transform: uppercase;
 }
 
 .step-circle {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
-
+th.side-border {
+    text-align: left;
+}
 .about-step {
     margin-top: 15px;
 }
-
 .about-step p {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-regular";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
+    padding: 0px 30px;
 }
 
 .income-calculator {
@@ -94,8 +106,9 @@
 
 .information-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 42px;
 }
 
 .calculator-form {
@@ -187,12 +200,13 @@ label {
 }
 .about-calculatorform .form-control {
     display: block;
-    width: 451px !important;
+    width: 405px !important;
     padding-right: 143px !important;
     padding-top: 3px !important;
     padding-left: 4px;
-    border: 3px solid #000000 !important;
+    border: 1px solid #000000 !important;
     border-radius: 21px !important;
+    height: 42;
 }
 .income-foam {
     width: 100%;
@@ -208,15 +222,16 @@ label {
     justify-content: center;
 }
 .ratio-btn {
-    width: 340px;
-    height: 139px;
-    padding: 26px 30px;
+    width: 360px;
+    height: 130px;
+    padding: 9px 30px;
     border: 1px solid #88B379;
 }
-.ratio-btn p{
-    font-family: "poppins";
+.ratio-btn p {
+    font-family: "poppins-medium";
     font-weight: 500;
     color: #303030;
+    font-size: 24px;
 }
 .ratio-btn h1{
     color: #88B379;

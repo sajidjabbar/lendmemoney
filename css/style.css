@@ -924,7 +924,6 @@ margin: 0px 10px;
 }
 
 .articles-btn {
-    margin-left: 50px;
     text-align: right;
     margin-top: 40px;
     padding: 30px 0px;
@@ -935,9 +934,11 @@ margin: 0px 10px;
     font-family: "poppins";
     font-weight: 400;
     font-size: 16px;
-
+    padding-right: 15px;
 }
-
+.articles-btn a i.fas.fa-long-arrow-alt-right {
+    margin-left: 10px;
+}
 .articles-sec .fa {
     color: #88B379;
 }
@@ -953,7 +954,7 @@ margin: 0px 10px;
     font-family: "poppins";
     font-weight: 400;
     font-size: 24px;
-    margin-bottom: 0;
+    margin-bottom: 60px;
 }
 
 /* .article-container {

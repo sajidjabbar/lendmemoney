@@ -6,7 +6,8 @@
         <div class="income-calculator-heading">
             <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Debt to income Calculator </h1>
             <div class="aboutincome-calculator-heading">
-                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">How Debt to income Calculator works</h3>
+                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">How Debt to income Calculator works
+                </h3>
             </div>
         </div>
         <div class="income-calculator">
@@ -15,8 +16,8 @@
                     <div class="step">
                         <div class="step-circle">
                             <div class="step-img">
+                                <p>steps</p>
                                 <span>01</span>
-                                <p>steps</p>
                             </div>
                         </div>
                         <div class="about-step">
@@ -29,8 +30,8 @@
                     <div class="step">
                         <div class="step-circle">
                             <div class="step-img">
+                                <p>steps</p>
                                 <span>02</span>
-                                <p>steps</p>
                             </div>
                         </div>
                         <div class="about-step">
@@ -43,8 +44,8 @@
                     <div class="step">
                         <div class="step-circle">
                             <div class="step-img">
-                                <span>03</span>
                                 <p>steps</p>
+                                <span>03</span>
                             </div>
                         </div>
                         <div class="about-step">
@@ -59,54 +60,56 @@
             <h3>Lets get Started</h3>
         </div>
         <div class="income">
-            <div class="income-foam">
-                <!-- <div class="col-md-8"> -->
-                <div class="about-calculatorform">
-                    <!-- <div class="col-md-5"> -->
-                    <div class="animate__animated animate__fadeInDown animate__delay-1s">
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Gross Monthly Income </label>
-                            <input class="form-control" id="exampleFormControlSelect1">
-                            </input>
+            <form action="">
+                <div class="income-foam">
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-md-10">
+                            <div class="about-calculatorform">
+                                <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Gross Monthly Income </label>
+                                        <input class="form-control" id="exampleFormControlSelect1">
+                                        </input>
+                                    </div>
+                                </div>
+                                <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Monthly Mortgage/Rent </label>
+                                        <input class="form-control" id="exampleFormControlSelect1">
+                                        </input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-calculatorform">
+                                <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Monthly Minimum Credit Card Payments
+                                        </label>
+                                        <input class="form-control" id="exampleFormControlSelect1">
+                                        </input>
+                                    </div>
+                                </div>
+                                <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Monthly Non-Mortgage Loan Payments
+                                        </label>
+                                        <input class="form-control" id="exampleFormControlSelect1">
+                                        </input>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="col-lg-1"></div>
                     </div>
-                    <!-- <div class="col-md-1"></div>
-                        <div class="col-md-5"> -->
-                    <div class="animate__animated animate__fadeInDown animate__delay-1s">
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Monthly Mortgage/Rent </label>
-                            <input class="form-control" id="exampleFormControlSelect1">
-                            </input>
-                        </div>
-                    </div>
-                    <!-- </div>
-                    </div> -->
                 </div>
-                <div class="about-calculatorform">
-                    <div class="animate__animated animate__fadeInDown animate__delay-1s">
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Monthly Minimum Credit Card Payments </label>
-                            <input class="form-control" id="exampleFormControlSelect1">
-                            </input>
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-1"></div>
-                        <div class="col-md-5"> -->
-                    <div class="animate__animated animate__fadeInDown animate__delay-1s">
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Monthly Non-Mortgage Loan Payments </label>
-                            <input class="form-control" id="exampleFormControlSelect1">
-                            </input>
-                        </div>
+                <div class="ratio">
+                    <div class="ratio-btn">
+                        <p>Debt-To-Income Ratio</p>
+                        <h1>0.00</h1>
                     </div>
                 </div>
-            </div>
-            <div class="ratio">
-                <div class="ratio-btn">
-                    <p>Debt-To-Income Ratio</p>
-                    <h1>0.00</h1>
-                </div>
-            </div>
+            </form>
         </div>
         <!-- </div> -->
         <div class="row">
@@ -125,7 +128,10 @@
                                 <span class="animate__animated animate__fadeInDown">January 15 2022</span>
                             </div>
                             <div class="article">
-                                <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure. </p>
+                                <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure. </p>
                             </div>
                             <div class="article-text">
                                 <h6 class="animate__animated animate__fadeInDown">View Details</h6>

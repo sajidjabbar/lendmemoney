@@ -5,103 +5,110 @@
     <div class="container">
         <div class="Refinance-heading">
             <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Home Insurance
-</h1>
+            </h1>
             <div class="aboutrefinance-heading">
-                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">  Find the Home Insurance</h3>
-                <p class="animate__animated animate__fadeInDown animate__delay-1s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. </p>
+                <h3 class="animate__animated animate__fadeInDown animate__delay-1s"> Find the Home Insurance</h3>
+                <p class="animate__animated animate__fadeInDown animate__delay-1s">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             </div>
         </div>
         <div class="this-table">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <div class="animate__animated animate__fadeInRight animate__delay-1s ">
+                        <div class="base-heading">
+                            <h3>Here is the list of companies providing Home insurance</h3>
+                        </div>
+                        <div class="better-info">
+                            <div class="row better">
+                                <div class="col-md-8">
+                                    <div class="better-img">
+                                        <img src="img/better.png" alt="" class="class-fluid">
+                                        <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl
+                                            tincidunt.
+                                            Pulvinar
+                                            pellentesque habitant morbi tristique senectus et</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="better-btn">
+                                        <a href="#"><button>Get Started</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row better">
+                                <div class="col-md-8">
+                                    <div class="better-img">
+                                        <img src="img/better2.png" alt="" class="class-fluid">
 
-            <div class="animate__animated animate__fadeInRight animate__delay-1s ">
-                <div class="base-heading">
-                    <h3>Here is the list of companies providing Home insurance</h3>
+
+                                        <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl
+                                            tincidunt.
+                                            Pulvinar
+                                            pellentesque habitant morbi tristique senectus et</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="better-btn">
+                                        <a href="#"><button>Get Started</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row better">
+                                <div class="col-md-8">
+                                    <div class="better-img">
+                                        <img src="img/better3.png" alt="" class="class-fluid">
+                                        <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl
+                                            tincidunt.
+                                            Pulvinar
+                                            pellentesque habitant morbi tristique senectus et</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="better-btn">
+                                        <a href="#"><button>Get Started</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row better">
+                                <div class="col-md-8">
+                                    <div class="better-img">
+                                        <img src="img/better4.png" alt="" class="class-fluid">
+                                        <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl
+                                            tincidunt.
+                                            Pulvinar
+                                            pellentesque habitant morbi tristique senectus et</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="better-btn">
+                                        <a href="#"><button>Get Started</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row better">
+                                <div class="col-md-8">
+                                    <div class="better-img">
+                                        <img src="img/better5.png" alt="" class="class-fluid">
+                                        <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl
+                                            tincidunt.
+                                            Pulvinar
+                                            pellentesque habitant morbi tristique senectus et</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="better-btn">
+                                        <a href="#"><button>Get Started</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">Load More</a>
                 </div>
-                <div class="better-info">
-                        <div class="row better">
-                            <div class="col-md-8">
-                                <div class="better-img">
-                                    <img src="img/better.png" alt="" class="class-fluid">
-
-
-                                    <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Pulvinar<br>
-                                        pellentesque habitant morbi tristique senectus et</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="better-btn">
-                                    <a href="#"><button>Get Started</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row better">
-                            <div class="col-md-8">
-                                <div class="better-img">
-                                    <img src="img/better2.png" alt="" class="class-fluid">
-
-
-                                    <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Pulvinar<br>
-                                        pellentesque habitant morbi tristique senectus et</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="better-btn">
-                                    <a href="#"><button>Get Started</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row better">
-                            <div class="col-md-8">
-                                <div class="better-img">
-                                    <img src="img/better3.png" alt="" class="class-fluid">
-
-
-                                    <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Pulvinar<br>
-                                        pellentesque habitant morbi tristique senectus et</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="better-btn">
-                                    <a href="#"><button>Get Started</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row better">
-                            <div class="col-md-8">
-                                <div class="better-img">
-                                    <img src="img/better4.png" alt="" class="class-fluid">
-
-
-                                    <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Pulvinar<br>
-                                        pellentesque habitant morbi tristique senectus et</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="better-btn">
-                                    <a href="#"><button>Get Started</button></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row better">
-                            <div class="col-md-8">
-                                <div class="better-img">
-                                    <img src="img/better5.png" alt="" class="class-fluid">
-
-
-                                    <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Pulvinar<br>
-                                        pellentesque habitant morbi tristique senectus et</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="better-btn">
-                                    <a href="#"><button>Get Started</button></a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-1"></div>
             </div>
-            </div>
-            <a href="#">learn more</a>
         </div>
 </section>
 <section class="articles-sec">
@@ -122,7 +129,10 @@
                                 <span class="animate__animated animate__fadeInDown">January 15 2022</span>
                             </div>
                             <div class="article">
-                                <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure. </p>
+                                <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure. </p>
                             </div>
                             <div class="article-text">
                                 <h6 class="animate__animated animate__fadeInDown">View Details</h6>
