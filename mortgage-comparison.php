@@ -111,7 +111,7 @@
                 </div>
                 <div class="check-box-button">
                     <div class="submit">
-                        <a href="#"><button>Update Comparison</button>
+                        <a href="#"><button>Update Comparison</button> </a>
                     </div>
                 </div>
             </div>
