@@ -1,7 +1,7 @@
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <?php include 'inc/app.php'; ?>
-<link rel="stylesheet" href="css/cash-back.css">
+<link rel="stylesheet" href="css/Cash-Back.css">
 <!-- start here -->
 <section class="mortgage-sec">
     <div class="container">
