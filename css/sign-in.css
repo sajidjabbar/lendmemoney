@@ -12,6 +12,9 @@ section.form-box-section {
     padding: 155px 0px;
 }
 
+section.form-box-section .form-start a {
+    flex-grow: 1;
+}   
 .for-low-section-padding{
     padding: 80px 0px !important;
 }
@@ -22,7 +25,12 @@ section.form-box-section {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     padding: 55px 82px  75px 82px;
 }
-
+.shadowed-box .the-text-box h3{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 30px;
+}
 .for-low-padding{
     padding: 45px 82px  45px 82px;
 }
@@ -94,7 +102,7 @@ textarea.form-control {
 button.form-control {
     border: 0px;
     background-color: #88B379;
-    font-family: poopinsmedium;
+    font-family: poppins-medium;
     color: #FFFFFF;
     font-size: 14.5px;
     padding: 12px 0px;

@@ -154,25 +154,33 @@
 
             <h5>Disclaimer</h5>
             <p>
-                To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:
+                To the maximum extent permitted by applicable law, we exclude all representations, warranties and
+                conditions relating to our website and the use of this website. Nothing in this disclaimer will:
             </p>
             <p>
                 limit or exclude our or your liability for death or personal injury;<br>
                 limit or exclude our or your liability for fraud or fraudulent misrepresentation;<br>
                 limit any of our or your liabilities in any way that is not permitted under applicable law; or<br>
                 exclude any of our or your liabilities that may not be excluded under applicable law.<br>
-                The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.
+                The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a)
+                are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer,
+                including liabilities arising in contract, in tort and for breach of statutory duty.
             </p>
             <p>
-                As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.
+                As long as the website and the information and services on the website are provided free of charge, we
+                will not be liable for any loss or damage of any nature.
             </p>
         </div>
         <div class="term-on-terms">
             <div class="agree-on-terms">
-                <label for="terms">
+                <div class="form-group custom_checkbox">
+                    <input type="checkbox" id="terms">
+                    <label for="terms"> Sit amet commodo nulla facilisi nullam. Lectus mauris ultrices eros in cursus turpis massa. Velit egestas dui id ornare.</label>
+                </div>
+                <!-- <label for="terms">
                     <input type="checkbox" name="" id="terms">
                     <span>Sit amet commodo nulla facilisi nullam. Lectus mauris ultrices eros in cursus turpis massa. Velit egestas dui id ornare.</span>
-                </label>
+                </label> -->
             </div>
             <div class="accept-btn">
                 <button onclick="location.href = 'packages.php'">Accept and Continue</button>

@@ -5,10 +5,17 @@
     text-align: center;
     padding-top: 40px;
 }
-.Refinance-heading h1{
+.Refinance-heading h1 {
     color: #88B379;
-    font-family: "poppins";
+    font-family: "poppins-semibold";
     font-weight: 600;
+    font-size: 50px;
+}
+.Refinance-heading h3{
+    color: #303030;
+    font-family: "poppins-medium";
+    font-size: 40px;
+    
 }
 .aboutrefinance-heading{
     padding-top: 30px;
@@ -238,9 +245,6 @@ input#exampleFormControlSelect1::placeholder {
 .home-btn3 a:hover {
     color: #88B379!important;
 }
-
-
-
 .personaloan-sec .table p{
     margin-top: 8px;
 }

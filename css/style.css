@@ -116,6 +116,7 @@ select#exampleFormControlSelect1:focus {
     border: 1px solid transparent;
     transition: 0.2s all;
     margin-top: 40px;
+    border-radius: 30px;
 }
 .btn a {
     text-decoration: none;
@@ -304,9 +305,9 @@ li.nav-item-card i.fa.fa-search.yellowish-color {
     margin-left: 35px ! important;
 }
 
-.normal-nav-items {
+.normal-nav-items  {
     color: #303030;
-    font-family: poopinsmedium;
+    font-family:"poppins-medium";
     font-size: 16px;
     padding: 8px 6px;
     list-style-type: none;
@@ -335,7 +336,7 @@ li.normal-nav-items a i {
 .navbar-items a {
     text-decoration: none;
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-size: 15px;
     font-weight: 400;
 }
@@ -408,14 +409,11 @@ footer h5 {
 }
 footer {
     background-color: #303030;
-    height: 80%;
-  
 }
 
 footer p {
-    color: #8A8A8A;
+    color: #BCBCBC;
     font-size: 15px;
-    opacity: 0.8;
     margin-top: 20px;
     font-weight: 400;
 }
@@ -897,8 +895,7 @@ margin: 0px 10px;
 
 .articles-sec h6 {
     font-size: 13px;
-    font-family: "poppins";
-    font-weight: 600;
+    font-family: "poppins-semibold";
     color: #303030;
 }
 
@@ -961,7 +958,7 @@ margin: 0px 10px;
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 60px;
 }
 
@@ -1129,6 +1126,7 @@ div#accordion a.card-link {
     flex-direction: row;
     align-items: center;
 }
+ 
 
 .card-header span {
     font-size: 17px;

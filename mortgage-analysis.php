@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="css/mortgage-analysis.css">
 <?php include 'inc/app.php'; ?>
 <!-- start here -->
-<section class="refinance-mortgage-lenders-sec">
+<section class="mortgage-analysis-sec">
     <div class="container">
         <!-- sec-heading start here -->
         <div class="Refinance-heading">
@@ -53,7 +53,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-3"></div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-5 ">
                             <div class="tab-1">
                                 <div class="tab1form">
                                     <div class="form-group">
@@ -72,7 +72,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-4 align-self-center">
                             <button class="btn btn-primary nextBtn" type="button">Next</button>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-3"></div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <div class="tab-1">
                                 <div class="tab1form">
                                     <div class="form-group">
@@ -101,7 +101,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-4 align-self-center">
                             <button class="btn btn-primary nextBtn" type="button">Next</button>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-3"></div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <div class="tab-1">
                                 <div class="tab1form">
                                     <div class="form-group">
@@ -130,7 +130,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-4 align-self-center">
                             <button class="btn btn-primary nextBtn" type="button">Next</button>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 align-self-center">
                             <button class="btn btn-primary nextBtn" type="button">Next</button>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-3"></div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <div class="tab-1">
                                 <div class="tab1form">
                                     <div class="form-group">
@@ -188,7 +188,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-4 align-self-center">
                             <button class="btn btn-primary nextBtn" type="button">Next</button>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-3"></div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <div class="tab-1">
                                 <div class="tab1form">
                                     <div class="form-group">
@@ -217,7 +217,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-4 align-self-center">
                             <button class="btn btn-primary nextBtn" type="button">Next</button>
                         </div>
                     </div>
@@ -227,7 +227,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-3"></div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <div class="tab-1">
                                 <div class="tab1form">
                                     <div class="form-group">
@@ -242,7 +242,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-4 align-self-center">
                             <button class="btn btn-success " onclick="location.href='great-job-you-received-an-a.php';" type="submit">submit</button>
                         </div>
                     </div>

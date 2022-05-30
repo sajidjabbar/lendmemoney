@@ -35,6 +35,9 @@
     font-family: "poppins";
     font-weight: 500;
 }
+.better-img img {
+    margin-bottom: 20px;
+}
 .personaloan-sec .better-img p{
     color: #303030;
     font-family: "poppins";

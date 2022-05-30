@@ -158,7 +158,7 @@ $(document).ready(function() {
     });
 });
 
-$('').slick({
+$('section.refinance-mortgage-lenders-sec .stepwizard-row.setup-panel').slick({
     dots: true,
     infinite: false,
     speed: 300,

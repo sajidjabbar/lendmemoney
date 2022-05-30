@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="home-btn3">
-                    <a href="#">Search</a>
+                    <a href="personal-loan-tabs.php">Search</a>
                 </div>
             </div>
 

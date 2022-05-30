@@ -63,6 +63,12 @@
     width: 103.6px;
     text-decoration: none;
 }
+section.refinance-mortgage-lenders-sec .stepwizard-row {
+    margin-bottom: 0px !important;
+}
+.stepwizard-step {
+    width: 124px !important;
+}
 button.btn.btn-primary.nextBtn {
     margin-top: 30px;
     margin-left: 11px;
@@ -89,6 +95,9 @@ a.btn1.btn-circle.btn-default.btn-success{
     text-align: center;
     width: 100%;
     margin: 90px 0px;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
 }
 .form-group select.form-control{
     border: 1px solid #000000 ! important;

@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/refinance-mortgage-lenders.css">
 <?php include 'inc/app.php'; ?>
 <!-- start here -->
-<section class="refinance-mortgage-lenders-sec">
+<section class="refinance-mortgage-lenderscalculator-sec">
     <div class="container">
         <!-- sec-heading start here -->
         <div class="Refinance-heading">
@@ -53,13 +53,13 @@
             <form role="form">
                 <div class="panel panel-primary setup-content" id="step-1">
                     <div class="panel-body">
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-lg-1"></div>
                             <div class="col-lg-10 col-md-12">
                                 <div class="tab-1">
                                     <div class="tab1form1">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <label for="exampleFormControlSelect1">Home type</label>
                                                     <select class="form-control" id="exampleFormControlSelect1" |>
@@ -71,7 +71,7 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-md-6">
+                                            <div class="col-lg-5 col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleFormControlSelect1">Credit type</label>
                                                     <select class="form-control" id="exampleFormControlSelect1" |>
@@ -95,13 +95,13 @@
                 </div>
                 <div class="panel panel-primary setup-content mb-5" id="step-2">
                     <div class="panel-body">
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-lg-1"></div>
                             <div class="col-lg-10 col-md-12">
                                 <div class="tab-1">
                                     <div class="tab1form1">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <label for="exampleFormControlSelect1">Loan Type</label>
                                                     <select class="form-control" id="exampleFormControlSelect1" |>
@@ -113,7 +113,7 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-md-6">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <label for="exampleFormControlSelect1">Enter Zip code</label>
                                                     <input type="number" class="form-control"
@@ -131,13 +131,13 @@
                 </div>
                 <div class="panel panel-primary mb-5 setup-content" id="step-3">
                     <div class="panel-body">
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-lg-1"></div>
                             <div class="col-lg-10 col-md-12">
                                 <div class="tab-1">
                                     <div class="tab1form1">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <div class="single-input">
                                                         <label for="" class="mb-3">Are you a first-time home buyer ?
@@ -154,7 +154,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-md-6">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <label for="exampleFormControlSelect1">Enter Zip code</label>
                                                     <select class="form-control" id="exampleFormControlSelect1">
@@ -167,10 +167,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
-                                                    <label for="exampleFormControlSelect1">Purchase price of the new home</label>
+                                                    <label for="exampleFormControlSelect1">Purchase price of the new
+                                                        home</label>
                                                     <select class="form-control" id="exampleFormControlSelect1">
                                                         <option selected>Select Price</option>
                                                         <option>Select Down Payment</option>
@@ -180,9 +181,10 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-md-6">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
-                                                    <label for="exampleFormControlSelect1">Estimated Down Payment</label>
+                                                    <label for="exampleFormControlSelect1">Estimated Down
+                                                        Payment</label>
                                                     <select class="form-control" id="exampleFormControlSelect1">
                                                         <option selected>Select your mortgage interest rate</option>
                                                         <option>Select your mortgage interest rate</option>
@@ -194,7 +196,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    <button class="btn btn-primary nextBtn" type="button">Next</button>
+                                        <button class="btn btn-primary nextBtn" type="button">Next</button>
                                     </div>
                                 </div>
                             </div>
@@ -204,13 +206,13 @@
                 </div>
                 <div class="panel panel-primary mb-5 setup-content" id="step-4">
                     <div class="panel-body">
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-lg-1"></div>
                             <div class="col-lg-10 col-md-12">
                                 <div class="tab-1">
                                     <div class="tab1form1">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <label for="exampleFormControlSelect1">How old are you?
                                                     </label>
@@ -223,7 +225,7 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-md-6">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <label for="exampleFormControlSelect1">Employment status
                                                     </label>
@@ -238,8 +240,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <div class="single-input">
                                                         <label for="" class="mb-3">Any bankruptcy in the past 3 years ?
@@ -256,7 +258,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-md-6">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <div class="single-input">
                                                         <label for="" class="mb-3">Can you show proof of your income?
@@ -285,13 +287,13 @@
                 </div>
                 <div class="panel panel-primary mb-5 setup-content" id="step-5">
                     <div class="panel-body">
-                        <div class="row">
+                        <div class="row j">
                             <div class="col-lg-1"></div>
                             <div class="col-lg-10 col-md-12">
                                 <div class="tab-1">
                                     <div class="tab1form1">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <div class="single-input">
                                                         <label for="" class="mb-3">Active or previous U.S. military
@@ -310,10 +312,10 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-lg-6 col-md-6">
+                                            <div class="col-lg-5 col-md-5">
                                                 <div class="form-group">
                                                     <div class="single-input">
-                                                        <label for="" class="mb-3">Would you like to be  a
+                                                        <label for="" class="mb-3">Would you like to be a
                                                             real estate agent in your area?
                                                             service?
                                                         </label>
@@ -331,22 +333,24 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-1"></div>
+                                        <div class="col-lg-10">
                                             <div class="heading">
                                                 <h3>Personal information</h3>
                                             </div>
                                         </div>
+                                        <div class="col-lg-1"></div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="form-group">
                                                 <label for="exampleFormControlSelect1">First Name</label>
                                                 <input type="text" class="form-control" id="exampleFormControlSelect1"
                                                     placeholder="Last Name">
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-md-6">
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="form-group">
                                                 <label for="exampleFormControlSelect1">First Name</label>
                                                 <input type="text" class="form-control" id="exampleFormControlSelect1"
@@ -354,15 +358,15 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="form-group">
                                                 <label for="exampleFormControlSelect1">Primary Residence </label>
                                                 <input type="text" class="form-control" id="exampleFormControlSelect1"
                                                     placeholder="Residence" required>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-md-6">
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="form-group">
                                                 <label for="exampleFormControlSelect1">City</label>
                                                 <input type="text" class="form-control" id="exampleFormControlSelect1"
@@ -370,15 +374,15 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="form-group">
                                                 <label for="exampleFormControlSelect1">State</label>
                                                 <input type="text" class="form-control" id="exampleFormControlSelect1"
                                                     placeholder="State" required>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-md-6">
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="form-group">
                                                 <label for="exampleFormControlSelect1">Zip code</label>
                                                 <input type="text" class="form-control" id="exampleFormControlSelect1"
@@ -386,17 +390,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
+                                    <div class="row ">
+                                        <div class="col-lg-1"></div>
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="form-group">
                                                 <label for="exampleFormControlSelect1">Phone </label>
                                                 <input type="number" class="form-control" id="exampleFormControlSelect1"
                                                     placeholder="Phone">
                                             </div>
                                         </div>
-
+                                        <div class="col-lg-1"></div>
                                     </div>
-                                    <a href="refinance-mortgage-lenders2.php" class="btnn"> submit</a>
+                                    <button class="btn"><a href="refinance-mortgage-lenders2.php" >
+                                            submit</a></button>
+
                                     <!-- <button class="btn nextbutton btn-primary nextBtn" type="button">submit</button> -->
                                 </div>
                             </div>
@@ -520,8 +527,8 @@
                             <div class="card-header">
                                 <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
                                     aria-expanded="false">
-                                    <span>Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in haction. </span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus
+                                        in haction. </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false">
@@ -544,7 +551,8 @@
                             <div class="card-header">
                                 <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo"
                                     aria-expanded="false">
-                                    <span>Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut</span> <i
+                                    <span>Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet
+                                        porttitor lacus luctus accumsan tortor posuere ac ut</span> <i
                                         class="fa fa-plus"></i>
                                 </a>
                             </div>
@@ -567,8 +575,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere </span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus
+                                        luctus accumsan tortor posuere </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseThree" class="collapse" data-parent="#accordion">
@@ -590,8 +598,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
-                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc </span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper
+                                        malesuada proin libero nunc </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseFour" class="collapse" data-parent="#accordion">
@@ -613,8 +621,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
-                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui faucibus in ornare quam. </span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui
+                                        faucibus in ornare quam. </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseFours" class="collapse" data-parent="#accordion">
@@ -636,8 +644,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
-                                    <span>Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in haction.</span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus
+                                        in haction.</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseFive" class="collapse" data-parent="#accordion">
@@ -659,7 +667,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapsesix">
-                                    <span>Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut</span> <i
+                                    <span>Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet
+                                        porttitor lacus luctus accumsan tortor posuere ac ut</span> <i
                                         class="fa fa-plus"></i>
                                 </a>
                             </div>
@@ -682,8 +691,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseseven">
-                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere</span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus
+                                        luctus accumsan tortor posuere</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseseven" class="collapse" data-parent="#accordion">
@@ -728,8 +737,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapsenine">
-                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc</span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper
+                                        malesuada proin libero nunc</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapsenine" class="collapse" data-parent="#accordion">
@@ -751,8 +760,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseten">
-                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui faucibus in ornare quam. </span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui
+                                        faucibus in ornare quam. </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseten" class="collapse" data-parent="#accordion">

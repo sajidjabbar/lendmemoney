@@ -16,7 +16,7 @@
             <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Find the best Reverse Mortgage Lenders</h3>
             <p class="animate__animated animate__fadeInDown animate__delay-1s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="">Get connected</a>
+            <a href="Reverse-Mortgage-tab.php">Get connected</a>
         </div>
     </div>
 </section>

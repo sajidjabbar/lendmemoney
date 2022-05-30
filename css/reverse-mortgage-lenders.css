@@ -132,14 +132,14 @@
     font-weight: 400;
 }
 
-.pointscalculatorpage li::before {
+.pointsrefinancepage li::before {
     content: "";
     height: 8px;
     width: 8px;
-    margin-top: 10px;
+    margin-top: 12px;
     background-image: url(../img/dot.png);
     background-size: cover;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .mortgage-calculatorsec option {

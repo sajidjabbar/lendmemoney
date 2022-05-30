@@ -15,10 +15,10 @@
                                     <a class="menu" href="mortgage.php">Mortgage<i class="fa fa-angle-down"></i></a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                         <a class="dropdown-item" href="refinance-mortgage-lenders.php">Refinance
-                                            mortgage
+                                            Mortgage
                                             lenders</a>
                                         <a class="dropdown-item" href="comparecurrentmortgage.php">Compare current
-                                            mortgage
+                                            Mortgage
                                             rates</a>
                                         <a class="dropdown-item dropdown" id="toshow" href="mortgage-toolspage.php">
                                             Mortgage Tools page <i class="fa fa-angle-down"></i>
@@ -48,29 +48,38 @@
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                         <a class="dropdown-item" href="auto-insurance-1.php">Auto insurance</a>
                                         <a class="dropdown-item" href="insurance.php">life insurance</a>
-                                        <a class="dropdown-item" href="home-insurance.php">home insurance</a>
-                                        <a class="dropdown-item" href="about-life-insurance-calculator.php">about life
+                                        <a class="dropdown-item" href="home-insurance.php">Home insurance</a>
+                                        <a class="dropdown-item" href="about-life-insurance-calculator.php">About life
                                             insurance calculator </a>
-                                        <a class="dropdown-item" href="pet-insurance.php">pet insurance</a>
+                                        <a class="dropdown-item" href="pet-insurance.php">Pet insurance</a>
                                     </div>
                                 </li>
-                                <li class="normal-nav-items dropdown">
+                                <!-- <li class="normal-nav-items dropdown">
                                     <a class="menu" href="credit-card.php">Credit Cards<i
                                             class="fa fa-angle-down"></i></a>
+                                </li> -->
+                                <li class="normal-nav-items dropdown">
+                                    <a class="menu" href="credit-card.php">Credit Cards<i class="fa fa-angle-down"></i></a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Credit Card Categories</a>
+                                        <a class="dropdown-item" href="Cash-back.php">Cash Back</a>
+                                        
+                                    </div>
                                 </li>
                                 <li class="normal-nav-items dropdown">
                                     <a class="menu" href="loans.php">Loans<i class="fa fa-angle-down"></i></a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <a class="dropdown-item" href="loans.php">personal loan</a>
-                                        <a class="dropdown-item" href="homeequityloantable.php">home equity loan</a>
+                                        <a class="dropdown-item" href="loans.php">Personal loan</a>
+                                        <a class="dropdown-item" href="homeequityloantable.php">Home equity loan</a>
                                         <a class="dropdown-item" href="personal-loantable2.php">Auto Refinance</a>
                                         <a class="dropdown-item" href="best-student-loan.php">Student loan Refinance
                                         </a>
                                     </div>
                                 </li>
-                                <li class="normal-nav-items ml-4"><a href="sign-up-as-a-company.php"
-                                        class="yellowish-color">Become A Member</a></li>
-                                <li class="normal-nav-items"><a href="" class="yellowish-color">Login/Register</a></li>
+                                <li class="normal-nav-items ml-4"><a href="sign-in.php" class="yellowish-color">Become A
+                                        Member</a></li>
+                                <li class="normal-nav-items"><a href="sign-in.php"
+                                        class="yellowish-color">Login/Register</a></li>
                                 <li class="my-auto "><i class="fa fa-search yellowish-color"></i></li>
                             </ul>
                         </div>
@@ -131,7 +140,8 @@
                                             <button class="btn-mobile btn-link" data-toggle="collapse"
                                                 data-target="#collapsefive" aria-expanded="true"
                                                 aria-controls="collapsefive">
-                                                <a class="menu" href="#">Mortgage Tool page<i class="fa fa-angle-down"></i></a>
+                                                <a class="menu" href="#">Mortgage Tool page<i
+                                                        class="fa fa-angle-down"></i></a>
                                             </button>
                                         </h5>
                                     </div>
@@ -243,7 +253,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="nav-item-card"><a href="sign-up-as-a-company.php" class="yellowish-color">Become
+                <li class="nav-item-card"><a href="sign-in.php" class="yellowish-color">Become
                         A Member</a></li>
                 <li class="nav-item-card"><a href="#" class="yellowish-color">Login/Register</a></li>
                 <li class="nav-item-card"><i class="fa fa-search yellowish-color"></i></li>

@@ -10,13 +10,12 @@ section.homeequityloan-sec {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #707070;
 }
 .Refinance-heading h1 {
     color: #88B379;
     font-family: "poppins-semibold";
     font-weight: 600;
-    font-size: 50px;
+    font-size: 55px;    
 }
 .aboutrefinance-heading{
     padding-top: 30px;
@@ -35,16 +34,20 @@ section.homeequityloan-sec {
     font-size: 15px;
 }
 
-.base-heading h3{
+.base-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 35px;
+}
+.home-btn {
+    margin: -7px 19px;
 }
 .home-btn a{
     color: #fff;
     background-color: #88B379;
     border-radius: 21px;
-    padding: 9px 51px;
+    padding: 9px 44px;
     border: transparent;
     font-size: 15px;
     font-family: "poppins";
@@ -64,15 +67,42 @@ section.homeequityloan-sec {
     font-weight: 400;
     font-size: 15px;
 }
+
 .est-heading h5 {
     color: #303030;
     opacity: 0.5;
     font-size: 16px;
 }
-.est p{
+
+.est1 p {
     color: #303030;
-    font-family: Poppinssemi;
+    font-family: Poppins-semibold;
     font-size: 18px;
+    margin-top: 0px;
+}
+.est2 {
+    margin: -9px 20px;
+}
+.est1 {
+    margin: 16px 21px;
+}
+.est p {
+    color: #303030;
+    font-family: Poppins-semibold;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.est2 p {
+    color: #303030;
+    font-family: Poppins-semibold;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.est {
+    margin-top: 20px;
+}
+.est-heading {
+    margin-left: 22px;
 }
 .better {
     padding: 15px 0;
@@ -80,6 +110,7 @@ section.homeequityloan-sec {
 .est-about{
     border-left: 2px solid #707070;
     padding: 4px 10px ;
+    height: 100px;
 }
 
 .base-heading {
@@ -88,6 +119,9 @@ section.homeequityloan-sec {
     border-bottom: 1px solid #707070;
     border-top: 1px solid #707070;
     margin-bottom: 13px;
+}
+.personal-info {
+    margin-bottom: 60px;
 }
 .home-btn2  {
     text-align: center;
@@ -109,7 +143,13 @@ section.homeequityloan-sec {
     border: 1px solid #000000 !important;
     border-radius: 21px !important;
 }
-
+.personal-info .form-control::placeholder{
+    color: #A9AEA9;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 10px;
+}
 
 .text-select {
     font-size: 15px;
@@ -122,14 +162,16 @@ section.homeequityloan-sec {
     font-size: 14px;
 }
 
-.home-btn3  {
-    padding: 35px 0;
+.home-btn3 {
+    text-align: center;
+    margin-top: 30px;
+
 }
 .home-btn3 a{
     color: #fff;
     background-color: #88B379;
     border-radius: 21px;
-    padding: 9px 73px;
+    padding: 9px 108px;
     border: transparent;
     font-size: 15px;
     font-family: "poppins";
@@ -179,11 +221,11 @@ label {
     font-family: "poppins";
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 49px;
 }
 
 .pointscalculatorpage {
     padding-top: 20px;
-    padding-bottom: 30px;
 }
 
 .pointscalculatorpage li {
@@ -200,48 +242,35 @@ label {
     margin-top: 10px;
     background-image: url(../img/dot.png);
     background-size: cover;
-    margin-right: 10px;
+    margin-right: 20px;
 }
-.info-sec{
-    padding-bottom: 50px;
+.info-sec {
+    padding-bottom: 100px ! important;
+}
+.card .card-header .accord1 {
+    font-size: 22px;
+    color: #000000;
+    font-family: "poppins-semibold";
+    font-weight: 400;
+}
+.about-calculatorpage h2 {
+    font-size: 42px;
+    color: #000000;
+    font-family: "poppins-medium";
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.pointscalculatorpage h2{
+    font-size: 42px;
+    color: #000000;
+    font-family: "poppins-medium";
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.about-calculatorpage p {
+    font-size: 16px;
+    color: #000000;
+    font-family: "poppins-regular";
+    font-weight: 400;
 }
 /* info-sec end here */
-
-
-
-.accordion li {
-    list-style: none;
-    margin: 0;
-  }
-  
-  .accordion-trigger {
-    margin: 1px 0 0;
-    padding: 2px 15px;
-    color: #303030;
-    font-family: Poppinssemi;
-    font-weight: 400;
-    font-size: 15px;
-    transition: .2s ease-in;
-}
-  
-  .accordion-trigger:hover {
-    cursor: pointer;
-    background: #FFF;
-  }
-  
-  .accordion-content {
-    background: #FFF;
-    padding: 5px 15px;
-    margin: 0;
-  }
-
-  h5.accordion-trigger::before {
-    content: '\f107';
-    font-family: 'Fontawesome';
-    position: absolute;
-    right: 20px;
-    top: 7px;
-}
-ul.accordion {
-    padding: 0;
-}

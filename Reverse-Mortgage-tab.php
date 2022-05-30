@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="css/Reverse-Mortgage-tab.css">
 <?php include 'inc/app.php'; ?>
 <!-- start here -->
-<section class="refinance-mortgage-lenders-sec">
+<section class="refinance-mortgage-lenders-sec1">
     <div class="container">
         <!-- sec-heading start here -->
         <div class="Refinance-heading">

@@ -43,7 +43,7 @@
                                     id="">
                             </div>
                             <div class="form-row">
-                                <button type="submit" class="form-control">Submit</button>
+                                <button type="submit" class="form-control">Sign In</button>
                             </div>
                         </form>
                     </div>

@@ -301,7 +301,9 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="btnvisitor">
-                                        <button class="btn10 btn-primary nextBtn" type="button">Submit</button>
+                                        <a href="cheerspage.php">
+                                            <button class="btn10 btn-primary nextBtn" type="button">Submit</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

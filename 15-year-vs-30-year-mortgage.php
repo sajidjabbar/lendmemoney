@@ -24,7 +24,7 @@
     </div>
     <div class="animate__animated animate__fadeInLeft animate__delay-1s">
             <div class="homeloan-imgbox">
-                <img src="img/article-1.png" alt="" class="img-fluid">
+                <img src="img/rectangle-167.png" alt="" class="img-fluid">
             </div>
         </div>
  

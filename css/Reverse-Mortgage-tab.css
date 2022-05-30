@@ -186,6 +186,31 @@ label.contact_container {
 .tab1form {
     margin: 8px 0px;
 }
+.stepwizard .slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+section.refinance-mortgage-lenders-sec .stepwizard  .slick-slide {
+    width: 158px ! important;
+}
+section.refinance-mortgage-lenders-sec .stepwizard button.slick-next.slick-arrow {
+    padding-bottom: 30px;
+    background-color: white !important;
+    display: block !important;
+    top: 22px;
+    right: 0;
+}
+section.refinance-mortgage-lenders-sec .stepwizard button.slick-next.slick-arrow:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #88B379;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ul.slick-dots {
+    display: none;
+}
 @media  (max-width: 1024px){
     select#exampleFormControlSelect1 {
        

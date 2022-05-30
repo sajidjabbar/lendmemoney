@@ -9,8 +9,17 @@ p {
     margin-top: 12px;
 }
 
-
-
+.content-start h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    margin: 70px 0px
+}
+.content-start {
+    margin-bottom: 100px;
+}
 .terms-conditions-start {
     height: 500px;
     overflow-y: scroll;
@@ -26,9 +35,11 @@ p {
 
 }
 .terms-conditions-start h2{
-    color: #303030;
-    font-size: 40px;
-    font-family: "Poppins-semibold";
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
 }
 .terms-conditions-start h5 {
     color: #303030;
@@ -52,7 +63,7 @@ p {
 .accept-btn button {
     color: #FFFFFF;
     font-size: 13px;
-    font-family: "poppins-medium";
+    font-family: poopinsmedium;
     background-color: #88B379;
     padding: 10px 35px;
     border-radius: 15px;
@@ -65,49 +76,6 @@ p {
 .accept-btn button:hover {
     border: 2px solid #88B379;
     background-color: #FFFFFF;
-    
+    font-family: poopinsmedium;
     color: #88B379;
 }
-/* checkbox  css start here */
-.form-group input {
-    padding: 0;
-    height: initial;
-    width: initial;
-    margin-bottom: 0;
-    display: none;
-    cursor: pointer;
-  }
-  
-  .form-group label {
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .form-group label:before {
-    content:'';
-    -webkit-appearance: none;
-    background-color: #88B379;
-    border: 2px solid #88B379;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-    padding: 10px;
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    cursor: pointer;
-    margin-right: 5px;
-    border-radius: 50%;
-  }
-  
-  .form-group input:checked + label:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 6px;
-    left: 9px;
-    width: 6px;
-    height: 14px;
-    border: solid #ffff;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-  }
-/* checkbox  css end here */

@@ -32,6 +32,7 @@ section.homeequityloan-sec {
     font-family: "poppins";
     font-weight: 400;
     font-size: 15px;
+    padding: 0px 80px;
 }
 
 .base-heading h3 {
@@ -272,5 +273,24 @@ label {
     color: #000000;
     font-family: "poppins-regular";
     font-weight: 400;
+}
+.compare-mortagage-faqs h1 {
+    color: #303030;
+    font-family: 'Poppins-Medium';
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.card-header span {
+    font-size: 17px;
+    color: #000000;
+    font-family: "Aileron-regular";
+    font-weight: 400;
+}
+.compare-mortagage-faqs {
+    margin-top: 40px;
+}
+#accordion {
+    padding-bottom: 40px;
 }
 /* info-sec end here */

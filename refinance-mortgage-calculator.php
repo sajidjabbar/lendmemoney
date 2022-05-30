@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10 col-md-12">
-                    <form action="mortgage-calculator-result2.php">
+                    <form action="">
                         <div class="tab-1">
                             <div class="tab1form1">
                                 <div class="row">
@@ -106,8 +106,8 @@
                                     </div>
                                 </div>
                                 <div class="btncalculator text-center">
-                                    <button class="btncal nextbutton btn-primary nextBtn"
-                                        type="submit">Calculate</button>
+                                    <button class="btn"> <a href="mortgage-calculator-result2.php">
+                                            Calculate </a></button>
                                 </div>
                             </div>
                         </div>

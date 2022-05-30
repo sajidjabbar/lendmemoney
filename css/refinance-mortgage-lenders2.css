@@ -2,6 +2,7 @@
 .Refinance-heading{
     text-align: center;
     padding-top: 40px;
+    margin-bottom: 100px;
 }
 .Refinance-heading h1{
     color: #88B379;
@@ -38,6 +39,7 @@
     font-family: "poppins";
     font-weight: 400;
     font-size: 15px;
+    padding-right: 70px;
 }
 .refinance-lenders-sec .better {
     padding: 30px 0 !important;
@@ -45,6 +47,9 @@
     border-top: transparent !important;
     border-bottom: 1px solid #dee2e6;
     vertical-align: middle !important;
+}
+.better-img img{
+    margin-bottom: 20px;
 }
 .better-img{
     text-align: left;
@@ -60,7 +65,6 @@
     padding-bottom: 30px;
 }
 .this-table{
-    text-align: center;
     padding-bottom: 140px;
 }
 .about-it{
@@ -122,6 +126,7 @@
     align-items: center;
     padding-top: 43px;
 }
+
 /* refinance-lenders end here */
 @media screen and (max-width: 768px) {
     .refinance-lenders-sec  .table h3 {

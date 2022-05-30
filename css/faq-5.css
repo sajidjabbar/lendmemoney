@@ -156,6 +156,7 @@ label {
     font-family: "poppins";
     font-weight: 500;
     font-size: 29px;
+    margin-bottom: 20px;
 }
 .about-refinancepage p{
     color: #303030;
@@ -168,6 +169,7 @@ label {
     font-family: "poppins";
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 80px;
 }
 .pointsrefinancepage h2{
     color: #303030;
@@ -190,10 +192,10 @@ label {
     content: "";
     height: 8px;
     width: 8px;
-    margin-top: 10px;
+    margin-top: 9px;
     background-image: url(../img/dot.png);
     background-size: cover;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .refinance-faqs{
     margin: 30px 0;

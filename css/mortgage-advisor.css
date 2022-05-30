@@ -253,6 +253,13 @@ label {
     font-family: "poppins";
     font-weight: 500;
 }
+.panel-body .btnvisitor .btn-primary.focus,.panel-body .btnvisitor .btn-primary:focus {
+    box-shadow: unset;
+}
+.panel-body .btnvisitor .btn10:hover {
+    border-color: unset;
+    border: 1px solid #88B379;
+}
 .current-btn {
     width: 100%;
 }

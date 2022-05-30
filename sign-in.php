@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="css/sign-in.css">
 <!-- Css End Here Here -->
 <!-- Body Start Here -->
-
 <section class="form-box-section">
     <div class="container">
         <div class="row">
@@ -17,7 +16,7 @@
                         <span>Not a member? <a href="" class="greentext">Create new Account</a></span>
                     </div>
                     <div class="form-start">
-                        <form action="">
+                        <form action="sign-up.php">
                             <div class="form-row">
                                 <input type="text" class="form-control" placeholder="Username" name="" id="">
                             </div>
@@ -25,7 +24,7 @@
                                 <input type="text" class="form-control" placeholder="Password" name="" id="">
                             </div>
                             <div class="form-row">
-                                <button type="submit" class="form-control"> <a href="sign-up.php"> Submit</a></button>
+                            <a href="sign-up.php"><button type="submit" class="form-control"> Sign In</button></a>
                             </div>
                         </form>
                     </div>

@@ -15,9 +15,9 @@
                             <h5>Menu</h5>
                         </div>
                         <ul>
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">Mortgage</a></li>
-                            <li><a href="">Credit Cards</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="mortgage.php">Mortgage</a></li>
+                            <li><a href="comparecurrentmortgage.php">Credit Cards</a></li>
                             <li><a href="">Financial help</a></li>
                         </ul>
                     </div>
@@ -29,11 +29,11 @@
                         <h5>Quick Links</h5>
                     </div>
                     <ul>
-                        <li><a href="">FAQ's</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="faqs.php">FAQ's</a></li>
+                        <li><a href="contactus.php">Contact</a></li>
                         <li><a href="">Articles</a></li>
-                        <li><a href="">Privacy Policys</a></li>
-                        <li><a href="">Terms of use</a></li>
+                        <li><a href="privacy-policy.php">Privacy Policys</a></li>
+                        <li><a href="terms-of-use.php">Terms of use</a></li>
                     </ul>
                 </div>
             </div>

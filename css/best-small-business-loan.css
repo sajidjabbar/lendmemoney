@@ -9,14 +9,15 @@ section.refinance-lenders-sec {
 }
 .Refinance-heading{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 30px;
     border-bottom: 1px solid #707070;
 }
 .Refinance-heading h1{
     color: #88B379;
-    font-family: "poppins";
+    font-family: "poppins-semibold";
     font-weight: 600;
+    font-size: 53px;
 }
 .aboutrefinance-heading{
     padding-top: 30px;
@@ -24,8 +25,9 @@ section.refinance-lenders-sec {
 }
 .Refinance-heading h3{
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
+    font-size: 40px;
 }
 .Refinance-heading p{
     color: #303030;
@@ -38,25 +40,31 @@ section.homeequityloan-sec {
 }
 .base-heading h3 {
     color: #303030;
-    font-family: "poppins";
+    font-family: "poppins-medium";
     font-weight: 500;
-    font-size: 29px;
+    font-size: 32px;
 }
+.business-loan {
+    margin: 50px 0px;
+}   
 .base-heading {
     text-align: center;
     padding: 29px 0;
     border-bottom: 1px solid;
     margin-bottom: 13px;
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+link, .nav-tabs .nav-link.active {
     color: #303030 !important;
     background-color: #fff;
     font-weight: 600;
-    font-family:"poppins";
+    font-family: "poppins-semibold";
     border-color: transparent !important;
     border-bottom: 3px solid #88B379 !important;
+    font-size: 20px;
 }
-
+.better-img {
+    margin-top: 7px;
+}
 .nav-tabs {
     border-bottom:transparent !important;
 }
@@ -71,11 +79,17 @@ section.homeequityloan-sec {
     font-weight: 600;
     font-size: 17px;
 }
+.card-tab .card-header .card-link img {
+    position: absolute;
+    right: 36px;
+    top: 55px;
+}
 .better-img img{
     width: 90%;
 }
-.business-loan p{
+.business-loan p {
     font-size: 15px;
+    font-family: poppins-regular;
 }
 .detail-tables {
     width: 100%;
@@ -117,13 +131,7 @@ section.homeequityloan-sec {
     color: #303030;
     font-size: 14px;
 }
-.personal-info {
-    padding: 23px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .base-heading2 {
     text-align: center;
     padding: 16px 0;
@@ -154,14 +162,6 @@ section.homeequityloan-sec {
     font-family: "poppins";
     font-weight: 500;
 }
-.detail-tables {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 15px 0;
-    border-top:1px solid #7070704f ;
-    margin-top: 10px;
-}
 .detail-btn a{
     color: #303030;
     font-family: Poppinssemibold;
@@ -173,23 +173,67 @@ section.homeequityloan-sec {
     opacity: 0.5;
     font-size: 16px;
 }
-.est p{
-    color: #303030;
-    font-family: Poppinssemibold;
-    font-size: 18px;
-}
-.better {
-    border-bottom: 1px solid #707070;
-    padding: 15px 0;
-}
-.est-about{
+.est-about {
     border-left: 2px solid #707070;
-    padding: 4px 10px ;
+    padding: 4px 10px;
+    height: 100px;
+}
+
+.est1 p {
+    color: #303030;
+    font-family: Poppins-semibold;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.est2 {
+    margin: -9px 20px;
+}
+.est1 {
+    margin: 16px 21px;
+}
+.faq-wrapper .card {
+    /* border-top: 1px solid #777575 !important; */
+    border-radius: 0px;
+    border-bottom: 1px solid #303030 !important;
+    border: none;
+    border-color: #A0A0A0 !important;
+    border-top:1px solid #303030 !important; ;
+}
+.est p {
+    color: #303030;
+    font-family: Poppins-semibold;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.better-info {
+    margin-top: 49px;
+}
+.row.better {
+    margin-top: 50px;
+    margin-bottom: 21px;
+}
+.card .card-header .accord1 {
+    font-size: 22px;
+    color: #000000;
+    font-family: "poppins-semibold";
+    font-weight: 400;
+}
+.est2 p {
+    color: #303030;
+    font-family: Poppins-semibold;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.est {
+    margin-top: 20px;
+}
+.est-heading {
+    margin-left: 22px;
 }
 
 .base-heading {
     text-align: center;
-    padding: 16px 0;
+    padding: 46px 0;
     border-bottom: 1px solid #707070;
     border-top: 1px solid #707070;
     margin-bottom: 13px;
@@ -202,7 +246,7 @@ section.homeequityloan-sec {
     color: #fff;
     background-color: #88B379;
     border-radius: 21px;
-    padding: 9px 56px;
+    padding: 9px 44px;
     border: transparent;
     font-size: 15px;
     font-family: "poppins";
@@ -226,25 +270,31 @@ section.homeequityloan-sec {
     color: #303030;
     font-size: 14px;
 }
-.personal-info {
-    padding: 23px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.home-btn3  {
+.home-btn3 {
     padding: 35px 0;
+    text-align: center;
 }
 .home-btn3 a{
     color: #fff;
     background-color: #88B379;
     border-radius: 21px;
-    padding: 9px 73px;
+    padding: 9px 107px;
     border: transparent;
     font-size: 15px;
     font-family: "poppins";
     font-weight: 500;
+}
+.personal-info .form-control::placeholder{
+    color: #A9AEA9;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.base-heading2 h3 {
+    font-family: "poppins-medium";
+    font-weight: 400;
+    font-size: 325px;
 }
 label {
     display: inline-block;
@@ -302,14 +352,4 @@ label {
     margin: 0;
   }
 
-  h5.accordion-trigger::before {
-    content: '\f107';
-    font-family: 'Fontawesome';
-    position: absolute;
-    right: 20px;
-    top: 7px;
-}
-ul.accordion {
-    padding: 0;
-}
 /* sec end here */

@@ -17,7 +17,7 @@
                         <span>Already a member? <a href="" class="greentext">Sign in to existing Account</a></span>
                     </div>
                     <div class="form-start">
-                        <form action="">
+                        <form action="sign-up-as-a-company.php">
                             <div class="form-row">
                                 <input type="text" class="form-control" placeholder="First Name" name="" id="">
                             </div>
@@ -34,7 +34,7 @@
                                 <input type="password" class="form-control" placeholder="Confirm Password" name="" id="">
                             </div>
                             <div class="form-row">
-                                <button type="submit" class="form-control">  Submit</button>
+                                <button type="submit" class="form-control">Sign In</button>
                             </div>
                         </form>
                     </div>

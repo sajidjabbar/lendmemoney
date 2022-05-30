@@ -11,7 +11,7 @@
                     consectetur adipiscing
                     elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 <div class="home-btn">
-                    <a href="#">Get Started</a>
+                    <a href="Home-Equity-Loan.php">Get Started</a>
                 </div>
             </div>
         </div>
@@ -57,16 +57,13 @@
                                 <div class="about-est">
                                     <div class="est">
                                         <p>560</p>
-
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="detail-tables">
                                 <div class="col-md-12 p-0 m-0">
-
                                     <div class="faq-wrapper">
                                         <div id="accordion">
                                             <div class="card">
@@ -338,15 +335,16 @@
     <div class="container">
         <div class="animate__animated animate__fadeInDown animate__delay-1s">
             <div class="mortagage-faqs">
-                <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">Some FAQs Regarding Reverse Mortgage Lenders</h1>
+                <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">Some FAQs Regarding Reverse Mortgage
+                    Lenders</h1>
                 <div id="accordion">
                     <div class="animate__animated animate__fadeInRight animate__delay-1s ">
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes"
                                     aria-expanded="false">
-                                    <span>Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in haction.</span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus
+                                        in haction.</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false">
@@ -367,7 +365,8 @@
                             <div class="card-header">
                                 <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo"
                                     aria-expanded="false">
-                                    <span>Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut</span> <i
+                                    <span>Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet
+                                        porttitor lacus luctus accumsan tortor posuere ac ut</span> <i
                                         class="fa fa-plus"></i>
                                 </a>
                             </div>
@@ -388,8 +387,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere</span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus
+                                        luctus accumsan tortor posuere</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseThree" class="collapse" data-parent="#accordion">
@@ -409,8 +408,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
-                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc</span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper
+                                        malesuada proin libero nunc</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseFour" class="collapse" data-parent="#accordion">
@@ -430,8 +429,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
-                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui faucibus in ornare quam. </span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui
+                                        faucibus in ornare quam. </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseFours" class="collapse" data-parent="#accordion">
@@ -451,8 +450,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
-                                    <span>Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in haction.</span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus
+                                        in haction.</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseFive" class="collapse" data-parent="#accordion">
@@ -472,7 +471,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapsesix">
-                                    <span>Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut</span> <i
+                                    <span>Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet
+                                        porttitor lacus luctus accumsan tortor posuere ac ut</span> <i
                                         class="fa fa-plus"></i>
                                 </a>
                             </div>
@@ -493,8 +493,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseseven">
-                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere</span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus
+                                        luctus accumsan tortor posuere</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseseven" class="collapse" data-parent="#accordion">
@@ -514,8 +514,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseeight">
-                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc</span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper
+                                        malesuada proin libero nunc</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseeight" class="collapse" data-parent="#accordion">
@@ -535,8 +535,8 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapsenine">
-                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui faucibus in ornare quam. </span> <i
-                                        class="fa fa-plus"></i>
+                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui
+                                        faucibus in ornare quam. </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapsenine" class="collapse" data-parent="#accordion">
@@ -556,8 +556,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseten">
-                                    <span></span> <i
-                                        class="fa fa-plus"></i>
+                                    <span></span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseten" class="collapse" data-parent="#accordion">

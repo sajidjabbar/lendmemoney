@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/best-student-loan.css">
+<link rel="stylesheet" href="css/best-student-refinance-option.css">
 <?php include 'inc/app.php'; ?>
 <!-- start here -->
 <section class="homeequityloan-sec">
@@ -6,30 +6,31 @@
         <div class="Refinance-heading">
             <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Best Student Refinance Option</h1>
             <div class="aboutrefinance-heading">
-                <h3 class="animate__animated animate__fadeInDown animate__delay-1s"> Find the Best Student Refinance
-                    Option</h3>
-                <p class="animate__animated animate__fadeInDown animate__delay-1s">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. </p>
+                <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Find the Best Student Refinance Option</h3>
+                <p class="animate__animated animate__fadeInDown animate__delay-1s">Sit amet commodo nulla facilisi
+                    nullam. Lectus mauris ultrices eros in cursus turpis massa. Velit egestas dui id ornare. Orci porta
+                    non pulvinar neque laoreet suspendisse interdum consectetur libero.
+                </p>
             </div>
         </div>
         <div class="personal-info">
-            <div class="form-row">
-                <div class="col-md-4">
+            <div class="form-row justify-content-center">
+                <div class="col-md-3">
                     <div class="form-group">
                         <label for="exampleFormControlSelect1"> Desired Loan Amount</label>
-                        <input class="form-control" id="exampleFormControlSelect1" placeholder="Enter Desired Loan Amount">
+                        <input class="form-control" id="exampleFormControlSelect1"
+                            placeholder="Enter Desired Loan Amount">
                         </input>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="form-group">
                         <label for="exampleFormControlSelect1"> Credit Score</label>
                         <input class="form-control" id="exampleFormControlSelect1" placeholder="Enter Credit Score">
                         </input>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">States Offered</label>
                         <input class="form-control" id="exampleFormControlSelect1" placeholder="States Offered ">
@@ -38,7 +39,7 @@
                 </div>
             </div>
             <div class="home-btn3">
-                <a href="#">Submit</a>
+                <a href="best-small-business-loan.php">Submit</a>
             </div>
         </div>
         <div class="this-table">
@@ -55,77 +56,7 @@
                                 <img src="img/sofi.png" alt="" class="class-fluid">
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="est-abouts">
-                                <div class="est-heading">
-                                    <h5>Loan amount</h5>
-                                </div>
-                                <div class="est">
-                                    <p>$5,000 - <br>
-                                        $100,000 </p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="est-about">
-                                <div class="est-heading">
-                                    <h5>Credit Score Range</h5>
-                                </div>
-                                <div class="est">
-                                    <p>500</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="est-about">
-                                <div class="est-heading">
-                                    <h5>Fixed APR:</h5>
-                                </div>
-                                <div class="about-est">
-                                    <div class="est">
-                                        <p>4.49-20.49%</p>
-
-                                    </div>
-                                    <div class="home-btn">
-                                        <a href="#">Continue</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="detail-tables">
-                                <div class="col-md-12 p-0 m-0">
-
-                                    <ul class="accordion">
-                                        <li>
-                                            <h5 class="accordion-trigger">View all details</h5>
-                                            <div class="accordion-content">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-                                                    assumenda autem, odio! Dolor, non animi eaque numquam consequuntur
-                                                    quae iure doloremque, odit laudantium quo esse totam quos ab,
-                                                    expedita rem</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed est
-                                                    natus ducimus, illo dolore possimus cumque. Magnam minus, cumque
-                                                    eligendi, ratione natus repellat architecto beatae illo, dolores
-                                                    delectus totam eaque.</p>
-                                            </div>
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row better">
                         <div class="col-md-2">
-                            <div class="better-img">
-                                <img src="img/discoverLogo.png" alt="" class="class-fluid">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
                             <div class="est-abouts">
                                 <div class="est-heading">
                                     <h5>Loan amount</h5>
@@ -142,19 +73,19 @@
                                 <div class="est-heading">
                                     <h5>Credit Score Range</h5>
                                 </div>
-                                <div class="est">
+                                <div class="est1">
                                     <p>500</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-5">
                             <div class="est-about">
                                 <div class="est-heading">
                                     <h5>Fixed APR:</h5>
                                 </div>
                                 <div class="about-est">
-                                    <div class="est">
+                                    <div class="est2">
                                         <p>4.49-20.49%</p>
 
                                     </div>
@@ -165,176 +96,255 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="detail-tables">
-                                <div class="col-md-12 p-0 m-0">
-
-                                    <ul class="accordion">
-                                        <li>
-                                            <h5 class="accordion-trigger">View all details</h5>
-                                            <div class="accordion-content">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-                                                    assumenda autem, odio! Dolor, non animi eaque numquam consequuntur
-                                                    quae iure doloremque, odit laudantium quo esse totam quos ab,
-                                                    expedita rem</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed est
-                                                    natus ducimus, illo dolore possimus cumque. Magnam minus, cumque
-                                                    eligendi, ratione natus repellat architecto beatae illo, dolores
-                                                    delectus totam eaque.</p>
+                            <div class="faq-wrapper">
+                                <div id="accordion">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <a class="card-link collapsed" data-toggle="collapse" href="#collapseone"
+                                                aria-expanded="false">
+                                                <span class="accord1">View all details </span>
+                                                <img src="img/arrowdown.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div id="collapseone" class="collapse" data-parent="#accordion"
+                                            aria-expanded="false">
+                                            <div class="card-body">
+                                                <p>
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                                    anim id est laborum.
+                                                </p>
                                             </div>
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row better">
-                        <div class="col-md-2">
-                            <div class="better-img">
-                                <img src="img/upgradeLogo.png" alt="" class="class-fluid">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="est-abouts">
-                                <div class="est-heading">
-                                    <h5>Loan amount</h5>
-                                </div>
-                                <div class="est">
-                                    <p>$5,000 - <br>
-                                        $100,000 </p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="est-about">
-                                <div class="est-heading">
-                                    <h5>Credit Score Range</h5>
-                                </div>
-                                <div class="est">
-                                    <p>500</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="est-about">
-                                <div class="est-heading">
-                                    <h5>Fixed APR:</h5>
-                                </div>
-                                <div class="about-est">
-                                    <div class="est">
-                                        <p>4.49-20.49%</p>
-
-                                    </div>
-                                    <div class="home-btn">
-                                        <a href="#">Continue</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-12">
-                            <div class="detail-tables">
-                                <div class="col-md-12 p-0 m-0">
+                    </div>
+                </div>
+                <div class="row better">
+                    <div class="col-md-2">
+                        <div class="better-img">
+                            <img src="img/discoverLogo.png" alt="" class="class-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="est-abouts">
+                            <div class="est-heading">
+                                <h5>Loan amount</h5>
+                            </div>
+                            <div class="est">
+                                <p>$5,000 - <br>
+                                    $100,000 </p>
 
-                                    <ul class="accordion">
-                                        <li>
-                                            <h5 class="accordion-trigger">View all details</h5>
-                                            <div class="accordion-content">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-                                                    assumenda autem, odio! Dolor, non animi eaque numquam consequuntur
-                                                    quae iure doloremque, odit laudantium quo esse totam quos ab,
-                                                    expedita rem</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed est
-                                                    natus ducimus, illo dolore possimus cumque. Magnam minus, cumque
-                                                    eligendi, ratione natus repellat architecto beatae illo, dolores
-                                                    delectus totam eaque.</p>
-                                            </div>
-                                        </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="est-about">
+                            <div class="est-heading">
+                                <h5>Credit Score Range</h5>
+                            </div>
+                            <div class="est1">
+                                <p>500</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-md-5">
+                        <div class="est-about">
+                            <div class="est-heading">
+                                <h5>Fixed APR:</h5>
+                            </div>
+                            <div class="about-est">
+                                <div class="est2">
+                                    <p>4.49-20.49%</p>
 
-                                    </ul>
+                                </div>
+                                <div class="home-btn">
+                                    <a href="#">Continue</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row better">
-                        <div class="col-md-2">
-                            <div class="better-img">
-                                <img src="img/marcusbygoldmansachslogo.png" alt="" class="class-fluid">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="est-abouts">
-                                <div class="est-heading">
-                                    <h5>Loan amount</h5>
-                                </div>
-                                <div class="est">
-                                    <p>$5,000 - <br>
-                                        $100,000 </p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="est-about">
-                                <div class="est-heading">
-                                    <h5>Credit Score Range</h5>
-                                </div>
-                                <div class="est">
-                                    <p>500</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="est-about">
-                                <div class="est-heading">
-                                    <h5>Fixed APR:</h5>
-                                </div>
-                                <div class="about-est">
-                                    <div class="est">
-                                        <p>4.49-20.49%</p>
-
+                    <div class="col-md-12">
+                        <div class="faq-wrapper">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapsetwos"
+                                            aria-expanded="false">
+                                            <span class="accord1">View all details </span>
+                                            <img src="img/arrowdown.png" alt="">
+                                        </a>
                                     </div>
-                                    <div class="home-btn">
-                                        <a href="#">Continue</a>
+                                    <div id="collapsetwos" class="collapse" data-parent="#accordion"
+                                        aria-expanded="false">
+                                        <div class="card-body">
+                                            <p>
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                                cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                                anim id est laborum.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-12">
-                            <div class="detail-tables">
-                                <div class="col-md-12 p-0 m-0">
+                    </div>
+                </div>
+                <div class="row better">
+                    <div class="col-md-2">
+                        <div class="better-img">
+                            <img src="img/upgradeLogo.png" alt="" class="class-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="est-abouts">
+                            <div class="est-heading">
+                                <h5>Loan amount</h5>
+                            </div>
+                            <div class="est">
+                                <p>$5,000 - <br>
+                                    $100,000 </p>
 
-                                    <ul class="accordion">
-                                        <li>
-                                            <h5 class="accordion-trigger">View all details</h5>
-                                            <div class="accordion-content">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-                                                    assumenda autem, odio! Dolor, non animi eaque numquam consequuntur
-                                                    quae iure doloremque, odit laudantium quo esse totam quos ab,
-                                                    expedita rem</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed est
-                                                    natus ducimus, illo dolore possimus cumque. Magnam minus, cumque
-                                                    eligendi, ratione natus repellat architecto beatae illo, dolores
-                                                    delectus totam eaque.</p>
-                                            </div>
-                                        </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="est-about">
+                            <div class="est-heading">
+                                <h5>Credit Score Range</h5>
+                            </div>
+                            <div class="est1">
+                                <p>500</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-md-5">
+                        <div class="est-about">
+                            <div class="est-heading">
+                                <h5>Fixed APR:</h5>
+                            </div>
+                            <div class="about-est">
+                                <div class="est2">
+                                    <p>4.49-20.49%</p>
 
-                                    </ul>
+                                </div>
+                                <div class="home-btn">
+                                    <a href="#">Continue</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="home-btn2">
-                        <a href="#">Load More</a>
+                    <div class="col-md-12">
+                        <div class="faq-wrapper">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapsethree"
+                                            aria-expanded="false">
+                                            <span class="accord1">View all details </span>
+                                            <img src="img/arrowdown.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div id="collapsethree" class="collapse" data-parent="#accordion"
+                                        aria-expanded="false">
+                                        <div class="card-body">
+                                            <p>
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                                cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                                anim id est laborum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div class="row better">
+                    <div class="col-md-2">
+                        <div class="better-img">
+                            <img src="img/marcusbygoldmansachslogo.png" alt="" class="class-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="est-abouts">
+                            <div class="est-heading">
+                                <h5>Loan amount</h5>
+                            </div>
+                            <div class="est">
+                                <p>$5,000 - <br>
+                                    $100,000 </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="est-about">
+                            <div class="est-heading">
+                                <h5>Credit Score Range</h5>
+                            </div>
+                            <div class="est1">
+                                <p>500</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="est-about">
+                            <div class="est-heading">
+                                <h5>Fixed APR:</h5>
+                            </div>
+                            <div class="about-est">
+                                <div class="est2">
+                                    <p>4.49-20.49%</p>
+
+                                </div>
+                                <div class="home-btn">
+                                    <a href="#">Continue</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq-wrapper">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapsefours"
+                                            aria-expanded="false">
+                                            <span class="accord1">View all details </span>
+                                            <img src="img/arrowdown.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div id="collapsefours" class="collapse" data-parent="#accordion"
+                                        aria-expanded="false">
+                                        <div class="card-body">
+                                            <p>
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                                cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                                anim id est laborum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-btn2">
+                    <a href="#">Load More</a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <!--  end Here -->

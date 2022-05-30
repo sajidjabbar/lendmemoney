@@ -12,3 +12,14 @@
     font-family: "Poppins-Regular";
     margin-top: 12px;
 }
+.content-start h1{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    margin: 70px 0px
+}
+.content-start {
+    margin-bottom: 100px;
+}

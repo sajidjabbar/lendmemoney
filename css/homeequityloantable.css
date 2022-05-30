@@ -83,27 +83,59 @@ section.homeequityloan-sec {
     padding: 15px 0;
     margin-top: 20px;
 }
+.anchor-tag {
+    text-align: start;
+    margin-top: 27px;
+}
+
+.est-abouts12{
+    border-right: 1px solid #303030;
+    height: 109px;
+}
+.est-abouts {
+    border-right: 1px solid #303030;
+    text-align: left;
+    height: 109px;
+}
+
 .detail-btn a{
     color: #303030;
     font-family: Poppinssemi;
     font-weight: 400;
     font-size: 15px;
 }
+
 .est-heading h5 {
     color: #303030;
     opacity: 0.5;
     font-size: 16px;
+    margin-bottom: 2rem;
+}
+.est-about1 {
+    border-left: 1px solid #303030;
+    text-align: center;
+    height: 109px;
+}
+.anchor-tag a {
+    color: #88B379;
+    text-decoration: none;
+    background-color: transparent;
 }
 .est p{
     color: #303030;
     font-family: Poppinssemi;
     font-size: 18px;
 }
+.est3 p {
+    color: #303030;
+    font-family: "poppins-semibold";
+    font-size: 20px;
+}
 .better {
     padding: 15px 0;
 }
 .est-about{
-    border-left: 2px solid #707070;
+    /* border-left: 2px solid #707070; */
     padding: 4px 10px ;
     text-align: center;
 }
@@ -189,7 +221,7 @@ label {
     padding: 20px 0;
 }
 .better-img img {
-    width: 85%;
+    /* width: 85%; */
 }
 .accordion li {
     list-style: none;
