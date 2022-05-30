@@ -62,7 +62,7 @@
                                     <a class="menu" href="credit-card.php">Credit Cards<i class="fa fa-angle-down"></i></a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                         <a class="dropdown-item" href="#">Credit Card Categories</a>
-                                        <a class="dropdown-item" href="cash-back.php">Cash Back</a>
+                                        <a class="dropdown-item" href="Cash-Back.php">Cash Back</a>
                                         
                                     </div>
                                 </li>
