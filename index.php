@@ -4,7 +4,7 @@
 <section class="webheader-sec">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <div class="web-header">
                     <h2 class=" wow animate__animated animate__fadeInDown">Let us help you to</h2>
                     <h1 class=" title wow animate__animated animate__fadeInDown">Lower your monthly</h1>
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-6">
                 <div class="about-web-header">
                     <div class="header-card">
                         <div class="row top-card">

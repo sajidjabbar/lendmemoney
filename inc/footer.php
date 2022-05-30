@@ -43,8 +43,26 @@
                         <h5>Social</h5>
                     </div>
                     <div class="social-footer">
-                        <h5>C D E</h5>
-                        <h5>M Q L</h5>
+                      <ul>
+                          <li>
+                              <a href="#"><i class="fa fa-linkedin"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-twitter"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-facebook"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-youtube"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-instagram"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-whatsapp"></i></a>
+                          </li>
+                      </ul>
                     </div>
                     <div class="footer-text">
                         <p>© 2022 Lendmymoney. All Right Reserved</p>
