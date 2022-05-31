@@ -59,11 +59,12 @@
                                             class="fa fa-angle-down"></i></a>
                                 </li> -->
                                 <li class="normal-nav-items dropdown">
-                                    <a class="menu" href="credit-card.php">Credit Cards<i class="fa fa-angle-down"></i></a>
+                                    <a class="menu" href="credit-card.php">Credit Cards<i
+                                            class="fa fa-angle-down"></i></a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <a class="dropdown-item" href="#">Credit Card Categories</a>
+                                        <a class="dropdown-item" href="credit-card.php">Credit Card</a>
                                         <a class="dropdown-item" href="Cash-Back.php">Cash Back</a>
-                                        
+
                                     </div>
                                 </li>
                                 <li class="normal-nav-items dropdown">
@@ -80,7 +81,15 @@
                                         Member</a></li>
                                 <li class="normal-nav-items"><a href="sign-in.php"
                                         class="yellowish-color">Login/Register</a></li>
-                                <li class="my-auto "><i class="fa fa-search yellowish-color"></i></li>
+                                <li class="my-auto ">
+                                    <div class="search-box">
+                                        <input class="search-txt" type="text" name="" placeholder="Type to search">
+                                        <a href="#" class="search-btn">
+                                            <i class="fa fa-search yellowish-color">
+                                            </i>
+                                        </a>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </div>

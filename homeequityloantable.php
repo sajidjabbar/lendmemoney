@@ -327,8 +327,10 @@
                     </div>
                 </div>
             </div>
+            <div class="btn12">
+                <button class="btn">Load More</button>
+            </div>
         </div>
-    </div>
     </div>
 </section>
 <section class="faqs-sec">

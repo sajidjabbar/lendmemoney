@@ -8,7 +8,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua.</p>
             </div>
-            <div class="col-lg-2 col-md-2 col-2 ">
+            <div class="col-lg-2 col-md-2 col-2 p-0 ">
                 <div class="about-footer">
                     <div class="resources">
                         <div class="footer-heading">
@@ -37,7 +37,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-2 col-2">
+            <div class="col-lg-4 col-md-4 col-2">
                 <div class="footer-border">
                     <div class="footer-heading">
                         <h5>Social</h5>

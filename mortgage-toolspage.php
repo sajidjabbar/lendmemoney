@@ -89,7 +89,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link collapsed" data-toggle="collapse" href="#collapseOnes" aria-expanded="false">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span> Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in haction.</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseOnes" class="collapse" data-parent="#accordion" aria-expanded="false">
@@ -109,7 +109,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span>Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseTwo" class="collapse" data-parent="#accordion" aria-expanded="false">
@@ -129,7 +129,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseThree" class="collapse" data-parent="#accordion">
@@ -149,7 +149,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseFour" class="collapse" data-parent="#accordion">
@@ -169,7 +169,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseFours">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui faucibus in ornare quam.  </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseFours" class="collapse" data-parent="#accordion">
@@ -189,7 +189,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span>Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in haction. </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseFive" class="collapse" data-parent="#accordion">
@@ -209,7 +209,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapsesix">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span> Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut</span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapsesix" class="collapse" data-parent="#accordion">
@@ -229,7 +229,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseseven">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span>Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseseven" class="collapse" data-parent="#accordion">
@@ -249,7 +249,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseeight">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span>Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapseeight" class="collapse" data-parent="#accordion">
@@ -269,30 +269,10 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapsenine">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
+                                    <span>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Dui faucibus in ornare quam.  </span> <i class="fa fa-plus"></i>
                                 </a>
                             </div>
                             <div id="collapsenine" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-
-                                    <p>
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                        cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                        anim id est laborum.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="animate__animated animate__fadeInRight animate__delay-1s ">
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseten">
-                                    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span> <i class="fa fa-plus"></i>
-                                </a>
-                            </div>
-                            <div id="collapseten" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
 
                                     <p>

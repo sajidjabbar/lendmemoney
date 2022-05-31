@@ -59,7 +59,7 @@
                                     <div class="col-lg-1 p-0"></div>
                                     <div class="col-lg-5 col-md-6">
                                         <div class="about-calculator">
-                                            <button class="btn1 btn-primary" type="submit">Calculate</button>
+                                            <button class="btn btn-primary" type="submit">Calculate</button>
                                         </div>
                                     </div>
                                 </div>

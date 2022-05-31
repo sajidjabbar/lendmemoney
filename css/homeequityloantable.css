@@ -35,6 +35,17 @@
 section.homeequityloan-sec {
     padding-bottom: 60px;
 }
+.btn12 {
+    text-align: center;
+}
+.detail-tables span.accord {
+    font-size: 22px;
+    color: #000000;
+    font-family: "poppins-semibold";
+    font-weight: 400;
+}
+
+
 .base-heading h3 {
     color: #303030;
     font-family: "poppins-medium";

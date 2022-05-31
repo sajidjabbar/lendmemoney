@@ -60,7 +60,7 @@
                 <div class="animate__animated animate__fadeInDown">
                     <div class="article-heading">
                         <h5 class="animate__animated animate__fadeInDown">Our Articles</h5>
-                        <h3 class="animate__animated animate__fadeInDown">Read our best Article to know more</h3>
+                        <h3 class="animate__animated animate__fadeInDown">Article related to 15 Year</h3>
                     </div>
                     <div class="article-container">
                         <div class="about-articles">

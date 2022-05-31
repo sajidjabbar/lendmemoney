@@ -10,3 +10,11 @@
 .frequently-sec{
     padding-bottom: 110px !important;
 }
+
+.frequently-headin h3{
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 49px;
+    margin-bottom: 30px ! important;
+}

@@ -15,7 +15,7 @@
                         consequat.</p>
                     <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                         <a href="#"> <button>
-                                Calculate New Payment <i class='fas fa-long-arrow-alt-right'></i>
+                                Calculate New Payment <i class="fa fa-long-arrow-right"></i>
                             </button></a>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                     </div>
                     <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                         <a href="#"> <button>
-                                Learn More <i class='fas fa-long-arrow-alt-right'></i>
+                                Learn More <i class="fa fa-long-arrow-right"></i>
                             </button></a>
                     </div>
                 </div>
@@ -296,7 +296,7 @@
                                 veniam,</p>
                             <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                                 <a href="#"> <button>
-                                        Calculate New Payment <i class='fas fa-long-arrow-alt-right'></i>
+                                        Calculate New Payment <i class="fa fa-long-arrow-right"></i>
                                     </button></a>
                             </div>
                         </div>
@@ -328,14 +328,14 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
                         </div>
-                        <div class="info-heading">
+                        <div class="info-heading1">
                             <h5>Consectetuer Adipiscing</h5>
                         </div>
                         <div class="about-info">
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse <br> cillum dolore eu
                                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non provident.</p>
                         </div>
-                        <div class="info-heading">
+                        <div class="info-heading2">
                             <h5>Vestibulum auctor dapibus</h5>
                         </div>
                         <div class="about-info">
@@ -344,7 +344,7 @@
                         </div>
                         <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                             <a href="#"> <button>
-                                    Learn More <i class='fas fa-long-arrow-alt-right'></i>
+                                    Learn More <i class="fa fa-long-arrow-right"></i>
                                 </button></a>
                         </div>
                     </div>

@@ -12,15 +12,14 @@
    margin-bottom: 40px;
    margin-top: 50px;
 }
-
 .fixed-heading h1 {
     color: #88B379;
     font-family: "poppins";
     font-weight: 600;
     margin-bottom: 0;
+    line-height: 70px;
+    font-size: 45;
 }
-
-
 .about-calculatorform1 button {
     color: #fff;
     background-color: #88B379;
@@ -31,7 +30,6 @@
     font-family: "poppins";
     font-weight: 500;
 }
-
 .about-calculatorpage h2 {
     color: #303030;
     font-family: "poppins";
@@ -40,19 +38,16 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .about-calculatorpage p {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
     font-size: 16px;
 }
-
 .about-calculatorpage {
     padding-top: 50px;
     padding-bottom: 30px;
 }
-
 .pointcalculatorpage h2 {
     color: #303030;
     font-family: "poppins";
@@ -61,41 +56,57 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .pointscalculatorpage p {
     color: #303030;
     font-family: "poppins";
     font-weight: 400;
     font-size: 16px;
 }
-
 .pointscalculatorpage {
     padding-top: 20px;
     padding-bottom: 30px;
 }
-
 .pointscalculatorpage li {
     list-style: none;
     display: flex;
     font-family: "poppins";
     font-weight: 400;
+    line-height: 30px;
 }
-
 .pointscalculatorpage li::before {
     content: "";
     height: 8px;
     width: 8px;
-    margin-top: 10px;
+    margin-top: 9px;
     background-image: url(../img/dot.png);
     background-size: cover;
-    margin-right: 10px;
+    margin-right: 20px;
+    line-height: 0px;
 }
-
+.pointscalculatorpage h2{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 29px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutimg-card h6{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 15px;
+}
+.article-text h6{
+    color: #303030;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 15px;
+}
 .mortgage-calculatorsec option {
     background-color: #EBF1EA;
     font-size: 16px;
 }
-
 /*mortgage-calculatorsecend here */
 @media screen and (max-width: 768px) {
     .fixed-heading {

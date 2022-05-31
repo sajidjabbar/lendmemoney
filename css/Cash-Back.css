@@ -23,8 +23,8 @@
 .mortgage-heading h3 {
     color: #303030;
     font-family: "poppins";
-    font-weight: 400;
-    font-size: 42px;
+    font-weight: 500;
+    font-size: 38px;
 }
 .mortgage-heading p{
     color: #303030;
@@ -32,6 +32,7 @@
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 30px;
+    padding: 9px 60px;
 }
 .heading{
     margin-top: 30px;
@@ -60,7 +61,7 @@
 }
 
 .card-detail-wrapper {
-    border-top: 2px solid #707070;
+    border-top: 1px solid #D3D3D3;
     padding-top: 60px;
 }
 
@@ -78,6 +79,8 @@
 div#accordion {
     border-top: 1px solid #D3D3D3;
     padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D3D3D3;
 }
 
 .card-button button.btn  {
@@ -229,8 +232,14 @@ button.slick-next.slick-arrow:before {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-
+.anchor-tag {
+    text-align: center;
+    margin: 70px 0px;
+}
+.anchor-tag a{
+    text-decoration: none;
+    color: #88B379;
+}
 @media (max-width:1024px) {
     .nav-bar-slick .nav-item .nav-link {
        
