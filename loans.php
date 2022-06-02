@@ -24,6 +24,7 @@
         </div>    
         <div class="heading">
         <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Additional Resources</h3>
+        <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Auto Loans</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Home Equity Loans</a>
             <a href="#" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Student Loans</a>
             <a href="instalment-loans-for-bad-credits.php" class="animate__animated  animate__fadeInDown animate__delay-1s">Best Instalment Loans for Bad Credit</a>

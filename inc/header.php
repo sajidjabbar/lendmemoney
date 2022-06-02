@@ -62,7 +62,7 @@
                                     <a class="menu" href="credit-card.php">Credit Cards<i
                                             class="fa fa-angle-down"></i></a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <a class="dropdown-item" href="credit-card.php">Credit Card</a>
+                                        <!-- <a class="dropdown-item" href="credit-card.php">Credit Card</a> -->
                                         <a class="dropdown-item" href="Cash-Back.php">Cash Back</a>
 
                                     </div>
@@ -77,7 +77,7 @@
                                         </a>
                                     </div>
                                 </li>
-                                <li class="normal-nav-items ml-4"><a href="sign-in.php" class="yellowish-color">Become A
+                                <li class="normal-nav-items ml-4"><a href="sign-up-as-a-company.php" class="yellowish-color">Become A
                                         Member</a></li>
                                 <li class="normal-nav-items"><a href="sign-in.php"
                                         class="yellowish-color">Login/Register</a></li>

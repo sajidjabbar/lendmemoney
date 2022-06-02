@@ -36,8 +36,8 @@
                                     </div>
                                 </div>
                                 <div class="form-row">
-                                    <label for="">Name</label>
-                                    <textarea class="form-control" name="" id=""></textarea>
+                                    <label for="">Message</label>
+                                    <textarea class="form-control" name="" id="" placeholder="Enter Your Message"></textarea>
                                 </div>
                                 <div class="form-row">
                                     <button type="submit" class="form-control">Submit</button>

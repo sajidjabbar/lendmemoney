@@ -38,7 +38,7 @@
                                 <input type="password" class="form-control" placeholder="Card Number" name="" id="">
                             </div>
                             <div class="form-row">
-                                <button type="submit" class="form-control">Submit</button>
+                                <button type="submit" class="form-control">Proceed To Pay</button>
                             </div>
                         </form>
                     </div>

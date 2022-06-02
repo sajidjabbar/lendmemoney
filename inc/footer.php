@@ -17,7 +17,7 @@
                         <ul>
                             <li><a href="index.php">Home</a></li>
                             <li><a href="mortgage.php">Mortgage</a></li>
-                            <li><a href="comparecurrentmortgage.php">Credit Cards</a></li>
+                            <li><a href="credit-card.php">Credit Cards</a></li>
                             <li><a href="">Financial help</a></li>
                         </ul>
                     </div>

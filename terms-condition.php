@@ -173,7 +173,7 @@
         </div>
         <div class="term-on-terms">
             <div class="agree-on-terms">
-                <div class="form-group custom_checkbox">
+                <div class="form-group custom_checkbox space-it">
                     <input type="checkbox" id="terms">
                     <label for="terms"> Sit amet commodo nulla facilisi nullam. Lectus mauris ultrices eros in cursus turpis massa. Velit egestas dui id ornare.</label>
                 </div>

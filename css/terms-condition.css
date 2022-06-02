@@ -55,13 +55,15 @@ p {
     font-family: "poppins-medium";
     background-color: #88B379;
     padding: 10px 35px;
-    border-radius: 15px;
+    border-radius: 22px;
     border: 0px;
     transition: 0.6s all;
     cursor: pointer;
 }
 
-
+.space-it{
+    margin-top: 10px;
+}
 .accept-btn button:hover {
     border: 2px solid #88B379;
     background-color: #FFFFFF;

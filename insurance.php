@@ -39,7 +39,7 @@
         </div>
         <div class="about-mortagage"> 
             <div class="animate__animated animate__fadeInLeft animate__delay-1s">
-                <h2>How to get insurance?</h2>
+                <h2>Which type of health insurance is right for me?</h2>
             </div>
             <p class="animate__animated animate__fadeInRight animate__delay-1s">Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Blandit aliquam etiam erat velit scelerisque in dictum. Iaculis nunc sed augue lacus. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Convallis posuere morbi leo urna molestie at. Tristique senectus et netus et malesuada. Tristique magna sit amet purus gravida quis blandit. Lacus sed viverra tellus in hac. Platea dictumst vestibulum rhoncus est pellentesque. Aliquet porttitor lacus luctus accumsan tortor posuere. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Donec pretium
                 vulputate sapien nec. Dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc.</p>
@@ -54,7 +54,7 @@
         </div>
         <div class="animate__animated animate__fadeInDown animate__delay-1s">
             <div class="mortagage-faqs">
-                <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">Some FAQs Regarding Mortgage</h1>
+                <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">Some FAQs Regarding Insurance</h1>
                 <div id="accordion">
                     <div class="animate__animated animate__fadeInRight animate__delay-1s ">
                         <div class="card">

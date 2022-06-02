@@ -48,7 +48,12 @@ button.form-control{
     cursor: pointer;
 }
 
-
+.greenheading{
+    font-size: 35px;
+    color: #88B379;
+    font-family: "poppins";
+    font-weight: 600;
+}
 .contact-uson{
     padding-top: 45px;
     padding-bottom: 45px;

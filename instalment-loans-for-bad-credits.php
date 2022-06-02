@@ -346,7 +346,7 @@
     <div class="container">
         <div class="animate__animated animate__fadeInDown animate__delay-1s">
             <div class="mortagage-faqs">
-                <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">Some FAQs Regarding Mortgage</h1>
+                <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">Some FAQs Regarding Insurance</h1>
                 <div id="accordion">
                     <div class="animate__animated animate__fadeInRight animate__delay-1s ">
                         <div class="card">
