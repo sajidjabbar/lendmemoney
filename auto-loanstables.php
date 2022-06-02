@@ -46,8 +46,7 @@
 
             <div class="animate__animated animate__fadeInRight animate__delay-1s ">
                 <div class="base-heading">
-                    <h3>Here is the list of companies providing Best Auto <br>
-                        Refinance Options</h3>
+                    <h3>Here are some Best picks for You</h3>
                 </div>
                 <div class="better-info">
                     <div class="row better">

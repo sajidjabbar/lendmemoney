@@ -78,7 +78,7 @@
                             <div class="better-img">
                                 <img src="img/sofi.png" alt="" class="class-fluid">
                             </div>
-                            <div class="anchor-tag"><a href="#">Get Started</a></div>
+                            <div class="anchor-tag"><a href="personal-loan-tabs.php">Get Started</a></div>
                         </div>
                         <div class="col-md-3">
                             <div class="est-abouts12">
@@ -156,7 +156,7 @@
                             <div class="better-img">
                                 <img src="img/discoverLogo.png" alt="" class="class-fluid">
                             </div>
-                            <div class="anchor-tag"> <a href="#">Get Started</a></div>
+                            <div class="anchor-tag"> <a href="personal-loan-tabs.php">Get Started</a></div>
                         </div>
                         <div class="col-md-3">
                             <div class="est-abouts12">
@@ -234,7 +234,7 @@
                             <div class="better-img">
                                 <img src="img/upgradeLogo.png" alt="" class="class-fluid">
                             </div>
-                            <div class="anchor-tag"> <a href="#">Get Started</a></div>
+                            <div class="anchor-tag"> <a href="personal-loan-tabs.php">Get Started</a></div>
                         </div>
                         <div class="col-md-3">
                             <div class="est-abouts12">
@@ -312,7 +312,7 @@
                             <div class="better-img">
                                 <img src="img/marcusbygoldmansachslogo.png" alt="" class="class-fluid">
                             </div>
-                            <div class="anchor-tag"> <a href="#">Get Started</a></div>
+                            <div class="anchor-tag"> <a href="personal-loan-tabs.php">Get Started</a></div>
                         </div>
                         <div class="col-md-3">
                             <div class="est-abouts12">

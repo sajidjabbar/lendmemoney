@@ -32,7 +32,11 @@
     src: url(../fonts/Aileron-Regular.otf);
     font-family: "Aileron-Regular";
 }
-
+body{
+    margin: 0 ;
+    padding: 0;
+    overflow-x: hidden;
+}
 /*preloader*/
 #preloader:before {
     content: "";
@@ -318,7 +322,10 @@ li.nav-item-card i.fa.fa-search.yellowish-color {
     border-bottom: 3px solid #88B379;
     padding-bottom: 4px;
 }
-
+option {
+    background:  #EBEFEA;
+    color: #fff;
+}
 .yellowish-color{
     color: #88B379 !important;
 }
@@ -358,11 +365,10 @@ a {
     /* padding: 10px; */
     transition: 0.7s;
 }
-.search-box:hover{
+.search-box:hover {
     padding: 10px;
-    background-color: #2f3640;
-    
-    
+    width: 204px;
+    background-color: #88B379;
 }
 .search-box:hover > .search-txt {
     width: 240px;
@@ -572,6 +578,29 @@ footer .form-group {
 
 .footer-border {
     margin-left: 49px;
+}
+.social-footer ul {
+    padding: 0px;
+    list-style: none;
+}
+.social-footer ul li {
+    display: inline-block;
+    width: 25%;
+}
+.social-footer ul li a {
+    background: #88b379;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 51%;
+    margin: 10px 0px;
+}
+.social-footer ul li i {
+    color: #303030;
+    font-weight: 200 !important;
 }
 
 /* footer end here */
@@ -1720,31 +1749,15 @@ div#accordion a.card-link:focus {
         margin-top: 28px;
         margin-left: 0;
     }
+    .social-footer ul li {
+        display: inline-block;
+        width: 9%;
+    }
+    .footer-logo {
+        text-align: center;
+    }
 
 }
 /* frequently-sec end here */.social-footer i {
     font-family: 'FontAwesome' !important;
-}
-.social-footer ul {
-    padding: 0px;
-    list-style: none;
-}
-.social-footer ul li {
-    display: inline-block;
-    width: 25%;
-}
-.social-footer ul li a {
-    background: #88b379;
-    width: 28px;
-    height: 28px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 51%;
-    margin: 10px 0px;
-}
-.social-footer ul li i {
-    color: #303030;
-    font-weight: 200 !important;
 }

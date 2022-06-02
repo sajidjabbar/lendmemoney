@@ -302,7 +302,7 @@
                             <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure. </p>
                         </div>
                         <div class="article-text">
-                            <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+                            <!-- <h6 class="animate__animated animate__fadeInDown">View Details</h6> -->
                         </div>
                     </div>
                 </div>
@@ -355,7 +355,7 @@
                                         <div class="aboutimg-card">
                                             <span>January 15 2022</span>
                                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                            <h6>View Details</h6>
+                                            <!-- <h6></h6> -->
                                         </div>
                                     </div>
                                 </div>
@@ -369,7 +369,7 @@
                                         <div class="aboutimg-card">
                                             <span>January 15 2022</span>
                                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                            <h6>View Details</h6>
+                                            <!-- <h6>View Details</h6> -->
                                         </div>
                                     </div>
                                 </div>

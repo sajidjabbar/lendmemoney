@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
+body{
+    
+}
 /* refinance-lenders start here */
 .Refinance-heading{
     text-align: center;
@@ -277,6 +279,20 @@ input#exampleFormControlSelect1::placeholder {
       .refinance-lenders-sec .table p {
         font-size: 10px;
         margin-bottom: 0 !important;
+    }
+    .est-abouts {
+        border-right: transparent;
+        text-align: left;
+        height: 109px;
+    }
+    .est-about {
+        height: 109px;
+        border-right: transparent;
+        text-align: start;
+    }
+    .est-abouts12 {
+        border-right: transparent;
+        height: 109px;
     }
 }
 .personaloan-sec{
