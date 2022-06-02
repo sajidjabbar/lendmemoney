@@ -15,7 +15,7 @@
         </div>
         <div class="card-button1">
             <button class="btn">
-                <a href="">Read More</a>
+                <a href="">Find My Card </a>
             </button>
         </div>
         <div class="nav-bar-slick">

@@ -1406,6 +1406,13 @@ div#accordion a.card-link:focus {
     footer p {
             font-size: 14px;  
     }
+    .normal-nav-items {
+        padding: 0 !important;
+    }
+    .navbar-items {
+
+        margin-left: 0 ! important;
+    }
 }
 @media screen and (max-width:800px){
     .img-fluid {
@@ -1620,8 +1627,9 @@ div#accordion a.card-link:focus {
     }
     .money-imgbox {
         width: 30%;
-        top: -74px;
-        margin: -100px 310px;
+        top: 0;
+      
+        margin: -100px 254px;
     }
     .header-card {
         width: 453px !important;
@@ -1650,18 +1658,69 @@ div#accordion a.card-link:focus {
     }
     .footer-text {
         margin-top: 53px;
-        margin-left: -150px;
+        margin-left: 0;
+        width: 100%;
+    }
+    footer p {
+        font-size: 15px;
     }
     .footer h4 {
-        font-size: 8px;
+        font-size: 13px;
     }
     .form-group button {
-        width: 79px;
-        right: 18px
+        right: 18px;
+        margin: 0;
     }
     .form-group button {
        
     } 
+    .web-header-img {
+        margin:0;
+    }
+    .about-card {
+        text-align: left;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .money-heading button {
+        padding: 9px 0px;
+    }
+    .resources {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-heading {
+        padding: 10px 0;
+        margin-left: 29px;
+    }
+    .about-footer {
+        margin-left: 0;
+    }
+    .contact-us {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .social-footer {
+        padding: 0px 0px 25px 0px;
+        width: 100%;
+    }
+    .footer-border {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    footer .form-group {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 0;
+    }
+
 }
 /* frequently-sec end here */.social-footer i {
     font-family: 'FontAwesome' !important;

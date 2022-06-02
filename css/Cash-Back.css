@@ -199,9 +199,9 @@ div#accordion .card{
     background-color: #ffffff;
     margin: 10px 10px
 }
-.nav-bar-slick .nav-item .nav-link.active{
+.nav-bar-slick .nav-item .nav-link.active {
     background-color: #88B379 !important;
-
+    color: white;
 }
 
 .slick-slider .slick-track, .slick-slider .slick-list .slick-slide
@@ -224,7 +224,8 @@ button.slick-next.slick-arrow {
     display: block !important ; 
 }
 button.slick-next.slick-arrow:before {
-    font-family: 'slick';
+    content: '\f105';
+    font-family: Fontawesome;
     font-size: 20px;
     line-height: 1;
     opacity: .75;
