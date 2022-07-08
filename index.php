@@ -4,7 +4,7 @@
 <section class="webheader-sec">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-5">
                 <div class="web-header">
                     <h2 class=" wow animate__animated animate__fadeInDown">Let us help you to</h2>
                     <h1 class=" title wow animate__animated animate__fadeInDown">Lower your monthly</h1>
@@ -14,17 +14,17 @@
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat.</p>
                     <div class="animate__animated animate__fadeInDown  animate__delay-1s">
-                        <a href="#"> <button>
+                        <a href="mortgage.php"> <button>
                                 Calculate New Payment <i class="fa fa-long-arrow-right"></i>
                             </button></a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-7">
                 <div class="about-web-header">
                     <div class="header-card">
                         <div class="row top-card">
-                            <div class="col-md-4 p-0 m-0 ">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/Grouptravle.png" alt="">
@@ -35,7 +35,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4  p-0 m-0 ">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/card-2.png" alt="">
@@ -46,7 +46,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4  p-0 m-0 ">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/invest-3.png" alt="">
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="row top-card">
-                            <div class="col-md-4 p-0 m-0 ">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/bank-4.png" alt="">
@@ -70,7 +70,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0 ">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/insurance-5.png" alt="">
@@ -81,7 +81,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/student-6.png" alt="">
@@ -96,7 +96,7 @@
                     </div>
                     <div class="header-card">
                         <div class="row top-card">
-                            <div class="col-md-4 p-0 m-0 ">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0 ">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/Grouptravle.png" alt="">
@@ -107,7 +107,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/card-2.png" alt="">
@@ -118,7 +118,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/invest-3.png" alt="">
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                         <div class="row top-card">
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/bank-4.png" alt="">
@@ -142,7 +142,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/insurance-5.png" alt="">
@@ -153,7 +153,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/student-6.png" alt="">
@@ -168,7 +168,7 @@
                     </div>
                     <div class="header-card">
                         <div class="row top-card">
-                            <div class="col-md-4 p-0 m-0 ">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0 ">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/Grouptravle.png" alt="">
@@ -179,7 +179,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/card-2.png" alt="">
@@ -190,7 +190,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/invest-3.png" alt="">
@@ -203,7 +203,7 @@
                             </div>
                         </div>
                         <div class="row top-card">
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/bank-4.png" alt="">
@@ -214,7 +214,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/insurance-5.png" alt="">
@@ -225,7 +225,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-0 m-0">
+                            <div class="col-lg-4 col-md-4  col-sm-4 p-0 m-0">
                                 <div class="animate__animated animate__fadeInDown">
                                     <div class="web-header-img">
                                         <img src="img/student-6.png" alt="">
@@ -247,15 +247,15 @@
 <section class="vission-sec">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-auto ">
+            <div class=" col-lg-6 col-md-12  p-0 m-0">
                 <div class=" wow animate__animated animate__fadeInLeft">
                     <div class="vission-imgbox">
                         <img src="img/vission-img.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-1 col-sm-12 px-4 "></div>
-            <div class="col-md-5 col-auto pl-4">
+            <div class="col-lg-1  col-md-1  col-sm-12 p-0 m-0 "></div>
+            <div class=" col-lg-5 col-md-12  ">
                 <div class="animate__animated animate__fadeInRight">
                     <div class="vission-heading">
                         <h5>Our Vission</h5>
@@ -384,7 +384,9 @@
                                     ex ea commodo consequat. Duis aute irure. </p>
                             </div>
                             <div class="article-text">
+                                <a href="faq-5.php">
                                 <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+</a>
                             </div>
                         </div>
                     </div>
@@ -407,7 +409,9 @@
                                     <div class="aboutimg-card">
                                         <span>January 15 2022</span>
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                        <h6>View Details</h6>
+                                        <a href="faq-5.php">
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+</a>
                                     </div>
                                 </div>
                             </div>
@@ -421,7 +425,9 @@
                                     <div class="aboutimg-card">
                                         <span>January 15 2022</span>
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                        <h6>View Details</h6>
+                                        <a href="faq-5.php">
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+</a>
                                     </div>
                                 </div>
                             </div>
@@ -437,7 +443,9 @@
                                     <div class="aboutimg-card">
                                         <span>January 15 2022</span>
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                        <h6>View Details</h6>
+                                        <a href="faq-5.php">
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+</a>
                                     </div>
                                 </div>
                             </div>
@@ -451,7 +459,9 @@
                                     <div class="aboutimg-card">
                                         <span>January 15 2022</span>
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                        <h6>View Details</h6>
+                                        <a href="faq-5.php">
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+</a>
                                     </div>
                                 </div>
                             </div>

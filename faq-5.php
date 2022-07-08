@@ -4,7 +4,7 @@
 <section class="refinance-lenders-sec">
     <div class="container">
     <div class="Refinance-heading">
-            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Lorem ipsum dolor sit amet Consectetur</h1>
+            <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Our Article</h1>
             <div class="aboutrefinance-heading">
             <div class="loan-faq">
                 <p>BY RORY ARNOLD</p>

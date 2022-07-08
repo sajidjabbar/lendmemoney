@@ -1,14 +1,14 @@
 <footer>
     <div class="container">
         <div class="row footer-container">
-            <div class="col-lg-4  ">
+            <div class="col-lg-4 col-md-3 ">
                 <div class="footer-logo">
                     <img src="img/footer-logo.png" alt="">
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua.</p>
             </div>
-            <div class="col-lg-2 col-sm-12 ">
+            <div class="col-lg-2  col-md-3 col-sm-12 ">
                 <div class="about-footer">
                     <div class="resources">
                         <div class="footer-heading">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-12 ">
+            <div class="col-lg-2 col-md-3 col-sm-12 ">
                 <div class="contact-us">
                     <div class="footer-heading">
                         <h5>Quick Links</h5>
@@ -34,10 +34,12 @@
                         <li><a href="">Articles</a></li>
                         <li><a href="privacy-policy.php">Privacy Policys</a></li>
                         <li><a href="terms-of-use.php">Terms of use</a></li>
+                        <li><a href="terms-condition.php">terms condition</a></li>
+                        
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4   col-md-3 col-sm-12">
                 <div class="footer-border">
                     <div class="footer-heading">
                         <h5>Social</h5>
@@ -73,11 +75,11 @@
         </div>
         <div class="news">
             <div class="footer">
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6  col-md-6 col-sm-12">
                     <h4>Subscribe to Our Newsletter to Get latest Updates </h4>
                 </div>
                 <!-- <div class="col-md-1"></div> -->
-                <div class="col-lg-5 col-sm-12">
+                <div class="col-lg-5  col-md-5 col-sm-12">
                     <form>
                         <div class="form-group">
 

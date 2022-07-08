@@ -51,6 +51,7 @@
                 <div class="better-info">
                     <div class="row better">
                         <div class="col-md-2">
+
                             <div class="better-img">
                                 <img src="img/sofi.png" alt="" class="class-fluid">
                             </div>

@@ -23,6 +23,13 @@
                             <div class="form-row">
                                 <input type="text" class="form-control" placeholder="Password" name="" id="">
                             </div>
+                            <div class="form-group d-flex justify-content-between sign-this">
+                                <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                </div>
+                                <a href="forget-password.php">Forgot Password?</a>
+                            </div>
                             <div class="form-row">
                             <a href="sign-up.php"><button type="submit" class="form-control"> Sign In</button></a>
                             </div>

@@ -60,12 +60,12 @@
                                         <label for="exampleFormControlSelect1">What Is Your Mortgage Goal?</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option selected>Select Your Mortgage Goal</option>
-                                            <option>Single Family</option>
-                                            <option>Multi family</option>
-                                            <option>Condominium</option>
-                                            <option>Townhouse</option>
-                                            <option>Mobile room</option>
-                                            <option>Manufactured home</option>
+                                            <option>Downdown will include</option>
+                                            <option>Lower My Monthly Payment </option>
+                                            <option>Pay Less Interest</option>
+                                            <option>Have a Shorter Term</option>
+                                            <option>Lower My Rate Cash Out</option>
+                                        
                                         </select>
                                     </div>
                                 </div>
@@ -89,12 +89,10 @@
                                         <label for="exampleFormControlSelect1">Monthly Mortgage payment</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option selected>Select Monthly Mortgage payment</option>
-                                            <option>Single Family</option>
-                                            <option>Multi family</option>
-                                            <option>Condominium</option>
-                                            <option>Townhouse</option>
-                                            <option>Mobile room</option>
-                                            <option>Manufactured home</option>
+                                            <option>$201-$300</option>
+                                            <option>$301-$400</option>
+                                            <option>$401-$500</option>
+                                            <option>$501-$600</option>
                                         </select>
                                     </div>
                                 </div>
@@ -118,12 +116,10 @@
                                         <label for="exampleFormControlSelect1">Current Mortgage Balance</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option selected>Select Current Mortgage Balance </option>
-                                            <option>Single Family</option>
-                                            <option>Multi family</option>
-                                            <option>Condominium</option>
-                                            <option>Townhouse</option>
-                                            <option>Mobile room</option>
-                                            <option>Manufactured home</option>
+                                            <option>$201-$300</option>
+                                            <option>$301-$400</option>
+                                            <option>$401-$500</option>
+                                            <option>$501-$600</option>
                                         </select>
                                     </div>
                                 </div>
@@ -147,12 +143,10 @@
                                         <label for="exampleFormControlSelect1">Estimated Home Value</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option selected>Select Estimated Home Value</option>
-                                            <option>Single Family</option>
-                                            <option>Multi family</option>
-                                            <option>Condominium</option>
-                                            <option>Townhouse</option>
-                                            <option>Mobile room</option>
-                                            <option>Manufactured home</option>
+                                            <option>$5,001-$10,000</option>
+                                            <option>$5,001-$10,00</option>
+                                            <option>$5,001-$10,000</option>
+                                            <option>$5,001-$10,00</option>
                                         </select>
                                     </div>
                                 </div>
@@ -176,12 +170,11 @@
                                         <label for="exampleFormControlSelect1">Credit Profile</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option selected>Select Credit Profile </option>
-                                            <option>Single Family</option>
-                                            <option>Multi family</option>
-                                            <option>Condominium</option>
-                                            <option>Townhouse</option>
-                                            <option>Mobile room</option>
-                                            <option>Manufactured home</option>
+                                            <option>Execellent (720 or above)</option>
+                                            <option>Good(620-719)</option>
+                                            <option>Fair (580-619)</option>
+                                            <option>Needs Improvement (540-579)</option>
+                                            <option>Poor (539 or lower)</option>
                                         </select>
                                     </div>
                                 </div>
@@ -205,12 +198,11 @@
                                         <label for="exampleFormControlSelect1">Interest Rate</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option selected>Select Interest Rate</option>
-                                            <option>Single Family</option>
-                                            <option>Multi family</option>
-                                            <option>Condominium</option>
-                                            <option>Townhouse</option>
-                                            <option>Mobile room</option>
-                                            <option>Manufactured home</option>
+                                            <option>2.00%</option>
+                                            <option>3.00%</option>
+                                            <option>4.00%</option>
+                                            <option>5.00%</option>
+                                            <option>6.00%</option>
                                         </select>
                                     </div>
                                 </div>
@@ -226,16 +218,13 @@
             <div class="panel panel-primary setup-content" id="step-7">
                 <div class="panel-body">
                     <div class="row">
-                        <div class="col-lg-3"></div>
                         <div class="col-lg-5">
                             <div class="tab-1">
                                 <div class="tab1form">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Enter Your ZIP Code
                                         </label>
-                                        <input class="form-control" type="number" required="required"
-                                            id="exampleFormControlSelect1"
-                                            placeholder="Enter Your ZIP Code ">
+                                        <input class="form-control" type="number" required="required" id="exampleFormControlSelect1" placeholder="Enter Your ZIP Code ">
                                         </input>
                                     </div>
                                 </div>
@@ -243,7 +232,9 @@
                             </div>
                         </div>
                         <div class="col-lg-4 align-self-center">
-                            <button class="btn btn-success " onclick="location.href='great-job-you-received-an-a.php';" type="submit">submit</button>
+                            <a href="">
+                                <button class="btn btn-success " onclick="location.href='great-job-you-received-an-a.php';" type="submit">submit</button>
+                            </a>
                         </div>
                     </div>
                 </div>

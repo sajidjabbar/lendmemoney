@@ -87,9 +87,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -150,9 +152,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -212,9 +216,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -274,9 +280,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -336,9 +344,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -401,9 +411,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -463,9 +475,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -525,9 +539,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -587,9 +603,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -649,9 +667,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -713,9 +733,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -776,9 +798,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -838,9 +862,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -900,9 +926,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -962,9 +990,11 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="card-button">
-                                <button class="btn">
-                                    <a href="">Read More</a>
-                                </button>
+                                <a href="redirect.php">
+                                    <button class="btn">
+                                        Read More
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>

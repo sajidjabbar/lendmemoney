@@ -125,7 +125,9 @@
                                         <div class="aboutimg-card">
                                             <span>January 15 2022</span>
                                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                            <h6>View Details</h6>
+                                            <a href="faq-5.php">
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+</a>
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +141,9 @@
                                         <div class="aboutimg-card">
                                             <span>January 15 2022</span>
                                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                            <h6>View Details</h6>
+                                            <a href="faq-5.php">
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+</a>
                                         </div>
                                     </div>
                                 </div>
@@ -155,7 +159,9 @@
                                         <div class="aboutimg-card">
                                             <span>January 15 2022</span>
                                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                            <h6>View Details</h6>
+                                            <a href="faq-5.php">
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+</a>
                                         </div>
                                     </div>
                                 </div>
@@ -169,7 +175,9 @@
                                         <div class="aboutimg-card">
                                             <span>January 15 2022</span>
                                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                            <h6>View Details</h6>
+                                            <a href="faq-5.php">
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+</a>
                                         </div>
                                     </div>
                                 </div>

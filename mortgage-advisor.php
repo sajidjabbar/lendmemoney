@@ -65,7 +65,7 @@
                     <div class="tab-1">
                         <div class="tab1form1">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6 ">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Estimated Home Value
                                         </label>
@@ -78,7 +78,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Property Use
                                         </label>
@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Interest Rate </label>
                                         <select class="form-control" id="exampleFormControlSelect1" |>
@@ -106,7 +106,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Monthly Mortgage payment
                                             interest rate? </label>
@@ -122,7 +122,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="form-group4">
                                         <label for="exampleFormControlSelect1">Which Best Describes How You Feel About
                                             Your
@@ -137,7 +137,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Credit Profile
                                         </label>
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">What Is Your Mortgage Goal?
                                         </label>

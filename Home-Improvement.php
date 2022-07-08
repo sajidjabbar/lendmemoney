@@ -204,18 +204,23 @@
                         <div class="col-lg-1"></div>
                         <div class="col-lg-10">
                             <div class="tab-1">
+                                
                                 <div class="tab1form1">
+                                    <div class="col-md-5">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">First Name</label>
                                         <input class="form-control" type="text" required="required"
                                             id="exampleFormControlSelect1" placeholder="Enter First Name">
                                         </input>
                                     </div>
+                                    </div>
+                                    <div class="col-md-5">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Last Name</label>
                                         <input class="form-control" type="text" required="required"
                                             id="exampleFormControlSelect1" placeholder="Enter Last Name">
                                         </input>
+                                    </div>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary nextBtn " type="button">Next</button>
@@ -290,34 +295,44 @@
                         <div class="col-lg-10">
                             <div class="tab-1">
                                 <div class="tab1form1">
+                                    <div class="col-md-5">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Street Address 1</label>
                                         <input type="text" class="form-control" id="exampleFormControlSelect1"
                                             placeholder="Enter Your Address">
                                     </div>
+                                    </div>
+                                    <div class="col-md-5">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Street Address 2</label>
                                         <input type="text" class="form-control" id="exampleFormControlSelect1"
                                             placeholder="Enter Your Address">
                                     </div>
+                                    </div>
                                 </div>
                                 <div class="tab1form1">
+                                <div class="col-md-5">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Zip Code</label>
                                         <input type="text" class="form-control" id="exampleFormControlSelect1"
                                             placeholder="Enter Your Address">
                                     </div>
+                                </div>
+                                <div class="col-md-5">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">City</label>
                                         <input type="text" class="form-control" id="exampleFormControlSelect1"
                                             placeholder="Enter Your Address">
                                     </div>
+                                    </div>
                                 </div>
                                 <div class="tab1form1">
+                                <div class="col-md-5">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">State</label>
                                         <input type="text" class="form-control" id="exampleFormControlSelect1"
                                             placeholder="Enter Your State">
+                                    </div>
                                     </div>
                                     <button class="btn btn-primary nextBtn" type="button">Next</button>
                                 </div>
@@ -335,11 +350,13 @@
                         <div class="col-lg-5">
                             <div class="tab-1">
                                 <div class="tab1form1">
+                                    <div class="col-md-8">
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Phone Number</label>
                                         <input class="form-control" type="number" required="required"
                                             id="exampleFormControlSelect1" placeholder="Enter Phone Number">
                                         </input>
+                                    </div>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary nextBtn " type="button">Next</button>

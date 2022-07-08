@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 /* Universal Css */
 .greentext {
     color: #88B379;
@@ -14,8 +15,9 @@ section.form-box-section {
 
 section.form-box-section .form-start a {
     flex-grow: 1;
-}   
-.for-low-section-padding{
+}
+
+.for-low-section-padding {
     padding: 80px 0px !important;
 }
 
@@ -23,19 +25,21 @@ section.form-box-section .form-start a {
 
 .shadowed-box {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    padding: 55px 82px  75px 82px;
+    padding: 55px 82px 75px 82px;
 }
-.shadowed-box .the-text-box h3{
+
+.shadowed-box .the-text-box h3 {
     color: #88B379;
     font-family: "poppins";
     font-weight: 600;
     font-size: 30px;
 }
-.for-low-padding{
-    padding: 45px 82px  45px 82px;
+
+.for-low-padding {
+    padding: 45px 82px 45px 82px;
 }
 
-.sign-as-a-company{
+.sign-as-a-company {
     padding: 35px 82px 65px 82px;
 }
 
@@ -50,7 +54,7 @@ section.form-box-section .form-start a {
     margin-bottom: 0px;
 }
 
-.the-text-box.personal-detail p{
+.the-text-box.personal-detail p {
     font-size: 14px;
 }
 
@@ -112,21 +116,30 @@ button.form-control {
 
 button.form-control:hover {
     border: 2px solid #88B379;
-    background-color: #FFFFFF;
+    background-color: #E1F9D9;
     font-family: poopinsmedium;
+    text-decoration: none !important;
     color: #88B379;
     font-size: 14.5px;
 }
 
+.form-row a:hover {
+    text-decoration: none !important;
 
-.upload-your-photo  label {
+}
+
+button.form-control a:hover {
+    text-decoration: none !important;
+}
+
+.upload-your-photo label {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12px;
 }
 
-.upload-your-photo  label span {
+.upload-your-photo label span {
     display: block;
     text-align: left;
     font-family: "Poppins-Regular"
@@ -134,25 +147,26 @@ button.form-control:hover {
 
 
 
-.for-browse-file{
-    text-decoration: underline;
+.for-browse-file {
     color: #88B379 !important;
     font-size: 14.5px !important;
     font-weight: 500;
     cursor: pointer;
 }
-.for-upload-file{
+
+.for-upload-file {
     color: #303030 !important;
     font-family: 'Poppins', sans-serif !important;
     font-weight: 500;
     font-size: 14.5px !important;
 }
-.for-personal-details{
-    padding: 45px 60px  45px 60px;
+
+.for-personal-details {
+    padding: 45px 60px 45px 60px;
 }
 
-.for-personal-details input{
-    text-align: left ;
+.for-personal-details input {
+    text-align: left;
     padding-left: 24px;
 }
 
@@ -162,8 +176,35 @@ h5 {
     font-size: 22px;
 }
 
+.signup .sign-up-form-wrapper a {
+    font-family: 'poppins';
+    color: #9F1D3C;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.sign-up-form-wrapper label.form-check-label {
+    color: #000000;
+    font-family: "poppins";
+    font-weight: 600;
+    padding: 0;
+    font-size: 15px;
+    margin: 0;
+}
+
+.form-check {
+    width: 62%;
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+}
+
+.sign-this a {
+    color: #000000;
+}
+
 @media screen and (max-width: 768px) {
-    .shadowed-box{
+    .shadowed-box {
         padding-left: 32px;
         padding-right: 32px;
     }

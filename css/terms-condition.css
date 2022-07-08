@@ -9,8 +9,6 @@ p {
     margin-top: 12px;
 }
 
-
-
 .terms-conditions-start {
     height: 500px;
     overflow-y: scroll;
@@ -23,13 +21,14 @@ p {
 .terms-conditions-start::-webkit-scrollbar-thumb {
     background: #88B379;
     border-radius: 8px;
-
 }
-.terms-conditions-start h2{
+
+.terms-conditions-start h2 {
     color: #303030;
     font-size: 40px;
     font-family: "Poppins-semibold";
 }
+
 .terms-conditions-start h5 {
     color: #303030;
     font-size: 25px;
@@ -61,16 +60,19 @@ p {
     cursor: pointer;
 }
 
-.space-it{
+.space-it {
     margin-top: 10px;
 }
+
 .accept-btn button:hover {
     border: 2px solid #88B379;
     background-color: #FFFFFF;
-    
     color: #88B379;
 }
+
+
 /* checkbox  css start here */
+
 .form-group input {
     padding: 0;
     height: initial;
@@ -78,15 +80,15 @@ p {
     margin-bottom: 0;
     display: none;
     cursor: pointer;
-  }
-  
-  .form-group label {
+}
+
+.form-group label {
     position: relative;
     cursor: pointer;
-  }
-  
-  .form-group label:before {
-    content:'';
+}
+
+.form-group label:before {
+    content: '';
     -webkit-appearance: none;
     background-color: #88B379;
     border: 2px solid #88B379;
@@ -98,9 +100,9 @@ p {
     cursor: pointer;
     margin-right: 5px;
     border-radius: 50%;
-  }
-  
-  .form-group input:checked + label:after {
+}
+
+.form-group input:checked+label:after {
     content: '';
     display: block;
     position: absolute;
@@ -111,5 +113,7 @@ p {
     border: solid #ffff;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
-  }
+}
+
+
 /* checkbox  css end here */

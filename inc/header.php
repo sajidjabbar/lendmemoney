@@ -2,12 +2,12 @@
         <div class="custom-container">
             <div class="all-nav">
                 <div class="row">
-                    <div class="col-lg-2">
+                    <div class="col-lg-1">
                         <div class="for-logo">
                             <li><a href="index.php"><img src="img/logo.png" alt=""></a></li>
                         </div>
                     </div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-11">
                         <div class="navbar-items ml-auto">
                             <ul class="all-normal-navs">
                                 <li class="normal-nav-items"><a class="menu" href="index.php">Home</a></li>
@@ -36,6 +36,17 @@
                                                     calculator</a>
                                                 <a class="dropdown-item" href="mortgage-analysis.php">Mortgage
                                                     Analysis</a>
+                                                    <a class="dropdown-item" href="about-life-insurance-calculator.php">
+                                                    about life insurance calculator</a>
+                                                   
+                                                    <a class="dropdown-item" href="15-year-vs-30-year-mortgage.php">
+                                                    auto-loans</a>
+                                                    <a class="dropdown-item" href="Reverse-Mortgage.php">
+                                                    Reverse-Mortgage
+                                                    </a>
+                                                    <a class="dropdown-item" href="mortgagefixedratevsadjustable.php">
+                                                    Rates
+                                                    </a>
                                             </div>
                                         </a>
                                         <a class="dropdown-item" href="home-loan.php">Home Loans Page</a>
@@ -75,6 +86,22 @@
                                         <a class="dropdown-item" href="personal-loantable2.php">Auto Refinance</a>
                                         <a class="dropdown-item" href="best-student-loan.php">Student loan Refinance
                                         </a>
+                                        <a class="dropdown-item" href="Home-Improvement.php">Instalment Loans for Bad Credits</a>
+                                    </div>
+                                </li>
+                                <li class="normal-nav-items dropdown">
+                                    <a class="menu" href="">pages<i
+                                            class="fa fa-angle-down"></i></a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <!-- <a class="dropdown-item" href="credit-card.php">Credit Card</a> -->
+                                        <a class="dropdown-item" href="auto insurance.php">auto insurance</a>
+                                        <a class="dropdown-item" href="best-auto-refinance-option.php">  auto refinance option</a>
+                                        <a class="dropdown-item" href="best-blogs.php">blogs</a>
+                                        <a class="dropdown-item" href="best-student-refinance-option.php">student refinance option</a>
+                                        <a class="dropdown-item" href="home-improve.php">Home Improvement Loans</a>
+                                        <a class="dropdown-item" href="home-loan.php">home loan</a>
+
+
                                     </div>
                                 </li>
                                 <li class="normal-nav-items ml-4"><a href="sign-up-as-a-company.php" class="yellowish-color">Become A
@@ -188,6 +215,7 @@
                                                 Mortgage
                                                 Analysis
                                             </a>
+                                            
                                         </div>
                                     </div>
                                 </div>

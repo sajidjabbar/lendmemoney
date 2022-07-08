@@ -200,7 +200,6 @@ label {
 }
 .about-calculatorform .form-control {
     display: block;
-    width: 405px !important;
     padding-right: 143px !important;
     padding-top: 3px !important;
     padding-left: 4px;

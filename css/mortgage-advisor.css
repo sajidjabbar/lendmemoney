@@ -136,7 +136,7 @@
     padding: 0px 28px;
 }
  .form-group label {
-    font-size: 16px;
+    font-size: 14px;
     font-family: "poppins";
     font-weight: 400;
     color: #303030;
@@ -195,7 +195,7 @@ label.contact_container {
     padding: 8px 25px;
     border-radius: 20px !important;
     border: 1px solid #000000 !important;
-    width: 424px !important;
+    /* width: 424px !important; */
 }
 .tab1form1 .form-group {
     margin: 20px 20px;
