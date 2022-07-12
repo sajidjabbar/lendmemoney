@@ -1,15 +1,22 @@
 <?php include 'inc/app.php'; ?>
 <link rel="stylesheet" href="css/best-blogs.css">
 <!--  Start Here -->
-
-<section class="articles-sec">
-    <div class="container">
-        <div class="top-heading text-center">
+<section>
+<div class="container">
+<div class="top-heading text-center">
             <h1 class="greenheading">Read from Our Best Blogs</h1>
         </div>
+</div>
+</section>
+<section class="articles-sec">
+    <div class="container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-7 ">
                 <div class="animate__animated animate__fadeInDown">
+                    <div class="article-heading">
+                        <h5 class="animate__animated animate__fadeInDown">Our Articles</h5>
+                        <h3 class="animate__animated animate__fadeInDown">Read our best Article to know more</h3>
+                    </div>
                     <div class="article-container">
                         <div class="about-articles">
                             <div class="article-imgbox">
@@ -25,9 +32,9 @@
                                     ex ea commodo consequat. Duis aute irure. </p>
                             </div>
                             <div class="article-text">
-                            <a href="faq-5.php">
+                                <a href="faq-5.php">
                                 <h6 class="animate__animated animate__fadeInDown">View Details</h6>
-</a>
+                         </a>
                             </div>
                         </div>
                     </div>
@@ -36,12 +43,12 @@
             <div class="col-md-5">
                 <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                     <div class="articles-btn">
-                        <a href="#"> View More <i class='fas fa-long-arrow-alt-right'></i></a>
+                        <a href="faq-5.php"> View More <img src="img/arrow-right1.png" alt=""></a>
                     </div>
                 </div>
                 <div class="articlecards-img">
                     <div class="article-card1">
-                        <div class="col-md-6 ">
+                        <div class="col-md-6 pr-0 pl-0">
                             <div class="animate__animated animate__fadeInLeftBig">
                                 <div class="img-card1">
                                     <div class="card-imgbox">
@@ -51,13 +58,13 @@
                                         <span>January 15 2022</span>
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         <a href="faq-5.php">
-                                <h6 >View Details</h6>
-</a>
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+                       </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6  pr-0">
                             <div class="animate__animated animate__fadeInLeftBig">
                                 <div class="img-card2">
                                     <div class="card-imgbox">
@@ -67,15 +74,15 @@
                                         <span>January 15 2022</span>
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         <a href="faq-5.php">
-                                <h6 >View Details</h6>
-</a>
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+                                      </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="article-card">
-                        <div class="col-md-6">
+                        <div class="col-md-6 pr-0 pl-0">
                             <div class="animate__animated animate__fadeInRightBig">
                                 <div class="img-card3">
                                     <div class="card-imgbox">
@@ -85,13 +92,13 @@
                                         <span>January 15 2022</span>
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         <a href="faq-5.php">
-                                <h6 >View Details</h6>
-</a>
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+                                       </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 pr-0">
                             <div class="animate__animated animate__fadeInRightBig">
                                 <div class="img-card4">
                                     <div class="card-imgbox">
@@ -101,8 +108,8 @@
                                         <span>January 15 2022</span>
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         <a href="faq-5.php">
-                                <h6 >View Details</h6>
-</a>
+                                <h6 class="animate__animated animate__fadeInDown">View Details</h6>
+                     </a>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +118,6 @@
                 </div>
             </div>
         </div>
-        <hr>
     </div>
 </section>
 <!-- Section End Here -->

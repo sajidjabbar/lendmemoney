@@ -31,7 +31,7 @@
                     <ul>
                         <li><a href="faqs.php">FAQ's</a></li>
                         <li><a href="contactus.php">Contact</a></li>
-                        <li><a href="">Articles</a></li>
+                        <li><a href="faq-5.php">Articles</a></li>
                         <li><a href="privacy-policy.php">Privacy Policys</a></li>
                         <li><a href="terms-of-use.php">Terms of use</a></li>
                         <li><a href="terms-condition.php">terms condition</a></li>

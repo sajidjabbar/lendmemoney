@@ -341,7 +341,7 @@ li.nav-item-card i.fa.fa-search.yellowish-color {
 .navbar-items {
     display: flex;
     margin-top: auto;
-    margin-left: 3px ! important;
+    margin-left: 35px ! important;
 }
 
 .normal-nav-items {
@@ -405,9 +405,16 @@ a {
     height: 40px;
     border-radius: 40px;
     /* padding: 10px; */
+    /* transition: 0.12s; */
     transition: 0.7s;
 }
-
+/* .search-box:hover {
+    padding: 10px;
+    width: 277px;
+    top: 98px;
+    background-color: #88B379;
+    left: 34%;
+} */
 .search-box:hover {
     padding: 10px;
     width: 204px;

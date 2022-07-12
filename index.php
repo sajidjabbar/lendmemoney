@@ -386,7 +386,7 @@
                             <div class="article-text">
                                 <a href="faq-5.php">
                                 <h6 class="animate__animated animate__fadeInDown">View Details</h6>
-</a>
+                         </a>
                             </div>
                         </div>
                     </div>
@@ -395,7 +395,7 @@
             <div class="col-md-5">
                 <div class="animate__animated animate__fadeInDown  animate__delay-1s">
                     <div class="articles-btn">
-                        <a href="#"> View More <img src="img/arrow-right1.png" alt=""></a>
+                        <a href="faq-5.php"> View More <img src="img/arrow-right1.png" alt=""></a>
                     </div>
                 </div>
                 <div class="articlecards-img">
@@ -411,7 +411,7 @@
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         <a href="faq-5.php">
                                 <h6 class="animate__animated animate__fadeInDown">View Details</h6>
-</a>
+                       </a>
                                     </div>
                                 </div>
                             </div>
@@ -427,7 +427,7 @@
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         <a href="faq-5.php">
                                 <h6 class="animate__animated animate__fadeInDown">View Details</h6>
-</a>
+                                      </a>
                                     </div>
                                 </div>
                             </div>
@@ -445,7 +445,7 @@
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         <a href="faq-5.php">
                                 <h6 class="animate__animated animate__fadeInDown">View Details</h6>
-</a>
+                                       </a>
                                     </div>
                                 </div>
                             </div>
@@ -461,7 +461,7 @@
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         <a href="faq-5.php">
                                 <h6 class="animate__animated animate__fadeInDown">View Details</h6>
-</a>
+                     </a>
                                     </div>
                                 </div>
                             </div>

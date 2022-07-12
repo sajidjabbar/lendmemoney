@@ -117,7 +117,6 @@ button.form-control {
 button.form-control:hover {
     border: 2px solid #88B379;
     background-color: #E1F9D9;
-    font-family: poopinsmedium;
     text-decoration: none !important;
     color: #88B379;
     font-size: 14.5px;
@@ -202,7 +201,9 @@ h5 {
 .sign-this a {
     color: #000000;
 }
-
+.sign-this {
+    margin-top: 10px;
+}
 @media screen and (max-width: 768px) {
     .shadowed-box {
         padding-left: 32px;
